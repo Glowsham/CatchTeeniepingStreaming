@@ -12,16 +12,37 @@
 </head>
 <body>
 	<div class="px-4 py-5 text-center">
-		<h1 class="display-5 fw-bold">Watch S2E10 - Fainted Trustping (test 2)</h1>
-		<div class="col-lg-6 mx-auto"><p class="lead">While Trustping and Teeheeping are fighting each other, Trustping suddenly faints! In order to cure Trustping's disease, The Tomato Jewel is needed. With the help of Dadaping, the Teeniepings make everything possible to cure him.</p></div>
+		<h1 id="title" class="display-5 fw-bold">Unknown episode</h1>
+		<div id="description" class="col-lg-6 mx-auto"><p class="lead">=</p></div>
 	</div>
 	<div class="container">
-		<div class="row g-6 mb-5">
+		<div id="videoContainer" class="row g-6 mb-5">
 			<video controls>
-				<source src="https://onedrive.live.com/download?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64" type='video/mp4'/>
+				<source src="https://onedrive.live.com/download?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64" type="video/mp4" />
 			</video>
 		</div>
 	</div>
 	<footer class="bg-light text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);"><a href="https://catchteenieping.fandom.com/f/p/4400000000000024153" target="_blank">Made with love by Glowsham</a> ❤</div></footer>
+	<script>
+		const episodes = {
+			S2E17: [`The Jewel Teeniepings Got Stolen!`, `While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...`, `<video controls><source src="https://onedrive.live.com/download?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64" type="video/mp4" /></video>`]
+		}
+
+		function getParameter(name) {
+			name = name.replace(/[\[\]]/g, "\\$&");
+			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(window.location.href);
+			if (!results || !results[2]) return null;
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+
+		if (getParameter('episode') && episodes[getParameter('episode')]) {
+			document.getElementById('title').innerHTML = 'Watch' + getParameter('episode') + ' - ' + episodes[getParameter('episode')][0];
+			document.getElementById('description').innerHTML = episodes[getParameter('episode')][1];
+			document.getElementById('videoContainer').innerHTML = episodes[getParameter('episode')][2];
+		} else {
+			alert('The specified episode doesn\'t exist!');
+		}
+	</script>
 </body>
 </html>
