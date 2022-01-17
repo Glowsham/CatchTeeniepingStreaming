@@ -16,9 +16,7 @@
 		<h1 id="title" class="display-5 fw-bold">Unknown episode</h1>
 		<div id="description" class="col-lg-6 mx-auto"></div>
 	</div>
-	<div id="wikiPromo" class="px-4 pb-5 text-center">
-		On the <a id="wikiLink" href="https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki" target="_blank">Catch! Teenieping Wiki</a>:<br>
-	</div>
+	<div id="wikiPromo" class="px-4 pb-5 text-center"></div>
 	<div class="container">
 		<div id="videoContainer" class="row g-6 mb-5"></div>
 	</div>
@@ -43,7 +41,7 @@
 			
 			S2E16: [`Heartrose With A Big Kingdom`, ['Ladyping', 'Gamyeonping'], `While Romi is at school, Ladyping, who fell in love with Gamyeonping, enters the bakery and creates her own kingdom, with everyone being at her service, including all the Teeniepings!`, `<video controls poster="thumbnails/S2E16.png"><source src="https://onedrive.live.com/download?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211269&authkey=AKx2vDRS_ZMOlTk" type="video/mp4" /></video>`],
 			
-			S2E17: [`The Jewel Teeniepings Got Stolen!`, ['Thieves', 'Jewelry Box'], `Sneak peek - While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...`, `<video controls poster="thumbnails/S2E17.png"><source src="https://onedrive.live.com/download?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64" type="video/mp4" /></video>`]
+			S2E17: [`The Jewel Teeniepings Got Stolen!`, ['Thieves', 'Jewelry Box'], `Sneak peek - While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...`, `<video controls poster="thumbnails/S2E17.png"><source src="https://onedrive.live.com/download?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64" type="video/mp4" /></video>`],
 
 			S2E18: [`Who Is The Real Heartsping?`, ['Buddyping'], `Trailer - Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!`, `<iframe src="https://www.youtube.com/embed/UXiSrLPIGIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`]
 		}
@@ -60,12 +58,12 @@
 			document.getElementById('title').innerHTML = 'Watch ' + getParameter('episode') + ' - ' + episodes[getParameter('episode')][0];
 			document.getElementById('description').innerHTML = episodes[getParameter('episode')][2];
 			document.getElementById('videoContainer').innerHTML = episodes[getParameter('episode')][3];
+
 			episodes[getParameter('episode')][1].unshift(episodes[getParameter('episode')][0]);
+			document.getElementById('wikiPromo').innerHTML = 'On the <a id="wikiLink" href="https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki" target="_blank">Catch! Teenieping Wiki</a>:<br>';
 			episodes[getParameter('episode')][1].forEach((link) => {
 				document.getElementById('wikiPromo').innerHTML += '<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/wiki/' + link + '" target="_blank">' + link + '</a>';
 			});
-		} else {
-			alert('The specified episode doesn\'t exist!');
 		}
 	</script>
 </body>
