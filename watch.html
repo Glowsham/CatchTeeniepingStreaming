@@ -56,10 +56,10 @@
 
 		if (getParameter('episode') && episodes[getParameter('episode')]) {
 			document.getElementById('title').innerHTML = 'Watch ' + getParameter('episode') + ' - ' + episodes[getParameter('episode')][0];
-			document.getElementById('description').innerHTML = episodes[getParameter('episode')][1];
+			document.getElementById('description').innerHTML = episodes[getParameter('episode')][2];
 			document.getElementById('videoContainer').innerHTML = episodes[getParameter('episode')][3];
-			episodes[getParameter('episode')][2].unshift(episodes[getParameter('episode')][0]);
-			episodes[getParameter('episode')][2].forEach((link) => {
+			episodes[getParameter('episode')][1].unshift(episodes[getParameter('episode')][0]);
+			episodes[getParameter('episode')][1].forEach((link) => {
 				document.getElementById('buttonsContainer').innerHTML += '<form><button formaction="https://catchteenieping.fandom.com/wiki/' + val + '">' + val + '</button></form>';
 			});
 		} else {
