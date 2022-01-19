@@ -38,11 +38,11 @@ const episodes = {
 		title: "Who Is The Real Heartsping?",
 		description: "Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
 		wikiPages: ["Buddyping"],
-		specialStatus: "",
+		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "UXiSrLPIGIk",
 		onedriveUrl: ""
-	},
+	}
 }
 
 function getParameter(name) {
