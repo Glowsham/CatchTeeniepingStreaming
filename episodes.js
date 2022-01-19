@@ -33,7 +33,16 @@ const episodes = {
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211259&authkey=AEzj-CN2CVYPVwE",
 		onedriveUrl: "https://31gl.short.gy/EMhDPc"
-	}
+	},
+	S2E18: {
+		title: "Who Is The Real Heartsping?",
+		description: "Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
+		wikiPages: ["Buddyping"],
+		specialStatus: "",
+		videoType: "YouTube",
+		videoUrl: "UXiSrLPIGIk",
+		onedriveUrl: ""
+	},
 }
 
 function getParameter(name) {
