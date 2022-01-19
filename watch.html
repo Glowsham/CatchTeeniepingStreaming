@@ -23,6 +23,15 @@
 
 	<script src="episodes.js"></script>
 	<script>
+		function getParameter(name) {
+			name = name.replace(/[\[\]]/g, "\\$&");
+			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(window.location.href);
+			if (!results || !results[2]) return null;
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+		if (getParameter('episode')) {var episode = episodes[getParameter('episode')]}
+
 		if (episode) {
 			document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
 			document.getElementById('description').innerHTML = episode.description;
@@ -36,7 +45,7 @@
 			episode.wikiPages.unshift(episode.title);
 			document.getElementById('wikiPromo').innerHTML = 'On the <a id="wikiLink" href="https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki" target="_blank">Catch! Teenieping Wiki</a>:<br>';
 			episode.wikiPages.forEach((link) => {
-				document.getElementById('wikiPromo').innerHTML += '<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/wiki/' + encodeURI(link) + '" target="_blank">' + link + '</a>';
+				document.getElementById('wikiPromo').innerHTML += '<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/wiki/' + encodeURIComponent(link) + '" target="_blank">' + link + '</a>';
 			});
 		}
 	</script>
