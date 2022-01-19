@@ -31,7 +31,8 @@ const episodes = {
 		wikiPages: ["Tidyping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211259&authkey=AEzj-CN2CVYPVwE"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211259&authkey=AEzj-CN2CVYPVwE",
+		onedriveUrl: "https://31gl.short.gy/EMhDPc"
 	}
 }
 
