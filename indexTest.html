@@ -24,7 +24,7 @@
 	<script src="episodes.js"></script>
 	<script>
 		Object.keys(episodes).forEach((episode) => {
-			document.selectElementById('episodesContainer').innerHTML += `<div class="col-md-3 mb-3"><a href="watch?episode=` + episode[0] + `" target="_blank"><div class="card h-100">
+			document.getElementById('episodesContainer').innerHTML += `<div class="col-md-3 mb-3"><a href="watch?episode=` + episode[0] + `" target="_blank"><div class="card h-100">
 					<img src="thumbnails/` + episode[0] + `.png" class="card-img-top">
 					<div class="card-body">
 						<h5 class="card-title">` + (episode[1].specialStatus || episode[0]) + `</h5>
