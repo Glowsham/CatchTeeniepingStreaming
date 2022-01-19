@@ -100,7 +100,7 @@ const episodes = {
 		wikiPages: ["Yummyping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211260&authkey=AOtT26Y8smwiCXg",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211260&authkey=AOtT26Y8smwiCXg",
 		onedriveUrl: "https://31gl.short.gy/UCkGGD"
 	},
 	S2E10: {
@@ -128,7 +128,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211261&authkey=AN2wa15-kYxSGx4",
-		onedriveUrl: "hhttps://31gl.short.gy/4wp3DA"
+		onedriveUrl: "https://31gl.short.gy/4wp3DA"
 	},
 	S2E13: {
 		title: "Another Princess",
@@ -170,7 +170,7 @@ const episodes = {
 		title: "The Jewel Teeniepings Got Stolen!",
 		description: "Sneak peek - While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
 		wikiPages: ["Thieves", "Jewelry Box"],
-		specialStatus: "",
+		specialStatus: "Sneak peek",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64",
 		onedriveUrl: "https://31gl.short.gy/4sQhC0"

@@ -33,6 +33,7 @@
 		if (getParameter('episode')) {var episode = episodes[getParameter('episode')]}
 
 		if (episode) {
+			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
 			document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
 			document.getElementById('description').innerHTML = episode.description;
 
