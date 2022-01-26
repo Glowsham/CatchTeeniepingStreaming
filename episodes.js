@@ -145,20 +145,38 @@ const episodes = {
 	},
 	S2E17: {
 		title: "The Jewel Teeniepings Got Stolen!",
-		description: "Sneak peek - While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
+		description: "While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
 		wikiPages: ["Thieves", "Jewelry Box"],
-		specialStatus: "Sneak peek",
+		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211268&authkey=AI7YvfC2dLyVT64",
-		onedriveUrl: "https://31gl.short.gy/4sQhC0"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211271&authkey=ABrBSo1LLY9e_KM",
+		onedriveUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXdNLALva8j5oS9-"
 	},
 	S2E18: {
 		title: "Who Is The Real Heartsping?",
-		description: "Trailer - Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
+		description: "Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
 		wikiPages: ["Buddyping"],
+		specialStatus: "",
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211270&authkey=AEut4oWlM5E8zdM",
+		onedriveUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXaBPITxm7hXIRaD"
+	},
+	S2E19: {
+		title: "Find The Gift Box!",
+		description: "Giftping likes to give gifts to everyone! But when she gets chased by Romi, instead of taking her prop, she takes another gift and runs... She will have to recover her magic prop, but how?",
+		wikiPages: ["Giftping"],
+		specialStatus: "",
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211272&authkey=AO64r84UMLD283c",
+		onedriveUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXjn_3ZN2oveeyve"
+	},
+	S2E20: {
+		title: "I'm Going To Sculpt!",
+		description: "Trailer - Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
+		wikiPages: ["Sculptping"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
-		videoUrl: "UXiSrLPIGIk",
+		videoUrl: "ypBmMNNT9nM",
 		onedriveUrl: ""
 	}
 }
