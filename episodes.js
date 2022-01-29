@@ -70,7 +70,7 @@ const episodes = {
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211259&authkey=AEzj-CN2CVYPVwE",
 		onedriveUrl: "https://31gl.short.gy/EMhDPc"
-	}, */
+	},
 	S2E09: {
 		title: "Yummyping Is The Best Cooking Teacher",
 		description: "After the chef quits, the business isn't going well at Eline's Seasoned Chicken Restaurant. To help her mother, Ellie practices day and night, but keeps failing over and over again. But Yummyping, who smells the chicken, decides to help her.",
@@ -79,7 +79,7 @@ const episodes = {
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211260&authkey=AOtT26Y8smwiCXg",
 		onedriveUrl: "https://31gl.short.gy/UCkGGD"
-	},
+	}, */
 	S2E10: {
 		title: "Fainted Trustping",
 		description: "While Trustping and Teeheeping are fighting each other, Trustping suddenly faints! In order to cure Trustping's disease, The Tomato Jewel is needed. With the help of Dadaping, the Teeniepings make everything possible to cure him.",
