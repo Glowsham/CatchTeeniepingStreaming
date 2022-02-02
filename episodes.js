@@ -6,7 +6,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "_Trni5YhFUw",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E02: {
 		title: "Teenieping Academy Open!",
@@ -15,7 +15,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "jKAXq4IJHv8",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E03: {
 		title: "We Have To Put Up With the Tickling!",
@@ -24,7 +24,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "alEFGDOSu60",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E04: {
 		title: "Ayaya Stop Hurting Me",
@@ -33,7 +33,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "5Nf5Gt6ThUU",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E05: {
 		title: "Wishping's Three Wishes",
@@ -42,7 +42,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "WDY_SuqaN3Q",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E06: {
 		title: "Pat Pat I'll Give You Warm Comfort!",
@@ -51,7 +51,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "QUUXGhWLoDc",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E07: {
 		title: "Disappeared Romi",
@@ -60,7 +60,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "YouTube",
 		videoUrl: "ezbVkqn_Yrs",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E08: {
 		title: "A Lot Of Sparkles",
@@ -69,7 +69,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211259&authkey=AEzj-CN2CVYPVwE",
-		onedriveUrl: "https://31gl.short.gy/EMhDPc"
+		basicUrl: "https://31gl.short.gy/EMhDPc"
 	},
 	S2E09: {
 		title: "Yummyping Is The Best Cooking Teacher",
@@ -78,7 +78,7 @@ const episodes = {
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211260&authkey=AOtT26Y8smwiCXg",
-		onedriveUrl: "https://31gl.short.gy/UCkGGD"
+		basicUrl: "https://31gl.short.gy/UCkGGD"
 	}, */
 	S2E10: {
 		title: "Fainted Trustping",
@@ -86,8 +86,8 @@ const episodes = {
 		wikiPages: ["Tomato Jewel", "Trustping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211263&authkey=AIcSasy_bkw44rg",
-		onedriveUrl: "https://31gl.short.gy/p7bBvD"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211263&authkey=AJILwMu5SXh__88",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiW8rEJLdjmNX4LTj"
 	},
 	S2E11: {
 		title: "Heartsping The Knitted Doll",
@@ -95,8 +95,8 @@ const episodes = {
 		wikiPages: ["Cozyping", "Heartsping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211262&authkey=AMNGS5_Kg9belM8",
-		onedriveUrl: "https://31gl.short.gy/o1yNcT"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211262&authkey=AO-e_fPLfLNarAE",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiW5mPKA0ey0ZLZlH"
 	},
 	S2E12: {
 		title: "The Teddy Bear is Alive?",
@@ -104,8 +104,8 @@ const episodes = {
 		wikiPages: ["Romi's teddy bear"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211261&authkey=AN2wa15-kYxSGx4",
-		onedriveUrl: "https://31gl.short.gy/4wp3DA"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211261&authkey=AKWgqkZOOjyWn8c",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiW2MfATOivobYjPT"
 	},
 	S2E13: {
 		title: "Another Princess",
@@ -113,8 +113,8 @@ const episodes = {
 		wikiPages: ["Jennie", "Onlyping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211266&authkey=AFKQKpx7uUHS3xU",
-		onedriveUrl: "https://31gl.short.gy/xOQwWd"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211266&authkey=AG3gSKf9fbXppVI",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXJxIcXT85HLUIH6"
 	},
 	S2E14: {
 		title: "Memoping's Memo Memo",
@@ -122,8 +122,8 @@ const episodes = {
 		wikiPages: ["Memoping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211264&authkey=AI0wI3nO1_Zja4s",
-		onedriveUrl: "https://31gl.short.gy/jXPmoE"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211264&authkey=AFv_xKzY4tDn2Yc",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXBzXmvBuxY_ktd4"
 	},
 	S2E15: {
 		title: "Duel! Royal Teeniepings",
@@ -131,8 +131,8 @@ const episodes = {
 		wikiPages: ["Royal Teeniepings"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211265&authkey=AOnyYASv-a_dXlI",
-		onedriveUrl: "https://31gl.short.gy/hI12sg"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211265&authkey=AECMDWqFDUh69yA",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXFJKBPUGCTYIW81"
 	},
 	S2E16: {
 		title: "Heartrose With A Big Kingdom",
@@ -140,8 +140,8 @@ const episodes = {
 		wikiPages: ["Ladyping", "Gamyeonping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211269&authkey=AKx2vDRS_ZMOlTk",
-		onedriveUrl: "https://31gl.short.gy/O2YCWl"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211269&authkey=AMi7lcU2baLpMjA",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXVCXIg0x4Fvi2Y2"
 	},
 	S2E17: {
 		title: "The Jewel Teeniepings Got Stolen!",
@@ -149,8 +149,8 @@ const episodes = {
 		wikiPages: ["Thieves", "Jewelry Box"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211271&authkey=ABrBSo1LLY9e_KM",
-		onedriveUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXdNLALva8j5oS9-"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211271&authkey=ALAyX7GbKRBpqDI",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXeVpFuC20Oba4PO"
 	},
 	S2E18: {
 		title: "Who Is The Real Heartsping?",
@@ -158,8 +158,8 @@ const episodes = {
 		wikiPages: ["Buddyping", "Heartsping"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211270&authkey=AEut4oWlM5E8zdM",
-		onedriveUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXaBPITxm7hXIRaD"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211270&authkey=AIScG5Mx2CN4CUU",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXYPLs2AwbD4lomU"
 	},
 	S2E19: {
 		title: "Find The Gift Box!",
@@ -167,8 +167,8 @@ const episodes = {
 		wikiPages: ["Giftping", "Luca"],
 		specialStatus: "",
 		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211272&authkey=AO64r84UMLD283c",
-		onedriveUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXjn_3ZN2oveeyve"
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211272&authkey=APNKoue7wbpy85k",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXhf3m90OnPnIqtt"
 	},
 	S2E20: {
 		title: "I'm Going To Sculpt!",
@@ -177,7 +177,7 @@ const episodes = {
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "ypBmMNNT9nM",
-		onedriveUrl: ""
+		basicUrl: ""
 	},
 	S2E21: {
 		title: "Dangerous Picnic",
@@ -186,6 +186,6 @@ const episodes = {
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "4SwytJIkgLg",
-		onedriveUrl: ""
+		basicUrl: ""
 	}
 }
