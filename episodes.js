@@ -83,7 +83,7 @@ const episodes = {
 	S2E10: {
 		title: "Fainted Trustping",
 		description: "While Trustping and Teeheeping are fighting each other, Trustping suddenly faints! In order to cure Trustping's disease, The Tomato Jewel is needed. With the help of Dadaping, the Teeniepings make everything possible to cure him.",
-		wikiPages: ["Tomato Jewel"],
+		wikiPages: ["Tomato Jewel", "Trustping"],
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211263&authkey=AIcSasy_bkw44rg",
@@ -92,7 +92,7 @@ const episodes = {
 	S2E11: {
 		title: "Heartsping The Knitted Doll",
 		description: "Cozyping enters in the Teenieping Academy and transforms objects into wolly creations... But when the Teeniepings wake up, a bad surprise awaits: there's a giant Heartsping doll!",
-		wikiPages: ["Cozyping"],
+		wikiPages: ["Cozyping", "Heartsping"],
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211262&authkey=AMNGS5_Kg9belM8",
@@ -155,7 +155,7 @@ const episodes = {
 	S2E18: {
 		title: "Who Is The Real Heartsping?",
 		description: "Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
-		wikiPages: ["Buddyping"],
+		wikiPages: ["Buddyping", "Heartsping"],
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211270&authkey=AEut4oWlM5E8zdM",
@@ -164,7 +164,7 @@ const episodes = {
 	S2E19: {
 		title: "Find The Gift Box!",
 		description: "Giftping likes to give gifts to everyone! But when she gets chased by Romi, instead of taking her prop, she takes another gift and runs... She will have to recover her magic prop, but how?",
-		wikiPages: ["Giftping"],
+		wikiPages: ["Giftping", "Luca"],
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211272&authkey=AO64r84UMLD283c",
@@ -172,11 +172,20 @@ const episodes = {
 	},
 	S2E20: {
 		title: "I'm Going To Sculpt!",
-		description: "Trailer - Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
+		description: "Trailer - Sculptping tries to sculpt a Teenieping of the Jewel Forest, but he can't remember her. Later, his statue is found by the Teeniepings, who take it at the Teenieping Academy. But suddenly, the statue starts to move!",
 		wikiPages: ["Sculptping"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "ypBmMNNT9nM",
+		onedriveUrl: ""
+	},
+	S2E21: {
+		title: "Dangerous Picnic",
+		description: "Trailer - Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Gamyeonping suddenly appears!",
+		wikiPages: ["Jennie", "Gamyeonping"],
+		specialStatus: "Coming soon",
+		videoType: "YouTube",
+		videoUrl: "4SwytJIkgLg",
 		onedriveUrl: ""
 	}
 }
