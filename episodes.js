@@ -5,7 +5,7 @@ const episodes = {
 		wikiPages: [],
 		specialStatus: "",
 		videoType: "redirect",
-		videoUrl: "https://catchteenieping.fandom.com/wiki/Catch!_Teenieping#List_of_episodes"
+		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
 	S2E11: {
 		title: "Heartsping The Knitted Doll",
