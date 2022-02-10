@@ -7,15 +7,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E11: {
-		title: "Heartsping The Knitted Doll",
-		description: "Cozyping enters in the Teenieping Academy and transforms objects into wolly creations... But when the Teeniepings wake up, a bad surprise awaits: there's a giant Heartsping doll!",
-		wikiPages: ["Cozyping", "Heartsping"],
-		specialStatus: "",
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211262&authkey=AO-e_fPLfLNarAE",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiW5mPKA0ey0ZLZlH"
-	},
 	S2E12: {
 		title: "The Teddy Bear is Alive?",
 		description: "While everyone is relaxing, Gamyeonping takes control of Romi's teddy bear, to attack the Teenieping Academy. The Teeniepings gets afraid, and Tidyping gets devoured! All of this must end!",
@@ -103,5 +94,13 @@ const episodes = {
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "4SwytJIkgLg"
+	},
+	S2E22: {
+		title: "Pinker Teenieping Ballet",
+		description: "Trailer - When Princess Ruby approaches Balletping, the latter reveals her secret: have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
+		wikiPages: ["Balletping"],
+		specialStatus: "Coming soon",
+		videoType: "YouTube",
+		videoUrl: "vyfDitq6S98"
 	}
 }
