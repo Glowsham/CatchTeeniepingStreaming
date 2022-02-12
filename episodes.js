@@ -89,15 +89,15 @@ const episodes = {
 	},
 	S2E21: {
 		title: "Dangerous Picnic",
-		description: "Trailer - Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Gamyeonping suddenly appears!",
+		description: "Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Gamyeonping suddenly appears!",
 		wikiPages: ["Jennie", "Gamyeonping"],
-		specialStatus: "Coming soon",
-		videoType: "YouTube",
-		videoUrl: "4SwytJIkgLg"
+		specialStatus: "",
+		videoType: "Google Drive",
+		videoUrl: "1yrE5wPCv3M9tuSxeETgqKyVNVIMoMagY"
 	},
 	S2E22: {
 		title: "Pinker Teenieping Ballet",
-		description: "Trailer - When Princess Ruby approaches Balletping, the latter reveals her secret: have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
+		description: "Trailer - When Princess Ruby approaches Balletping, the latter reveals her secret: she wants to have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
 		wikiPages: ["Balletping"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
