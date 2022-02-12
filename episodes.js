@@ -93,7 +93,7 @@ const episodes = {
 		wikiPages: ["Jennie", "Gamyeonping"],
 		specialStatus: "",
 		videoType: "Google Drive",
-		videoUrl: "1yrE5wPCv3M9tuSxeETgqKyVNVIMoMagY"
+		videoUrl: "1gU2BHV9FHr2dBQupOkslq_CrkQfljw13"
 	},
 	S2E22: {
 		title: "Pinker Teenieping Ballet",
