@@ -84,7 +84,7 @@ const episodes = {
 		description: "Sculptping tries to sculpt a Teenieping of the Jewel Forest, but he can't remember her. Later, his statue is found by the Teeniepings, who take it at the Teenieping Academy. But suddenly, the statue starts to move!",
 		wikiPages: ["Sculptping"],
 		specialStatus: "",
-		videoType: "Google Drive",
+		videoType: "error",
 		videoUrl: "1xPKeJthwBGoqqvcAl_Uy9c11Y3V_Y4h0"
 	},
 	S2E21: {
@@ -92,7 +92,7 @@ const episodes = {
 		description: "Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Gamyeonping suddenly appears!",
 		wikiPages: ["Jennie", "Gamyeonping"],
 		specialStatus: "",
-		videoType: "Google Drive",
+		videoType: "error",
 		videoUrl: "1gU2BHV9FHr2dBQupOkslq_CrkQfljw13"
 	},
 	S2E22: {

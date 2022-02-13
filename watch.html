@@ -51,6 +51,8 @@
 				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><video controls poster="thumbnails/' + getParameter('episode') + '.png"><source src="https://www.googleapis.com/drive/v3/files/' + episode.videoUrl + '?key=AIzaSyCavZsEiq_JSZD3BWkesv3IBETCbHhazos&alt=media" type="video/mp4" /></video></div><div class="px-4 pt-4 text-center">The video doesn\'t work?<br><a class="btn btn-primary m-1" href="https://drive.google.com/file/d/' + episode.videoUrl + '/view" target="_blank">Watch on Google Drive</a></div>';
 			} else if (episode.videoType == 'YouTube') {
 				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/' + episode.videoUrl + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
+			}  else if (episode.videoType == 'error') {
+				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><iframe src="error.html"></iframe></div>';
 			}
 
 			episode.wikiPages.unshift(episode.title);
