@@ -84,16 +84,18 @@ const episodes = {
 		description: "Sculptping tries to sculpt a Teenieping of the Jewel Forest, but he can't remember her. Later, his statue is found by the Teeniepings, who take it at the Teenieping Academy. But suddenly, the statue starts to move!",
 		wikiPages: ["Sculptping"],
 		specialStatus: "",
-		videoType: "error",
-		videoUrl: "1xPKeJthwBGoqqvcAl_Uy9c11Y3V_Y4h0"
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211273&authkey=AO354LpNvCRc044",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXmZpBHVdnFbq-cY"
 	},
 	S2E21: {
 		title: "Dangerous Picnic",
 		description: "Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Gamyeonping suddenly appears!",
 		wikiPages: ["Jennie", "Gamyeonping"],
 		specialStatus: "",
-		videoType: "error",
-		videoUrl: "1gU2BHV9FHr2dBQupOkslq_CrkQfljw13"
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211274&authkey=AERrugMJABqpVLk",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXoP-QmI7tSIESTP"
 	},
 	S2E22: {
 		title: "Pinker Teenieping Ballet",
