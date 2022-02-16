@@ -99,10 +99,19 @@ const episodes = {
 	},
 	S2E22: {
 		title: "Pinker Teenieping Ballet",
-		description: "Trailer - When Princess Ruby approaches Balletping, the latter reveals her secret: she wants to have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
+		description: "When Princess Ruby approaches Balletping, the latter reveals her secret: she wants to have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
 		wikiPages: ["Balletping"],
+		specialStatus: "",
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211275&authkey=AOxtq6RrjplHegw",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXt2fw4oj_rgAmlS"
+	}/*,
+	S2E22: {
+		title: "Teenieping Of Heroism, Wonderping!",
+		description: "Trailer - Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
+		wikiPages: ["Wonderping"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
-		videoUrl: "vyfDitq6S98"
-	}
+		videoUrl: "d71CeJSIeu8"
+	}*/
 }
