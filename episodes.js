@@ -7,15 +7,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E12: {
-		title: "The Teddy Bear is Alive?",
-		description: "While everyone is relaxing, Gamyeonping takes control of Romi's teddy bear, to attack the Teenieping Academy. The Teeniepings gets afraid, and Tidyping gets devoured! All of this must end!",
-		wikiPages: ["Romi's teddy bear"],
-		specialStatus: "",
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211261&authkey=AKWgqkZOOjyWn8c",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiW2MfATOivobYjPT"
-	},
 	S2E13: {
 		title: "Another Princess",
 		description: "Jennie, Romi's other cousin from the Emotion Kingdom, arrives in Harmony Village. But if Romi and her are like sisters, her personal Teenieping Onlyping hates Heartsping, and an argument quickly starts...",
@@ -105,13 +96,13 @@ const episodes = {
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211275&authkey=AOxtq6RrjplHegw",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXt2fw4oj_rgAmlS"
-	}/*,
-	S2E22: {
-		title: "Teenieping Of Heroism, Wonderping!",
+	},
+	S2E23: {
+		title: "Hero Teenieping, Wonderping!",
 		description: "Trailer - Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
 		wikiPages: ["Wonderping"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "d71CeJSIeu8"
-	}*/
+	}
 }
