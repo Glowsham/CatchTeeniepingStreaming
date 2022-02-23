@@ -99,10 +99,19 @@ const episodes = {
 	},
 	S2E23: {
 		title: "Hero Teenieping, Wonderping!",
-		description: "Trailer - Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
+		description: "Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
 		wikiPages: ["Wonderping"],
+		specialStatus: "",
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211276&authkey=AKkGJvCGAWmTFk0",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXytBJZriGYIRxCS"
+	}/*,
+	S2E24: {
+		title: "Teenieping Academy Graduation Ceremony",
+		description: "Trailer - Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping Academy. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
+		wikiPages: ["Teenieping Academy", "Jewel Teeniepings"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
-		videoUrl: "d71CeJSIeu8"
-	}
+		videoUrl: "EiGbff3Z6xs"
+	}*/
 }
