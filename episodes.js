@@ -7,15 +7,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E13: {
-		title: "Another Princess",
-		description: "Jennie, Romi's other cousin from the Emotion Kingdom, arrives in Harmony Village. But if Romi and her are like sisters, her personal Teenieping Onlyping hates Heartsping, and an argument quickly starts...",
-		wikiPages: ["Jennie", "Onlyping"],
-		specialStatus: "",
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211266&authkey=AG3gSKf9fbXppVI",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXJxIcXT85HLUIH6"
-	},
 	S2E14: {
 		title: "Memoping's Memo Memo",
 		description: "Memoping has a really special power: eveything she notes in her notebook will become true! And when Romi finds her, a race starts, but Romi can't manage to catch Memoping...",
@@ -105,7 +96,7 @@ const episodes = {
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211276&authkey=AKkGJvCGAWmTFk0",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXytBJZriGYIRxCS"
-	}/*,
+	},
 	S2E24: {
 		title: "Teenieping Academy Graduation Ceremony",
 		description: "Trailer - Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping Academy. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
@@ -113,5 +104,5 @@ const episodes = {
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
 		videoUrl: "EiGbff3Z6xs"
-	}*/
+	}
 }
