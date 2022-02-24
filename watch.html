@@ -10,6 +10,11 @@
 		footer a, #wikiLink, footer a:hover, #wikiLink:hover, footer a:focus, #wikiLink:focus {color: #e6ae15;}
 		.btn-primary, .btn-primary:hover, .btn-primary:focus {background: #e6ae15; border-color: #e6ae15;}
 		.btn-primary:focus {box-shadow: 0 0 0 0.25rem rgb(230, 174, 21, 0.5) !important;}
+		@media (min-width: 1400px) {
+			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+				max-width: 1140px;
+			}
+		}
 	</style>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
 	<script>
@@ -46,11 +51,11 @@
 			document.getElementById('description').innerHTML = episode.description;
 
 			if (episode.videoType == 'OneDrive') {
-				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><video controls poster="thumbnails/' + getParameter('episode') + '.png"><source src="https://onedrive.live.com/download' + episode.videoUrl + '" type="video/mp4" /></video></div><div class="px-4 pt-4 text-center">The video doesn\'t work?<br><a class="btn btn-primary m-1" href="' + episode.basicUrl + '" target="_blank">Watch on OneDrive</a></div>';
+				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><video controls poster="thumbnails/' + getParameter('episode') + '.png"><source src="https://onedrive.live.com/download' + episode.videoUrl + '" type="video/mp4" /></video></div><div class="px-4 pt-4 pb-3 text-center">The video doesn\'t work?<br><a class="btn btn-primary m-1" href="' + episode.basicUrl + '" target="_blank">Watch on OneDrive</a></div>';
 			} else if (episode.videoType == 'Google Drive') {
-				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><video controls poster="thumbnails/' + getParameter('episode') + '.png"><source src="https://www.googleapis.com/drive/v3/files/' + episode.videoUrl + '?key=AIzaSyCavZsEiq_JSZD3BWkesv3IBETCbHhazos&alt=media" type="video/mp4" /></video></div><div class="px-4 pt-4 text-center">The video doesn\'t work?<br><a class="btn btn-primary m-1" href="https://drive.google.com/file/d/' + episode.videoUrl + '/view" target="_blank">Watch on Google Drive</a></div>';
+				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><video controls poster="thumbnails/' + getParameter('episode') + '.png"><source src="https://www.googleapis.com/drive/v3/files/' + episode.videoUrl + '?key=AIzaSyCavZsEiq_JSZD3BWkesv3IBETCbHhazos&alt=media" type="video/mp4" /></video></div><div class="px-4 pt-4 pb-3 text-center">The video doesn\'t work?<br><a class="btn btn-primary m-1" href="https://drive.google.com/file/d/' + episode.videoUrl + '/view" target="_blank">Watch on Google Drive</a></div>';
 			} else if (episode.videoType == 'YouTube') {
-				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/' + episode.videoUrl + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
+				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9 pb-3"><iframe src="https://www.youtube.com/embed/' + episode.videoUrl + '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
 			}  else if (episode.videoType == 'error') {
 				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><iframe src="error.html"></iframe></div>';
 			}

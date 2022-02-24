@@ -8,7 +8,12 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<style>
 		.row a, .row a:hover, .row a:focus {color: inherit; text-decoration: inherit;}
-		footer a, footer a:hover, footer a:focus {color: #e6ae15;}
+		footer a, footer a:hover, footer a:focus, #nwAirdate {color: #e6ae15;}
+		@media (min-width: 1400px) {
+			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+				max-width: 1140px;
+			}
+		}
 	</style>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
 	<script>
@@ -22,17 +27,34 @@
 <body>
 	<div class="px-4 py-5 text-center">
 		<h1 class="display-5 fw-bold">Welcome to the Catch! Teenieping TV!</h1>
-		<div class="col-lg-6 mx-auto"><p class="lead">Here, you can watch the latest episodes of season 2 of Catch! Teenieping, directly recorded from JEI TV. Enjoy!</p></div>
+		<div class="col-lg-5 mx-auto"><p class="lead">Here, you can watch the latest episodes of season 2 of Catch! Teenieping that currently aren't available on YouTube. Enjoy!</p></div>
 	</div>
 	<div class="container">
-		<div id="episodesContainer" class="row g-6 mb-5"></div>
+		<div id="episodesContainer" class="row pb-4"></div>
+	</div>
+	<div class="container">
+		<h2 class="display-5 fw-bold mb-3">Next week</h2>
+		<div class="row pb-5">
+			<div class="col-md-6 pb-3">
+				<div class="ratio ratio-16x9"><iframe id="nwTrailer" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+			</div>
+  			<div class="col-md-6 ps-md-5 pb-3">
+  				<h3 id="nwTitle" class="fw-bold display-6">...</h3>
+				<p id="nwDesc" class="col-lg-9"></p>
+				<h4 id="nwAirdate" class="fw-bold pt-4"></h4>
+  			</div>
+  		</div>
 	</div>
 	<footer class="bg-light text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);"><a href="https://catchteenieping.fandom.com/f/p/4400000000000024153" target="_blank">Made with love by Glowsham</a> ❤</div></footer>
 
 	<script src="episodes.js"></script>
 	<script>
-		Object.entries(episodes).forEach((episode) => {
-			document.getElementById('episodesContainer').innerHTML += `<div class="col-md-3 mb-3"><a href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `"><div class="card h-100">
+		var episodesList = Object.entries(episodes);
+		var nextEpisode = episodesList[episodesList.length - 1][1];
+		episodesList.pop();
+
+		episodesList.forEach((episode) => {
+			document.getElementById('episodesContainer').innerHTML += `<div class="col-sm-6 col-md-4 pb-3"><a href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `"><div class="card h-100">
 					<img src="thumbnails/` + episode[0] + `.png" class="card-img-top">
 					<div class="card-body">
 						<h5 class="card-title">` + (episode[1].specialStatus || episode[0]) + `</h5>
@@ -40,6 +62,11 @@
 					</div>
 				</div></a></div>`;
 		});
+
+		document.getElementById('nwTitle').innerHTML = nextEpisode.title;
+		document.getElementById('nwDesc').innerHTML = nextEpisode.description;
+		document.getElementById('nwAirdate').innerHTML = 'Airing on Wednesday, ' + nextEpisode.airdate;
+		document.getElementById('nwTrailer').src = 'https://www.youtube.com/embed/' + nextEpisode.videoUrl;
 	</script>
 </body>
 </html>

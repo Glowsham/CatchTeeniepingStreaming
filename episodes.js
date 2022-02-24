@@ -99,10 +99,11 @@ const episodes = {
 	},
 	S2E24: {
 		title: "Teenieping Academy Graduation Ceremony",
-		description: "Trailer - Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping Academy. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
+		description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping Academy. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
 		wikiPages: ["Teenieping Academy", "Jewel Teeniepings"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
-		videoUrl: "EiGbff3Z6xs"
+		videoUrl: "EiGbff3Z6xs",
+		airdate: "March 2"
 	}
 }
