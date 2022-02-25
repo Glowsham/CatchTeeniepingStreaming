@@ -55,7 +55,7 @@
 
 		episodesList.forEach((episode) => {
 			document.getElementById('episodesContainer').innerHTML += `<div class="col-sm-6 col-md-4 pb-3"><a href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `"><div class="card h-100">
-					<img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top ratio ratio-16x9">
+					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top"></div>
 					<div class="card-body">
 						<h5 class="card-title">` + (episode[1].specialStatus || episode[0]) + `</h5>
 						<p class="card-text">` + episode[1].title + `</p>
