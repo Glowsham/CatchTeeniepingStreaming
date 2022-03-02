@@ -105,7 +105,7 @@ const episodes = {
 		videoType: "YouTube",
 		videoUrl: "EiGbff3Z6xs"
 	},
-	S2E24: {
+	S2E25: {
 		title: "Heartsping In Crisis",
 		description: "Heartsping is made prisonner by Heartsping! To save them, Romi, helped by Jennie go to the Emotion Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
 		wikiPages: ["Gamyeonping", "Jennie"],
