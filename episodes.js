@@ -101,9 +101,10 @@ const episodes = {
 		title: "Teenieping Academy Graduation Ceremony",
 		description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping Academy. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
 		wikiPages: ["Teenieping Academy", "Jewel Teeniepings"],
-		specialStatus: "Coming soon",
-		videoType: "YouTube",
-		videoUrl: "EiGbff3Z6xs"
+		specialStatus: "",
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211277&authkey=AACvdgtA-Jlwnwo",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX26qx0pSOIGUyQj"
 	},
 	S2E25: {
 		title: "Heartsping In Danger",
