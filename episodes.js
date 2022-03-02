@@ -107,7 +107,7 @@ const episodes = {
 	},
 	S2E25: {
 		title: "Heartsping In Danger",
-		description: "Heartsping has been made prisonner by Gamyeonping! To save them, Romi, helped by Jennie, go to the Emotion Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
+		description: "Heartsping has been made prisoner by Gamyeonping! To save them, Romi, helped by Jennie, go to the Emotion Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
 		wikiPages: ["Gamyeonping", "Jennie"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
