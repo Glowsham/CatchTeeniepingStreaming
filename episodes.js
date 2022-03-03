@@ -7,15 +7,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E14: {
-		title: "Memoping's Memo Memo",
-		description: "Memoping has a really special power: eveything she notes in her notebook will become true! And when Romi finds her, a race starts, but Romi can't manage to catch Memoping...",
-		wikiPages: ["Memoping"],
-		specialStatus: "",
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211264&authkey=AFv_xKzY4tDn2Yc",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXBzXmvBuxY_ktd4"
-	},
 	S2E15: {
 		title: "Duel! Royal Teeniepings",
 		description: "The Royal Teeniepings arrive at the Teenieping Academy, and they say that the students Teeniepings cannot help Romi properly. To keep their place, the students Teeniepings will have to win a duel...",
