@@ -100,10 +100,18 @@ const episodes = {
 	S2E25: {
 		title: "Heartsping In Danger",
 		description: "Heartsping has been made prisoner by Gamyeonping! To save them, Romi, helped by Jennie, go to the Emotion Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
-		wikiPages: ["Gamyeonping", "Jennie"],
+		wikiPages: ["Gamyeonping", "Jennie", "Emotion Kingdom"],
+		specialStatus: "Coming in a few days",
+		videoType: "YouTube",
+		videoUrl: "m2fQ5_WyPHk"
+	},
+	S2E26: {
+		title: "Return Of Jewel Forest",
+		description: "After defeating Gamyeonping, Romi finally discovers the whole truth... The story of her friend who stayed in the shadow for way too long... But the battle is not over yet.",
+		wikiPages: ["Jennie", "Onlyping", "Gamyeonping", "Jewel Forest", "Emotion Kingdom"],
 		specialStatus: "Coming soon",
 		videoType: "YouTube",
-		videoUrl: "m2fQ5_WyPHk",
-		airdate: "March 9"
+		videoUrl: "ipLY9nUqDL4",
+		airdate: "March 16"
 	}
 }
