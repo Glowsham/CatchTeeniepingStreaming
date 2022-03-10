@@ -95,7 +95,8 @@ const episodes = {
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211278&authkey=ANxOTfp52nuDHWc",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX4muCdR2mY6EaNL"
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX4muCdR2mY6EaNL",
+		alternative: "https://drive.google.com/file/d/1cxQ6CPttWD8fbb-5khbqOC47md3Eu6f7/view"
 	},
 	S2E26: {
 		title: "Return Of Jewel Forest",
