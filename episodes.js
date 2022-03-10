@@ -50,7 +50,8 @@ const episodes = {
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211273&authkey=AO354LpNvCRc044",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXmZpBHVdnFbq-cY"
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXmZpBHVdnFbq-cY",
+		alternative: "1xPKeJthwBGoqqvcAl_Uy9c11Y3V_Y4h0"
 	},
 	S2E21: {
 		title: "Dangerous Picnic",
@@ -59,7 +60,8 @@ const episodes = {
 		specialStatus: "",
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211274&authkey=AERrugMJABqpVLk",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXoP-QmI7tSIESTP"
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXoP-QmI7tSIESTP",
+		alternative: "1gU2BHV9FHr2dBQupOkslq_CrkQfljw13"
 	},
 	S2E22: {
 		title: "Pinker Teenieping Ballet",
@@ -96,7 +98,7 @@ const episodes = {
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211278&authkey=ANxOTfp52nuDHWc",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX4muCdR2mY6EaNL",
-		alternative: "https://drive.google.com/file/d/1cxQ6CPttWD8fbb-5khbqOC47md3Eu6f7/view"
+		alternative: "1cxQ6CPttWD8fbb-5khbqOC47md3Eu6f7"
 	},
 	S2E26: {
 		title: "Return Of Jewel Forest",

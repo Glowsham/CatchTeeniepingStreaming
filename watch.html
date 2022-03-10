@@ -49,9 +49,10 @@
 			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
 			document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
 			document.getElementById('description').innerHTML = episode.description;
+			if (getParameter('altplayer') == 1) {episode.videoType = 'Google Drive'}
 
 			if (episode.videoType == 'OneDrive') {
-				var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="` + episode.alternative + `" target="_blank">Alternative link</a></div>` : '';
+				var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '';
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
 						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
@@ -62,9 +63,15 @@
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
-			}/* else if (episode.videoType == 'Google Drive') {
-				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><video controls poster="thumbnails/' + getParameter('episode') + '.jpg"><source src="https://www.googleapis.com/drive/v3/files/' + episode.videoUrl + '?key=AIzaSyCavZsEiq_JSZD3BWkesv3IBETCbHhazos&alt=media" type="video/mp4" /></video></div><div class="px-4 pt-4 pb-3 text-center">The video doesn\'t work?<br><a class="btn btn-primary m-1" href="https://drive.google.com/file/d/' + episode.videoUrl + '/view" target="_blank">Watch on Google Drive</a></div>';
-			} else if (episode.videoType == 'error') {
+			} else if (episode.videoType == 'Google Drive') {
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
+					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
+						<source src="https://www.googleapis.com/drive/v3/files/` + episode.alternative + `?key=AIzaSyCavZsEiq_JSZD3BWkesv3IBETCbHhazos&alt=media" type="video/mp4" />
+					</video>
+				</div><div class="px-4 pt-4 pb-3 text-center"><a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `">Get back to normal</a></div>`;
+				/*<div class="px-4 pt-4 pb-3 text-center">The video doesn\'t work?<br>
+				<a class="btn btn-primary m-1" href="https://drive.google.com/file/d/` + episode.videoUrl + `/view" target="_blank">Watch on Google Drive</a></div>`;*/
+			}/* else if (episode.videoType == 'error') {
 				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><iframe src="error.html"></iframe></div>';
 			}*/
 
