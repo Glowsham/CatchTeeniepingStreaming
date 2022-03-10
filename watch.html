@@ -47,9 +47,13 @@
 
 		if (episode) {
 			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
-			document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
 			document.getElementById('description').innerHTML = episode.description;
-			if (getParameter('altplayer') == 1) {episode.videoType = 'Google Drive'}
+			if (getParameter('altplayer') == 1) {
+				episode.videoType = 'Google Drive';
+				document.getElementById('title').innerHTML = 'Alternative - ' + episode.title;
+			} else {
+				document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
+			}
 
 			if (episode.videoType == 'OneDrive') {
 				var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '';
