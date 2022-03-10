@@ -7,15 +7,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E15: {
-		title: "Duel! Royal Teeniepings",
-		description: "The Royal Teeniepings arrive at the Teenieping Academy, and they say that the students Teeniepings cannot help Romi properly. To keep their place, the students Teeniepings will have to win a duel...",
-		wikiPages: ["Royal Teeniepings"],
-		specialStatus: "",
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211265&authkey=AECMDWqFDUh69yA",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXFJKBPUGCTYIW81"
-	},
 	S2E16: {
 		title: "Heartrose With A Big Kingdom",
 		description: "While Romi is at school, Ladyping, who fell in love with Gamyeonping, enters the bakery and creates her own kingdom, with everyone being at her service, including all the Teeniepings!",
@@ -101,9 +92,10 @@ const episodes = {
 		title: "Heartsping In Danger",
 		description: "Heartsping has been made prisoner by Gamyeonping! To save them, Romi, helped by Jennie, go to the Emotion Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
 		wikiPages: ["Gamyeonping", "Jennie", "Emotion Kingdom"],
-		specialStatus: "Coming in a few days",
-		videoType: "YouTube",
-		videoUrl: "m2fQ5_WyPHk"
+		specialStatus: "",
+		videoType: "OneDrive",
+		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211278&authkey=ANxOTfp52nuDHWc",
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX4muCdR2mY6EaNL"
 	},
 	S2E26: {
 		title: "Return Of Jewel Forest",
