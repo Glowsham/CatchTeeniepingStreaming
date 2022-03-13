@@ -49,14 +49,14 @@
 			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
 			document.getElementById('description').innerHTML = episode.description;
 			if (getParameter('altplayer') == 1) {
-				episode.videoType = 'Google Drive';
+				episode.videoType = 'Streamable';
 				document.getElementById('title').innerHTML = 'Alternative - ' + episode.title;
 			} else {
 				document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
 			}
 
 			if (episode.videoType == 'OneDrive') {
-				var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '';
+				var altLink = /*episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` :*/ '';
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
 						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
@@ -67,15 +67,20 @@
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
+			}/* else if (episode.videoType == 'Streamable') {
+				document.getElementById('videoContainer').innerHTML = `<div class="alert alert-warning">This alternative player contains some ads, but be aware that they are all scams! This is a solution I found to allow you to watch the episodes when the traffic is high, and the presence of ads is not my decision. Thanks for your understanding!</div>
+				<div class="ratio ratio-16x9">
+					<iframe src="https://streamtape.com/e/` + episode.alternative + `" allowfullscreen></iframe>
+				</div><div class="px-4 pt-4 pb-3 text-center"><a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `">Go back to normal</a></div>`;
 			} else if (episode.videoType == 'Google Drive') {
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
 						<source src="https://www.googleapis.com/drive/v3/files/` + episode.alternative + `?key=AIzaSyCavZsEiq_JSZD3BWkesv3IBETCbHhazos&alt=media" type="video/mp4" />
 					</video>
 				</div><div class="px-4 pt-4 pb-3 text-center"><a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `">Get back to normal</a></div>`;
-				/*<div class="px-4 pt-4 pb-3 text-center">The video doesn\'t work?<br>
-				<a class="btn btn-primary m-1" href="https://drive.google.com/file/d/` + episode.videoUrl + `/view" target="_blank">Watch on Google Drive</a></div>`;*/
-			}/* else if (episode.videoType == 'error') {
+				<div class="px-4 pt-4 pb-3 text-center">The video doesn\'t work?<br>
+				<a class="btn btn-primary m-1" href="https://drive.google.com/file/d/` + episode.videoUrl + `/view" target="_blank">Watch on Google Drive</a></div>`;
+			} else if (episode.videoType == 'error') {
 				document.getElementById('videoContainer').innerHTML = '<div class="ratio ratio-16x9"><iframe src="error.html"></iframe></div>';
 			}*/
 
