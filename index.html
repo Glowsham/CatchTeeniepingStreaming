@@ -51,8 +51,8 @@
 	<script src="episodes.js"></script>
 	<script>
 		var episodesList = Object.entries(episodes);
-		var nextEpisode = episodesList[episodesList.length - 1][1];
-		episodesList.pop();
+		/*var nextEpisode = episodesList[episodesList.length - 1][1];
+		episodesList.pop();*/
 
 		episodesList.forEach((episode) => {
 			document.getElementById('episodesContainer').innerHTML += `<div class="col-sm-6 col-md-4 pb-3"><a href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `"><div class="card h-100">
@@ -64,10 +64,10 @@
 				</div></a></div>`;
 		});
 
-		document.getElementById('nwTitle').innerHTML = nextEpisode.title;
+		/*document.getElementById('nwTitle').innerHTML = nextEpisode.title;
 		document.getElementById('nwDesc').innerHTML = nextEpisode.description;
 		document.getElementById('nwAirdate').innerHTML = 'Airing on Wednesday, ' + nextEpisode.airdate;
-		document.getElementById('nwTrailer').src = 'https://www.youtube.com/embed/' + nextEpisode.videoUrl;
+		document.getElementById('nwTrailer').src = 'https://www.youtube.com/embed/' + nextEpisode.videoUrl;*/
 	</script>
 </body>
 </html>

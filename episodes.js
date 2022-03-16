@@ -101,7 +101,7 @@ const episodes = {
 		title: "Return Of Jewel Forest",
 		description: "After defeating Gamyeonping, Romi finally discovers the whole truth... The story of her friend who stayed in the shadow for way too long... But the battle is not over yet.",
 		wikiPages: ["Jennie", "Onlyping", "Gamyeonping", "Jewel Forest", "Emotion Kingdom"],
-		specialStatus: "Coming soon",
+		specialStatus: "Coming in a few days",
 		videoType: "YouTube",
 		videoUrl: "ipLY9nUqDL4",
 		airdate: "March 16"
