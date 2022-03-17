@@ -7,15 +7,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E16: {
-		title: "Heartrose With A Big Kingdom",
-		description: "While Romi is at school, Ladyping, who fell in love with Gamyeonping, enters the bakery and creates her own kingdom, with everyone being at her service, including all the Teeniepings!",
-		wikiPages: ["Ladyping", "Gamyeonping"],
-		specialStatus: "",
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211269&authkey=AMi7lcU2baLpMjA",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXVCXIg0x4Fvi2Y2"
-	},
 	S2E17: {
 		title: "The Jewel Teeniepings Got Stolen!",
 		description: "While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
