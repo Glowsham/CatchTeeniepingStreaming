@@ -92,6 +92,7 @@ const episodes = {
 		wikiPages: ["Jennie", "Emotion Kingdom"],
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211280&authkey=AFs-hRQIyD-AbBc",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigDdKqGvBxhPJZRc"
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigDdKqGvBxhPJZRc",
+		alternative: "https://uptostream.com/iframe/t0swvjwhfcby"
 	}
 }

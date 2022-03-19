@@ -49,16 +49,21 @@
 		if (episode) {
 			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
 			document.getElementById('description').innerHTML = episode.description;
-			document.getElementById('title').innerHTML = getParameter('episode') + ' - ' + episode.title;
+			document.getElementById('title').innerHTML = (getParameter('altplayer') != 1 ? getParameter('episode') : 'Alternative') + ' - ' + episode.title;
 
-			if (episode.videoType == 'OneDrive') {
-				var articleLink = episode.article ? '' : '';
+			if (getParameter('altplayer') == 1) {
+				document.getElementById('videoContainer').innerHTML = `<div class="alert alert-warning">This alternative player is a solution is found to allow you to watch episodes when the traffic is high. It contains some ads, but this is not my decision! Please tell me if you encounter any issues. Enjoy!</div>
+				<div class="ratio ratio-16x9">
+					<iframe src="` + episode.alternative + `" allowfullscreen></iframe>
+				</div><div class="px-4 pt-4 pb-3 text-center"><a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `">Go back to normal</a></div>`;
+			} else if (episode.videoType == 'OneDrive') {
+				var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '';
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
 						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
 					</video>
 				</div><div class="pt-4 text-center">The video doesn\'t work?<br>
-				<a class="btn btn-primary m-1" href="` + episode.basicUrl + `" target="_blank">Watch on OneDrive</a>`;
+				<a class="btn btn-primary m-1" href="` + episode.basicUrl + `" target="_blank">Watch on OneDrive</a>` + altLink;
 			} else if (episode.videoType == 'YouTube') {
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
