@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<style>
-		.row a, .row a:hover, .row a:focus {color: inherit; text-decoration: inherit;}
+		.stretched-link, .stretched-link:hover, .stretched-link:focus {color: inherit; text-decoration: inherit !important;}
 		footer a, footer a:hover, footer a:focus, #nwAirdate {color: #e6ae15;}
 		@media (min-width: 1400px) {
 			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -29,14 +29,18 @@
 		<h1 class="display-5 fw-bold">Welcome to the Catch! Teenieping TV!</h1>
 		<div class="col-lg-5 mx-auto"><p class="lead">Here, you can watch the latest episodes of season 2 of Catch! Teenieping that currently aren't available on YouTube. Enjoy!</p></div>
 	</div>
-	<div class="container">
-		<div class="alert alert-warning">The site may or may already encounter some high traffic problem, making the videos temporary unavailable. If it is the case, just stay patient, the videos should come back soon!</div>
-		<div id="episodesContainer" class="row pb-4"></div>
-	</div>
-	<!-- <div class="container">
-		<h2 class="display-5 fw-bold mb-3">Next week</h2>
-		<div class="row pb-5">
-			<div class="col-md-6 pb-3">
+	<div class="container pb-3">
+		<!--<div class="card mb-4 flex-row">
+			<div class="card-body col-xl-2 col-lg-3 col-md-6"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/a/af/Gamyeonping_2.png" style="width: 100%"></div>
+  			<div class="card-body my-auto">
+  				<h3>Check this!</h3>
+  			<p class="card-text">As season 2 is now over, I created an article containing everything you need to know about what happens in the finale (and believe me, there is a lot to cover!), as well as some theories I came up with for next season. <a class="stretched-link" href="test">Click here to read!</a></p></div>
+  		</div>-->
+		<div class="alert alert-warning mb-4">The site may or may already encounter some high traffic problem, making the videos temporary unavailable (because of download limits). If it is the case, just stay patient, the videos should come back soon!</div>
+		<div id="episodesContainer" class="row"></div>
+		<!-- <h2 class="display-5 fw-bold mb-3 pt-4">Next week</h2>
+		<div class="row">
+			<div class="col-md-6">
 				<div class="ratio ratio-16x9"><iframe id="nwTrailer" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 			</div>
   			<div class="col-md-6 ps-md-5 pb-3">
@@ -44,9 +48,9 @@
 				<p id="nwDesc" class="col-lg-9"></p>
 				<h4 id="nwAirdate" class="fw-bold pt-4"></h4>
   			</div>
-  		</div>
-	</div> -->
-	<footer class="bg-light text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);"><a href="https://catchteenieping.fandom.com/f/p/4400000000000024153" target="_blank">Made with love by Glowsham</a> ❤</div></footer>
+  		</div> -->
+  	</div>
+	<footer class="bg-light mt-5 text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);"><a href="https://catchteenieping.fandom.com/f/p/4400000000000024153" target="_blank">Made with love by Glowsham</a> ❤</div></footer>
 
 	<script src="episodes.js"></script>
 	<script>
@@ -55,13 +59,15 @@
 		episodesList.pop();*/
 
 		episodesList.forEach((episode) => {
-			document.getElementById('episodesContainer').innerHTML += `<div class="col-sm-6 col-md-4 pb-3"><a href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `"><div class="card h-100">
+			episode[1].number = episode[1].number ? 'Episode ' + episode[1].number : undefined; 
+			episode[1].status = episode[1].status || episode[1].number || 'Coming soon';
+			document.getElementById('episodesContainer').innerHTML += `<div class="col-sm-6 col-md-4 pb-3"><div class="card h-100">
 					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top"></div>
 					<div class="card-body">
-						<h5 class="card-title">` + (episode[1].specialStatus || episode[0]) + `</h5>
-						<p class="card-text">` + episode[1].title + `</p>
+						<h5 class="card-title">` + episode[1].status + `</h5>
+						<p class="card-text"><a class="stretched-link" href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `">` + (episode[1].title || '') + `</a></p>
 					</div>
-				</div></a></div>`;
+				</div></div>`;
 		});
 
 		/*document.getElementById('nwTitle').innerHTML = nextEpisode.title;
