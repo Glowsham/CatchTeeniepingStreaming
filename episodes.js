@@ -83,7 +83,8 @@ const episodes = {
 		wikiPages: ["Gamyeonping", "Jennie", "Emotion Kingdom"],
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211278&authkey=ANxOTfp52nuDHWc",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX4muCdR2mY6EaNL"
+		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX4muCdR2mY6EaNL",
+		alternative: "https://uptostream.com/iframe/b27spzpg8gd9"
 	},
 	S2E26: {
 		number: 26,
