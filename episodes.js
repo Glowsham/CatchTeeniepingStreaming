@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E17: {
-		number: 17,
-		title: "The Jewel Teeniepings Got Stolen!",
-		description: "While everyone is sleeping, two thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
-		wikiPages: ["Thieves", "Jewelry Box"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211271&authkey=ALAyX7GbKRBpqDI",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXeVpFuC20Oba4PO"
-	},
 	S2E18: {
 		number: 18,
 		title: "Who Is The Real Heartsping?",
