@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E19: {
-		number: 19,
-		title: "Find The Gift Box!",
-		description: "Giftping likes to give gifts to everyone! But when she gets chased by Romi, instead of taking her prop, she takes another gift and runs... She will have to recover her magic prop, but how?",
-		wikiPages: ["Giftping", "Luca"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211272&authkey=APNKoue7wbpy85k",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXhf3m90OnPnIqtt"
-	},
 	S2E20: {
 		number: 20,
 		title: "I'm Going To Sculpt!",
