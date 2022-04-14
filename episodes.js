@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E20: {
-		number: 20,
-		title: "I'm Going To Sculpt!",
-		description: "Sculptping tries to sculpt a Teenieping of the Jewel Forest, but he can't remember her. Later, his statue is found by the Teeniepings, who take it at the Teenieping Academy. But suddenly, the statue starts to move!",
-		wikiPages: ["Sculptping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211273&authkey=AO354LpNvCRc044",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXmZpBHVdnFbq-cY"
-	},
 	S2E21: {
 		number: 21,
 		title: "Dangerous Picnic",
