@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E21: {
-		number: 21,
-		title: "Dangerous Picnic",
-		description: "Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Gamyeonping suddenly appears!",
-		wikiPages: ["Jennie", "Gamyeonping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211274&authkey=AERrugMJABqpVLk",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXoP-QmI7tSIESTP"
-	},
 	S2E22: {
 		number: 22,
 		title: "Pinker Teenieping Ballet",
