@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E22: {
-		number: 22,
-		title: "Pinker Teenieping Ballet",
-		description: "When Princess Ruby approaches Balletping, the latter reveals her secret: she wants to have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
-		wikiPages: ["Balletping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211275&authkey=AOxtq6RrjplHegw",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXt2fw4oj_rgAmlS"
-	},
 	S2E23: {
 		number: 23,
 		title: "Hero Teenieping, Wonderping!",
