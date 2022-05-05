@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E23: {
-		number: 23,
-		title: "Hero Teenieping, Wonderping!",
-		description: "Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
-		wikiPages: ["Wonderping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211276&authkey=AKkGJvCGAWmTFk0",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiXytBJZriGYIRxCS"
-	},
 	S2E24: {
 		number: 24,
 		title: "Teenieping Academy Graduation Ceremony",
