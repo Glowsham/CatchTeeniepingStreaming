@@ -4,15 +4,6 @@ const episodes = {
 		videoType: "redirect",
 		videoUrl: "https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes"
 	},
-	S2E24: {
-		number: 24,
-		title: "Teenieping Academy Graduation Ceremony",
-		description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping Academy. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
-		wikiPages: ["Teenieping Academy", "Jewel Teeniepings"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211277&authkey=AACvdgtA-Jlwnwo",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiX26qx0pSOIGUyQj"
-	},
 	S2E25: {
 		number: 25,
 		title: "Heartsping In Danger",
