@@ -7,15 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<style>
-		.stretched-link, .stretched-link:hover, .stretched-link:focus {color: inherit; text-decoration: inherit !important;}
+		/* .stretched-link, .stretched-link:hover, .stretched-link:focus {color: inherit; text-decoration: inherit !important;}
 		footer a, footer a:hover, footer a:focus, #nwAirdate {color: #e6ae15;}
 		.ratio iframe {border-radius: 0.25rem;}
 		@media (min-width: 1400px) {
 			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 				max-width: 1140px;
 			}
-		}
-		/* NEXT SEASON - html, body {
+		} */
+
+		html, body {
 			height: 100vh;
 			background-image: url("specialBackground.jpg");
 			background-size: cover;
@@ -24,39 +25,42 @@
 		}
 		#message {
 			text-shadow: black 0px 0px 20px, black 0px 0px 50px;
-		}*/
+		}
+		a, a:hover, a:focus {
+			color: inherit;
+		}
 	</style>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 
 		gtag('config', 'G-DDFYT5P728');
-	</script>
+	</script> -->
 </head>
 <body>
-	<!-- NEXT SEASON - <div class="d-flex h-100">
+	<div class="d-flex h-100">
 		<div id="message" class="text-center m-auto text-white px-4">
 			<h1 class="display-1 fw-bold">See you next season!</h1>
-			<div class="col-lg-8 mx-auto"><p class="lead fw-bold">You can now watch all the episodes of Season 2 in Korean on YouTube, with the help of the wiki guide. For now, the website will remain closed, but it will be back as soon as Season 3 starts!</p></div>
+			<div class="col-lg-7 mx-auto"><p class="lead fw-bold">As all the episodes of Season 2 are now available on the official Korean YouTube channel, the Catch! Teenieping TV will remain closed until next season. Check <a href="https://catchteenieping.fandom.com/wiki/Twinkle_Catch!_Teenieping#Episodes">this guide</a> to watch all the episodes (in Korean)!</p></div>
 		</div>
-	</div> -->
+	</div>
 
-	<div class="px-4 py-5 text-center">
+	<!-- <div class="px-4 py-5 text-center">
 		<h1 class="display-5 fw-bold">Welcome to the Catch! Teenieping TV!</h1>
 		<div class="col-lg-5 mx-auto"><p class="lead">Here, you can watch the latest episodes of season 2 of Catch! Teenieping that currently aren't available on YouTube. Enjoy!</p></div>
 	</div>
 	<div class="container pb-3">
-		<!--<div class="card mb-4 flex-row">
+		<div class="card mb-4 flex-row">
 			<div class="card-body col-xl-2 col-lg-3 col-md-6"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/a/af/Gamyeonping_2.png" style="width: 100%"></div>
   			<div class="card-body my-auto">
   				<h3>Check this!</h3>
   			<p class="card-text">As season 2 is now over, I created an article containing everything you need to know about what happens in the finale (and believe me, there is a lot to cover!), as well as some theories I came up with for next season. <a class="stretched-link" href="test">Click here to read!</a></p></div>
-  		</div>-->
-		<!-- <div class="alert alert-warning mb-4">The site may or may already encounter some high traffic problem, making the videos temporary unavailable (because of download limits). If it is the case, just stay patient, the videos should come back soon!<br><br>UPDATE: I am currently testing an alternative player, available for the latest episode. Feel free to try by clicking on the "Alternative player" button.</div> -->
+  		</div>
+		<div class="alert alert-warning mb-4">The site may or may already encounter some high traffic problem, making the videos temporary unavailable (because of download limits). If it is the case, just stay patient, the videos should come back soon!<br><br>UPDATE: I am currently testing an alternative player, available for the latest episode. Feel free to try by clicking on the "Alternative player" button.</div>
 		<div id="episodesContainer" class="row"></div>
-		<!-- <h2 class="display-5 fw-bold mb-3 pt-4">Next week</h2>
+		<<h2 class="display-5 fw-bold mb-3 pt-4">Next week</h2>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="ratio ratio-16x9"><iframe id="nwTrailer" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -66,15 +70,15 @@
 				<p id="nwDesc" class="col-lg-9"></p>
 				<h4 id="nwAirdate" class="fw-bold pt-4"></h4>
   			</div>
-  		</div> -->
+  		</div>
   	</div>
 	<footer class="bg-light mt-5 text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);"><a href="https://catchteenieping.fandom.com/f/p/4400000000000024153" target="_blank">Made with love by Glowsham</a> ❤</div></footer>
 
 	<script src="episodes.js"></script>
 	<script>
 		var episodesList = Object.entries(episodes);
-		/*var nextEpisode = episodesList[episodesList.length - 1][1];
-		episodesList.pop();*/
+		var nextEpisode = episodesList[episodesList.length - 1][1];
+		episodesList.pop();
 
 		episodesList.forEach((episode) => {
 			episode[1].number = episode[1].number ? 'Episode ' + episode[1].number : undefined; 
@@ -88,10 +92,10 @@
 				</div></div>`;
 		});
 
-		/*document.getElementById('nwTitle').innerHTML = nextEpisode.title;
+		document.getElementById('nwTitle').innerHTML = nextEpisode.title;
 		document.getElementById('nwDesc').innerHTML = nextEpisode.description;
 		document.getElementById('nwAirdate').innerHTML = 'Airing on Wednesday, ' + nextEpisode.airdate;
-		document.getElementById('nwTrailer').src = 'https://www.youtube.com/embed/' + nextEpisode.videoUrl;*/
-	</script>
+		document.getElementById('nwTrailer').src = 'https://www.youtube.com/embed/' + nextEpisode.videoUrl;
+	</script> -->
 </body>
 </html>
