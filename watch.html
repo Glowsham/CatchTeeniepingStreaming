@@ -7,6 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+		.fredoka {
+			font-family: 'Fredoka One';
+		}
+
 		footer a, #wikiLink, footer a:hover, #wikiLink:hover, footer a:focus, #wikiLink:focus {color: #e6ae15;}
 		.btn-primary, .btn-primary:hover, .btn-primary:focus {background: #e6ae15; border-color: #e6ae15;}
 		.btn-primary:focus {box-shadow: 0 0 0 0.25rem rgb(230, 174, 21, 0.5) !important;}
@@ -15,6 +20,19 @@
 			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 				max-width: 1140px;
 			}
+		}
+		@media (max-width: 544px) {
+			.display-4 {
+  				font-size: 3rem;
+  			}
+  			.display-6 {
+  				font-size: 2.25rem;
+  			}
+		}
+
+		.card .card-body img {
+			max-height: 9rem;
+			width: auto;
 		}
 	</style>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
@@ -28,12 +46,24 @@
 </head>
 <body>
 	<div class="px-4 pt-5 pb-4 text-center">
-		<h1 id="title" class="display-5 fw-bold">Unknown episode</h1>
+		<h1 id="title" class="display-5 fredoka">Unknown episode</h1>
 		<div id="description" class="col-lg-6 mx-auto"></div>
 	</div>
 	<div id="wikiPromo" class="pb-5 text-center"></div>
-	<div id="videoContainer" class="container pb-3"></div>
-	<footer class="bg-light mt-5 text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);"><a href="https://catchteenieping.fandom.com/f/p/4400000000000024153" target="_blank">Made with love by Glowsham</a> ❤</div></footer>
+	<div class="container">
+		<div id="noEp" class="card mb-3 flex-row" style="display: none">
+			<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/9/9d/Trueping.png"></div>
+  			<div class="card-body my-auto col-12">
+  				<h3>Coming soon!</h3>
+  				<p class="card-text">This episode has recently been aired in South Korea, but is yet to be added to the Catch! Teenieping TV. Just stay patient, it should come soon!</p>
+  			</div>
+  		</div>
+	</div>
+	<div id="videoContainer" class="container pb-2"></div>
+	<div class="container pb-3">
+		<div id="others" class="pt-4 text-center fw-bold">Other links<br></div>
+	</div>
+	<footer class="bg-light mt-5 text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);">Made with love by Glowsham ❤</div></footer>
 
 	<script src="episodes.js"></script>
 	<script>
@@ -50,31 +80,41 @@
 			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
 			document.getElementById('description').innerHTML = episode.description;
 			document.getElementById('title').innerHTML = (getParameter('altplayer') != 1 ? getParameter('episode') : 'Alternative') + ' - ' + episode.title;
+			var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '</div>';
 
-			if (getParameter('altplayer') == 1) {
+			if (episode.videoType === 'Dailymotion') {
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
+					<iframe src="https://www.dailymotion.com/embed/video/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>`;
+			} else if (episode.videoType === 'YouTube') {
+				document.getElementById('noEp').style.display = 'flex';
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
+					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>`;
+			}
+			/*if (getParameter('altplayer') === 1) {
 				document.getElementById('videoContainer').innerHTML = `<div class="alert alert-warning">This alternative player is a solution is found to allow you to watch episodes when the traffic is high. It contains some ads, but this is not my decision! Please tell me if you encounter any issues. Enjoy!</div>
 				<div class="ratio ratio-16x9">
 					<iframe src="` + episode.alternative + `" allowfullscreen></iframe>
 				</div><div class="px-4 pt-4 pb-3 text-center"><a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `">Go back to normal</a></div>`;
-			} else if (episode.videoType == 'OneDrive') {
-				var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '';
+			} else 
+			if (episode.videoType === 'OneDrive') {
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
 						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
 					</video>
 				</div><div class="pt-4 text-center">The video doesn\'t work?<br>
 				<a class="btn btn-primary m-1" href="` + episode.basicUrl + `" target="_blank">Watch on OneDrive</a>` + altLink;
-			} else if (episode.videoType == 'YouTube') {
-				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
-					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>`;
-			}
+			} else */
 
 			episode.wikiPages.unshift(episode.title);
 			document.getElementById('wikiPromo').innerHTML = 'On the <a id="wikiLink" href="https://catchteenieping.fandom.com/wiki/Catch!_Teenieping_Wiki" target="_blank">Catch! Teenieping Wiki</a>:<br>';
 			episode.wikiPages.forEach((link) => {
 				document.getElementById('wikiPromo').innerHTML += '<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/wiki/' + encodeURIComponent(link) + '" target="_blank">' + link + '</a>';
 			});
+
+			if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
+			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;
 		}
 	</script>
 </body>
