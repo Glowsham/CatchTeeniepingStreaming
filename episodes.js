@@ -18,5 +18,15 @@ const episodes = {
 		videoUrl: "x8dv2mz",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigggF0VAqcKGmksz"
 	},
-	S3E03: {}
+	S3E03: {
+		number: 3,
+		title: "Surfeiting is dangerous, Yamyam",
+		description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yamyamping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
+		wikiPages: ["Yamyamping"],
+		videoType: "YouTube",
+		videoUrl: "GLVhsoRwPNQ",
+		airdate: "September 28"
+	}
+
+
 }
