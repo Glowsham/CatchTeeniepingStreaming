@@ -24,7 +24,8 @@ const episodes = {
 		description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yamyamping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
 		wikiPages: ["Yamyamping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8e1nzy"
+		videoUrl: "x8e1nzy",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
 	},
 	S3E04: {}
 
