@@ -80,7 +80,7 @@
 			document.querySelector('title').innerHTML = getParameter('episode') + ' - Catch! Teenieping TV';
 			document.getElementById('description').innerHTML = episode.description;
 			document.getElementById('title').innerHTML = (getParameter('altplayer') != 1 ? getParameter('episode') : 'Alternative') + ' - ' + episode.title;
-			var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '</div>';
+			/*var altLink = episode.alternative ? `<a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `&altplayer=1">Alternative player</a></div>` : '</div>';*/
 
 			if (episode.videoType === 'Dailymotion') {
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
@@ -115,6 +115,7 @@
 
 			if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
 			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;
+			if (!episode.discussion && !episode.onedrive) document.getElementById('others').style.display = 'none';
 		}
 	</script>
 </body>
