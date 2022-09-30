@@ -27,7 +27,15 @@ const episodes = {
 		videoUrl: "x8e1nzy",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
 	},
-	S3E04: {}
+	S3E04: {
+		number: 4,
+		title: "Hot Hot Camping Commotion",
+		description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
+		wikiPages: ["Hotping"],
+		videoType: "YouTube",
+		videoUrl: "hp69bmJ697U",
+		airdate: "October 5"
+	}
 
 
 }
