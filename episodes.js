@@ -32,10 +32,9 @@ const episodes = {
 		title: "Hot Hot Camping Commotion",
 		description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
 		wikiPages: ["Hotping"],
-		videoType: "YouTube",
-		videoUrl: "hp69bmJ697U",
-		airdate: "October 5"
-	}
-
-
+		videoType: "Dailymotion",
+		videoUrl: "x8e7xan",
+		//onedrive: ""
+	},
+	S3E05: {}
 }
