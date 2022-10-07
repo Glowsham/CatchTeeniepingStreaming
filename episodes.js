@@ -36,5 +36,13 @@ const episodes = {
 		videoUrl: "x8e7xan",
 		//onedrive: ""
 	},
-	S3E05: {}
+	S3E05: {
+		number: 5,
+		title: "I'll Treat You, Beep",
+		description: "Beeping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
+		wikiPages: ["Beeping", "Beeping's assistants"],
+		videoType: "YouTube",
+		videoUrl: "yjN33St0dRo",
+		airdate: "October 12"
+	}
 }
