@@ -7,7 +7,7 @@ const episodes = {
 		videoType: "Dailymotion",
 		videoUrl: "x8dv2j6",
 		//discussion: "nf",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigeHv90T5pa0NoHH"
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigeHv90T5pa0NoHH"
 	},
 	S3E02: {
 		number: 2,
@@ -16,7 +16,7 @@ const episodes = {
 		wikiPages: ["Quickping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8dv2mz",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigggF0VAqcKGmksz"
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigggF0VAqcKGmksz"
 	},
 	S3E03: {
 		number: 3,
@@ -25,7 +25,7 @@ const episodes = {
 		wikiPages: ["Yamyamping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8e1nzy",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
 	},
 	S3E04: {
 		number: 4,
@@ -33,16 +33,15 @@ const episodes = {
 		description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
 		wikiPages: ["Hotping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8e7xan",
-		//onedrive: ""
+		videoUrl: "x8e7xan"
 	},
 	S3E05: {
 		number: 5,
-		title: "I'll Treat You, Beep",
-		description: "Beeping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
-		wikiPages: ["Beeping", "Beeping's assistants"],
-		videoType: "YouTube",
-		videoUrl: "yjN33St0dRo",
-		airdate: "October 12"
-	}
+		title: "I'll Treat You, Ppippo",
+		description: "Ppippoping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
+		wikiPages: ["Ppippoping", "Nurseping"],
+		videoType: "Dailymotion",
+		videoUrl: "x8eecq9"
+	},
+	S3E06: {}
 }
