@@ -67,10 +67,10 @@
 	</div>
 	<div class="container pb-md-4 pb-2">
 		<!-- <div class="card mb-4 flex-row">
-			<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/9/9d/Trueping.png"></div>
+			<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/c/c8/Trueping_render_1.png"></div>
   			<div class="card-body my-auto col-12">
-  				<h3>High traffic alert</h3>
-  				<p class="card-text">The site may or may already encounter some high traffic problem, making the videos temporary unavailable (because of download limits). If it is the case, just stay patient, the videos should come back soon!</p>
+  				<h3>Important notice</h3>
+  				<p class="card-text">Due to an <a class="stretched-link" href="https://catchteenieping.fandom.com/f/p/4400000000000028160">unexpected problem</a> from the live stream platform, the Catch! Teenieping TV is currently unable to record the newly released episodes. The situation should (hopefully) be resolved soon. Stay tuned for more info!</p>
   			</div>
   		</div> -->
 		<div id="episodesContainer" class="row pb-5"></div>
@@ -121,12 +121,10 @@
 		console.log(nextEpisode);
 
 		episodesList.forEach((episode) => {
-			episode[1].number = episode[1].videoType !== 'YouTube' ? 'Episode ' + episode[1].number : undefined; 
-			episode[1].status = episode[1].status || episode[1].number || 'Coming soon';
 			document.getElementById('episodesContainer').innerHTML += `<div class="col-lg-4 col-sm-6 pb-3"><div class="card h-100">
-					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top"></div>
+					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" onerror="this.src='thumbnails/comingSoon.jpg';" class="card-img-top"></div>
 					<div class="card-body">
-						<h5 class="card-title">` + episode[1].status + `</h5>
+						<h5 class="card-title">` + 'Episode ' + episode[1].number + `</h5>
 						<p class="card-text"><a class="stretched-link" href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `">` + (episode[1].title || '') + `</a></p>
 					</div>
 				</div></div>`;

@@ -48,8 +48,8 @@ const episodes = {
 		title: "Teenieping Hospital is Here",
 		description: "As Ppippoping just opened the new Teenieping Hospital, which didn't have as much success as planned, Nanaping suddenly faints and is taken by force by Ppippoping and her team! What in the world is going on?",
 		wikiPages: ["Ppippoping", "Nanaping"],
-		videoType: "YouTube",
-		videoUrl: "CMA3N3TjtVk",
-		airdate: "October 19"
-	}
+		videoType: "Dailymotion",
+		videoUrl: "x8epf43"
+	},
+	S3E07: {}
 }
