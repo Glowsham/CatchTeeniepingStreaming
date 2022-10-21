@@ -51,5 +51,13 @@ const episodes = {
 		videoType: "Dailymotion",
 		videoUrl: "x8epf43"
 	},
-	S3E07: {}
+	S3E07: {
+		number: 7,
+		title: "Cheer Cheer I’m a Cheerleader",
+		description: "Cheerping is here to help the people of Harmony Town! As Okeydokeyping can't manage to jump on the vaulting boxes, Cheerping makes a striking entrance into the Secret Castle to cheer her up!",
+		wikiPages: ["Cheerping"],
+		videoType: "YouTube",
+		videoUrl: "qGvAT2Ido94",
+		airdate: "October 26"
+	}
 }
