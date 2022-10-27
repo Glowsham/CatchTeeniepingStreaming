@@ -58,5 +58,6 @@ const episodes = {
 		wikiPages: ["Cheerping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8exuc0"
-	},S3E08:{}
+	},
+	S3E08:{}
 }
