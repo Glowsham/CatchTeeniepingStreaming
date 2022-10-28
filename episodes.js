@@ -37,17 +37,17 @@ const episodes = {
 	},
 	S3E05: {
 		number: 5,
-		title: "I'll Treat You, Ppippo",
-		description: "Ppippoping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
-		wikiPages: ["Ppippoping", "Nurseping"],
+		title: "I'll Treat You, Beep",
+		description: "Beeping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
+		wikiPages: ["Beeping", "Nurseping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8eecq9"
 	},
 	S3E06: {
 		number: 6,
 		title: "Teenieping Hospital is Here",
-		description: "As Ppippoping just opened the new Teenieping Hospital, which didn't have as much success as planned, Nanaping suddenly faints and is taken by force by Ppippoping and her team! What in the world is going on?",
-		wikiPages: ["Ppippoping", "Nanaping"],
+		description: "As Beeping just opened the new Teenieping Hospital, which didn't have as much success as planned, Nanaping suddenly faints and is taken by force by Beeping and her team! What in the world is going on?",
+		wikiPages: ["Beeping", "Nanaping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8epf43"
 	},
@@ -59,5 +59,13 @@ const episodes = {
 		videoType: "Dailymotion",
 		videoUrl: "x8exuc0"
 	},
-	S3E08:{}
+	S3E08:{
+		number: 8,
+		title: "Fix It, Fixping",
+		description: "The Teeniepings ignore Sarah's order and have fun with the robot vacuum, until it suddenly breaks! But luckily, Fixping arrives and uses his powers to fix the robot... But then, things get worse, as the robot became evil!",
+		wikiPages: ["Fixping"],
+		videoType: "YouTube",
+		videoUrl: "XMg62TPx-FE",
+		airdate: "November 2"
+	}
 }
