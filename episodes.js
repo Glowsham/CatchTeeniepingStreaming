@@ -64,8 +64,8 @@ const episodes = {
 		title: "Fix It, Fixping",
 		description: "The Teeniepings ignore Sarah's order and have fun with the robot vacuum, until it suddenly breaks! But luckily, Fixping arrives and uses his powers to fix the robot... But then, things get worse, as the robot became evil!",
 		wikiPages: ["Fixping"],
-		videoType: "YouTube",
-		videoUrl: "XMg62TPx-FE",
-		airdate: "November 2"
-	}
+		videoType: "Dailymotion",
+		videoUrl: "x8f55vt"
+	},
+	S3E09: {}
 }
