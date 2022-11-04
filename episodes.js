@@ -67,5 +67,13 @@ const episodes = {
 		videoType: "Dailymotion",
 		videoUrl: "x8f5bss"
 	},
-	S3E09: {}
+	S3E09: {
+		number: 9,
+		title: "Romi and Heartsping Have Changed",
+		description: "What a terrible fate: because of Araping, Romi and Heartsping have switched bodies! How will the girls make everything return to normal, and how will Romi catch Araping in those conditions? A crazy adventure awaits...",
+		wikiPages: ["Araping"],
+		videoType: "YouTube",
+		videoUrl: "oFeedxfg-Es",
+		airdate: "November 9"
+	}
 }
