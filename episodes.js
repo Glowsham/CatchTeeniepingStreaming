@@ -75,5 +75,13 @@ const episodes = {
 		videoType: "Dailymotion",
 		videoUrl: "x8fcv2r"
 	},
-	S3E10: {}
+	S3E10: {
+		number: 10,
+		title: "Snow White Romi",
+		description: "Romi and the Teeniepings have disappeared! Well, to be exact, they all get transported into Snow White's universe... the latter embodied by Romi in person! The Royal Teeniepings try to save them, but they make things even worse...",
+		wikiPages: ["Magical fairytale book"],
+		videoType: "YouTube",
+		videoUrl: "eKei5pEdmMw",
+		airdate: "November 16"
+	}
 }
