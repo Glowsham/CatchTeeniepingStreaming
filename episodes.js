@@ -82,5 +82,14 @@ const episodes = {
 		wikiPages: ["Magical fairytale book"],
 		videoType: "Dailymotion",
 		videoUrl: "x8fk0gh"
+	},
+	S3E11: {
+		number: 11,
+		title: "Fashionping is Making Clothes",
+		description: "Fashionping is giving Lena some very strange makeovers...",
+		wikiPages: ["Fashionping"],
+		videoType: "YouTube",
+		videoUrl: "FCizJw3Tfw4",
+		airdate: "November 23"
 	}
 }
