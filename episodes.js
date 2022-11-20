@@ -86,7 +86,7 @@ const episodes = {
 	S3E11: {
 		number: 11,
 		title: "Fashionping is Making Clothes",
-		description: "Fashionping is giving Lena some very strange makeovers...",
+		description: "Fashionping is giving very strange makeovers to Lena... But the fashion artist doesn't seem satisfied, so she looks for some more inspiration when she gets face to face with Princess Solaris... To whom she gives another makeover!",
 		wikiPages: ["Fashionping"],
 		videoType: "YouTube",
 		videoUrl: "FCizJw3Tfw4",
