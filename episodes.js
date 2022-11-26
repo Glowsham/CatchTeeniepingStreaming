@@ -93,11 +93,11 @@ const episodes = {
 	},
 	S3E12: {
 		number: 12,
-		title: "",
-		description: "",
-		wikiPages: [""],
-		//videoType: "YouTube",
-		videoUrl: "",
+		title: "Don't Move, Kkomttak",
+		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Kkomttakping enters the bakery: will he team up with Romi to find the missing rings?",
+		wikiPages: ["Kkomttakping"],
+		videoType: "YouTube",
+		videoUrl: "5s_11GI3xiE",
 		airdate: "November 30"
 	}
 }
