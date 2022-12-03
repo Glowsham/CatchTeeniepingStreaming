@@ -102,11 +102,20 @@ const episodes = {
 	},
 	S3E13: {
 		number: 13,
+		title: "Sweets Full of Luck",
+		description: "Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
+		wikiPages: ["Key Teeniepings", "Mystic Village"],
+		videoType: "YouTube",
+		videoUrl: "S33dDu-nrGI",
+		airdate: "December 7"
+	}/*,
+	S3E14: {
+		number: 14,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "December 7"
-	}
+	}*/
 }
