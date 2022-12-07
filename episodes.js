@@ -97,18 +97,16 @@ const episodes = {
 		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Kkomttakping enters the bakery: will he team up with Romi to find the missing rings?",
 		wikiPages: ["Kkomttakping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8fy8ll",
-		airdate: "November 30"
+		videoUrl: "x8fy8ll"
 	},
 	S3E13: {
 		number: 13,
 		title: "Sweets Full of Luck",
 		description: "Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
-		videoType: "YouTube",
-		videoUrl: "S33dDu-nrGI",
-		airdate: "December 7"
-	}/*,
+		videoType: "Dailymotion",
+		videoUrl: "x8g5249"
+	},
 	S3E14: {
 		number: 14,
 		title: "",
@@ -117,5 +115,5 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "December 7"
-	}*/
+	}
 }
