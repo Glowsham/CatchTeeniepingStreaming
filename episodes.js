@@ -110,12 +110,11 @@ const episodes = {
 	S3E14: {
 		number: 14,
 		title: "Splash Splash, Splashping",
-		description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium! That's when she is spotted by Romi...",
+		description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium!",
 		wikiPages: ["Splashping"],
-		videoType: "YouTube",
-		videoUrl: "hiwWPo3074Y",
-		airdate: "December 14"
-	}/*,
+		videoType: "Dailymotion",
+		videoUrl: "x8gbroi"
+	},
 	S3E15: {
 		number: 15,
 		title: "",
@@ -124,5 +123,5 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "December 21"
-	}*/
+	}
 }
