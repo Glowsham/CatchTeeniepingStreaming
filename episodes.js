@@ -120,10 +120,9 @@ const episodes = {
 		title: "Partyping and Party Party",
 		description: "Romi and Marylou are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a fail?",
 		wikiPages: ["Partyping"],
-		videoType: "YouTube",
-		videoUrl: "Xv0PRX1PAD4",
-		airdate: "December 21"
-	}/*,
+		videoType: "Dailymotion",
+		videoUrl: "x8gic4c"
+	},
 	S3E16: {
 		number: 16,
 		title: "",
@@ -132,5 +131,5 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "December 28"
-	}*/
+	}
 }
