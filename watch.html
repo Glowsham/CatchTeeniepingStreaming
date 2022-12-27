@@ -91,20 +91,19 @@
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
+			} else if (episode.videoType === 'OneDrive') {
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
+					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
+						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
+					</video>
+				</div><div class="pt-4 text-center">The video doesn\'t work?<br>
+				<a class="btn btn-primary m-1" href="` + episode.basicUrl + `" target="_blank">Watch on OneDrive</a></div>`;// + altLink;
 			}
 			/*if (getParameter('altplayer') === 1) {
 				document.getElementById('videoContainer').innerHTML = `<div class="alert alert-warning">This alternative player is a solution is found to allow you to watch episodes when the traffic is high. It contains some ads, but this is not my decision! Please tell me if you encounter any issues. Enjoy!</div>
 				<div class="ratio ratio-16x9">
 					<iframe src="` + episode.alternative + `" allowfullscreen></iframe>
 				</div><div class="px-4 pt-4 pb-3 text-center"><a class="btn btn-primary m-1" href="watch?episode=` + getParameter('episode') + `">Go back to normal</a></div>`;
-			} else 
-			if (episode.videoType === 'OneDrive') {
-				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
-					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
-						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
-					</video>
-				</div><div class="pt-4 text-center">The video doesn\'t work?<br>
-				<a class="btn btn-primary m-1" href="` + episode.basicUrl + `" target="_blank">Watch on OneDrive</a>` + altLink;
 			} else */
 
 			episode.wikiPages.unshift(episode.title);
@@ -113,8 +112,8 @@
 				document.getElementById('wikiPromo').innerHTML += '<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/wiki/' + encodeURIComponent(link) + '" target="_blank">' + link + '</a>';
 			});
 
-			if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
-			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;
+			/*if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
+			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;*/
 			if (!episode.discussion && !episode.onedrive) document.getElementById('others').style.display = 'none';
 		}
 	</script>
