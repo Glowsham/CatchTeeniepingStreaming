@@ -140,7 +140,8 @@ const episodes = {
 		description: "How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Decorationping. She gets ready to catch her, but the hairdresser won't let this happen!",
 		wikiPages: ["Decorationping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8gpkah"
+		videoUrl: "x8gpkah",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihZ-Hs_jYvft_yG1?e=7epMK4"
 	},
 	S3E17: {
 		number: 17,

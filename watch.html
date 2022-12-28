@@ -112,8 +112,8 @@
 				document.getElementById('wikiPromo').innerHTML += '<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/wiki/' + encodeURIComponent(link) + '" target="_blank">' + link + '</a>';
 			});
 
-			/*if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
-			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;*/
+			//if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
+			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;
 			if (!episode.discussion && !episode.onedrive) document.getElementById('others').style.display = 'none';
 		}
 	</script>
