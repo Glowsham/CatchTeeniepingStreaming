@@ -145,11 +145,20 @@ const episodes = {
 	},
 	S3E17: {
 		number: 17,
+		title: "Dad's Camera",
+		description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings in game?",
+		wikiPages: ["Maya"],
+		videoType: "YouTube",
+		videoUrl: "Fligd_KhQfc",
+		airdate: "January 4"
+	}/*,
+	S3E17: {
+		number: 17,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
-		airdate: "January 4"
-	}
+		airdate: "January 11"
+	}*/
 }
