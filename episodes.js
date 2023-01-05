@@ -74,8 +74,8 @@ const episodes = {
 	S3E09: {
 		number: 9,
 		title: "Romi and Heartsping Have Changed",
-		description: "What a terrible fate: because of Araping, Romi and Heartsping have switched bodies! How will the girls make everything return to normal, and how will Romi catch Araping in those conditions? A crazy adventure awaits...",
-		wikiPages: ["Araping"],
+		description: "What a terrible fate: because of Enchantping, Romi and Heartsping have switched bodies! How will the girls make everything return to normal, and how will Romi catch Enchantping in those conditions? A crazy adventure awaits...",
+		wikiPages: ["Enchantping"],
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211295&authkey=AF6yPY84pHmF9Cs",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig8XRHreSmoxyy8y?e=2aJb7L"
@@ -100,9 +100,9 @@ const episodes = {
 	},
 	S3E12: {
 		number: 12,
-		title: "Don't Move, Kkomttak",
-		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Kkomttakping enters the bakery: will he team up with Romi to find the missing rings?",
-		wikiPages: ["Kkomttakping"],
+		title: "Don't Move, Police",
+		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Policeping enters the bakery: will he team up with Romi to find the missing rings?",
+		wikiPages: ["Policeping"],
 		videoType: "OneDrive",
 		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211292&authkey=AApf-NLCotG6FFU",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigykwE6zOVd97mqm?e=nmuNH8"
@@ -136,9 +136,9 @@ const episodes = {
 	},
 	S3E16: {
 		number: 16,
-		title: "Make a Cool Hairdo, Decorationping",
+		title: "Make a Cool Hairdo, Decorping",
 		description: "How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Decorationping. She gets ready to catch her, but the hairdresser won't let this happen!",
-		wikiPages: ["Decorationping"],
+		wikiPages: ["Decorping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gpkah",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihZ-Hs_jYvft_yG1?e=7epMK4"
