@@ -4,63 +4,63 @@ const episodes = {
 		title: "Secret Key Teenieping",
 		description: "Jennie strikes once again, and releases all the Key Teeniepings to Earth! Meanwhile, Okeydokeyping, Nanaping, and Trueping, who watched the whole scene, jump into a portal to join them, and fall on Romi herself!",
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211287&authkey=AMAFKBP2kKzCRkk",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigeHv90T5pa0NoHH"
+		videoType: "Dailymotion",
+		videoUrl: "x8gpnld",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigeHv90T5pa0NoHH"
 	},
 	S3E02: {
 		number: 2,
 		title: "Transformation! Floraheart",
 		description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Quickping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Quickping's magic!",
 		wikiPages: ["Quickping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211288&authkey=AJ29bjJXZoCsRgU",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigggF0VAqcKGmksz"
+		videoType: "Dailymotion",
+		videoUrl: "x8gpnle",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigggF0VAqcKGmksz"
 	},
 	S3E03: {
 		number: 3,
 		title: "Surfeiting is dangerous, Yamyam",
 		description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yamyamping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
 		wikiPages: ["Yamyamping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211289&authkey=AAggEOKdnY3BC6k",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
+		videoType: "Dailymotion",
+		videoUrl: "x8gpnlf",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
 	},
 	S3E04: {
 		number: 4,
 		title: "Hot Hot Camping Commotion",
 		description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
 		wikiPages: ["Hotping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211299&authkey=AOxiSc4lr3edYmQ",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihNT3uV46qGn8llo?e=3d29ya"
+		videoType: "Dailymotion",
+		videoUrl: "x8gpnli",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihNT3uV46qGn8llo?e=3d29ya"
 	},
 	S3E05: {
 		number: 5,
 		title: "I'll Treat You, Beep",
 		description: "Beeping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
 		wikiPages: ["Beeping", "Nurseping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211297&authkey=AOCOFNkutWuaYXw",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihFN_PoFm63cvVqZ?e=fOGyEk"
+		videoType: "Dailymotion",
+		videoUrl: "x8gqzf3",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihFN_PoFm63cvVqZ?e=fOGyEk"
 	},
 	S3E06: {
 		number: 6,
 		title: "Teenieping Hospital is Here",
 		description: "As Beeping just opened the new Teenieping Hospital, which didn't have as much success as planned, Nanaping suddenly faints and is taken by force by Beeping and her team! What in the world is going on?",
 		wikiPages: ["Beeping", "Nanaping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211298&authkey=AK3d1PwLbMEG6BU",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihLtviRKhPz18jJM?e=wpHnjc"
+		videoType: "Dailymotion",
+		videoUrl: "x8gpnli",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihLtviRKhPz18jJM?e=wpHnjc"
 	},
 	S3E07: {
 		number: 7,
 		title: "Cheer Cheer I’m a Cheerleader",
 		description: "Cheerping is here to help the people of Harmony Town! As Okeydokeyping can't manage to jump on the vaulting boxes, Cheerping makes a striking entrance into the Secret Castle to cheer her up!",
 		wikiPages: ["Cheerping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211301&authkey=ACU7qR_vo8IDGZI",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihXjFuHQfszYvnql?e=gNcWky"
+		videoType: "Dailymotion",
+		videoUrl: "x8gqzf4",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihXjFuHQfszYvnql?e=gNcWky"
 	},
 	S3E08:{
 		number: 8,
@@ -148,9 +148,9 @@ const episodes = {
 		title: "Dad's Camera",
 		description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings in game?",
 		wikiPages: ["Maya"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211303&authkey=AIzFXHk74IrpQZE",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xiheWvGxGdg-t9BHr?e=1skfZh"
+		videoType: "Dailymotion",
+		videoUrl: "x8gy20x",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiheWvGxGdg-t9BHr?e=1skfZh"
 	},
 	S3E18: {
 		number: 18,
