@@ -157,10 +157,9 @@ const episodes = {
 		title: "I'm Gonna Pout, Sulkyping",
 		description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Sulkyping arrives and makes Okeydokeyping burst into tears...",
 		wikiPages: ["Sulkyping", "Okeydokeyping"],
-		videoType: "YouTube",
-		videoUrl: "PkOyPDYz0J0",
-		airdate: "January 11"
-	}/*,
+		videoType: "Dailymotion",
+		videoUrl: "x8h4iyi"
+	},
 	S3E19: {
 		number: 19,
 		title: "",
@@ -169,5 +168,14 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "January 18"
+	}/*,
+	S3E20: {
+		number: 20,
+		title: "",
+		description: "",
+		wikiPages: [""],
+		//videoType: "YouTube",
+		videoUrl: "",
+		airdate: "January 25"
 	}*/
 }
