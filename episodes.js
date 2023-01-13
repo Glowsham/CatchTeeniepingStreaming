@@ -6,7 +6,7 @@ const episodes = {
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gpnld",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigeHv90T5pa0NoHH"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihpOXmCdj9-LPjo0?e=7Wp15d"
 	},
 	S3E02: {
 		number: 2,
@@ -15,7 +15,7 @@ const episodes = {
 		wikiPages: ["Quickping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gpnle",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigggF0VAqcKGmksz"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihtL5U50a5zur17t?e=GQ2j7M"
 	},
 	S3E03: {
 		number: 3,
@@ -24,7 +24,7 @@ const episodes = {
 		wikiPages: ["Yamyamping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gpnlf",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiglFqNsv9I6X2YqA"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihleDcOD-T-CtmL7?e=lt2N6Y"
 	},
 	S3E04: {
 		number: 4,
@@ -67,8 +67,8 @@ const episodes = {
 		title: "Fix It, Fixping",
 		description: "The Teeniepings ignore Sarah's order and have fun with the robot vacuum, until it suddenly breaks! But luckily, Fixping arrives and uses his powers to fix the robot... But then, things get worse, as the robot became evil!",
 		wikiPages: ["Fixping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211300&authkey=AGdO7J1C4LNha8s",
+		videoType: "Dailymotion",
+		videoUrl: "x8h7gxn",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=YYHiuE"
 	},
 	S3E09: {
@@ -76,8 +76,8 @@ const episodes = {
 		title: "Romi and Heartsping Have Changed",
 		description: "What a terrible fate: because of Enchantping, Romi and Heartsping have switched bodies! How will the girls make everything return to normal, and how will Romi catch Enchantping in those conditions? A crazy adventure awaits...",
 		wikiPages: ["Enchantping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211295&authkey=AF6yPY84pHmF9Cs",
+		videoType: "Dailymotion",
+		videoUrl: "x8h7cmr",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig8XRHreSmoxyy8y?e=2aJb7L"
 	},
 	S3E10: {
@@ -85,8 +85,8 @@ const episodes = {
 		title: "Snow White Romi",
 		description: "Romi and the Teeniepings have disappeared! Well, to be exact, they all get transported into Snow White's universe... the latter embodied by Romi in person! The Royal Teeniepings try to save them, but they make things even worse...",
 		wikiPages: ["Magical fairytale book"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211296&authkey=AOCHFr5ALQ82QIM",
+		videoType: "Dailymotion",
+		videoUrl: "x8h7bmu",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihDwvDjK9J7LcJp9?e=3BTmcF"
 	},
 	S3E11: {
@@ -94,8 +94,8 @@ const episodes = {
 		title: "Fashionping is Making Clothes",
 		description: "Fashionping is giving very strange makeovers to Lena... But the fashion artist doesn't seem satisfied, so she looks for some more inspiration when she gets face to face with Princess Solaris... To whom she gives another makeover!",
 		wikiPages: ["Fashionping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211294&authkey=AMk-uw4xMzQZEl0",
+		videoType: "Dailymotion",
+		videoUrl: "x8h4t6p",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig4jAtM1wnTMMz0f?e=MPm7L0"
 	},
 	S3E12: {
@@ -103,8 +103,8 @@ const episodes = {
 		title: "Don't Move, Police",
 		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Policeping enters the bakery: will he team up with Romi to find the missing rings?",
 		wikiPages: ["Policeping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211292&authkey=AApf-NLCotG6FFU",
+		videoType: "Dailymotion",
+		videoUrl: "x8h4n19",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigykwE6zOVd97mqm?e=nmuNH8"
 	},
 	S3E13: {
@@ -112,8 +112,8 @@ const episodes = {
 		title: "Sweets Full of Luck",
 		description: "Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211293&authkey=AGxvg4PEnu6bJXE",
+		videoType: "Dailymotion",
+		videoUrl: "x8h02wd",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig3TgyiVGvnWuGdI?e=p6Iy3C"
 	},
 	S3E14: {
@@ -130,8 +130,8 @@ const episodes = {
 		title: "Partyping and Party Party",
 		description: "Romi and Marylou are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a fail?",
 		wikiPages: ["Partyping"],
-		videoType: "OneDrive",
-		videoUrl: "?cid=F11F4BE3C253D021&resid=F11F4BE3C253D021%211291&authkey=ADZeZw4ryC20SXE",
+		videoType: "Dailymotion",
+		videoUrl: "x8h4lbh",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=ag67I0"
 	},
 	S3E16: {
@@ -158,15 +158,16 @@ const episodes = {
 		description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Sulkyping arrives and makes Okeydokeyping burst into tears...",
 		wikiPages: ["Sulkyping", "Okeydokeyping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8h4iyi"
+		videoUrl: "x8h4iyi",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihiKrD_T25wa5Gvg?e=hXd5hV"
 	},
 	S3E19: {
 		number: 19,
-		title: "",
-		description: "",
-		wikiPages: [""],
-		//videoType: "YouTube",
-		videoUrl: "",
+		title: "Finding Romi's Necklace",
+		description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
+		wikiPages: ["Romi", "Jennie"],
+		videoType: "YouTube",
+		videoUrl: "V_TsRX3CPiM",
 		airdate: "January 18"
 	}/*,
 	S3E20: {
