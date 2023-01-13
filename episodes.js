@@ -69,7 +69,7 @@ const episodes = {
 		wikiPages: ["Fixping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h7gxn",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=YYHiuE"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=YYHiuE"
 	},
 	S3E09: {
 		number: 9,
@@ -78,7 +78,7 @@ const episodes = {
 		wikiPages: ["Enchantping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h7cmr",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig8XRHreSmoxyy8y?e=2aJb7L"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig8XRHreSmoxyy8y?e=2aJb7L"
 	},
 	S3E10: {
 		number: 10,
@@ -87,7 +87,7 @@ const episodes = {
 		wikiPages: ["Magical fairytale book"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h7bmu",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihDwvDjK9J7LcJp9?e=3BTmcF"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihDwvDjK9J7LcJp9?e=3BTmcF"
 	},
 	S3E11: {
 		number: 11,
@@ -96,7 +96,7 @@ const episodes = {
 		wikiPages: ["Fashionping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h4t6p",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig4jAtM1wnTMMz0f?e=MPm7L0"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig4jAtM1wnTMMz0f?e=MPm7L0"
 	},
 	S3E12: {
 		number: 12,
@@ -105,7 +105,7 @@ const episodes = {
 		wikiPages: ["Policeping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h4n19",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigykwE6zOVd97mqm?e=nmuNH8"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigykwE6zOVd97mqm?e=nmuNH8"
 	},
 	S3E13: {
 		number: 13,
@@ -114,7 +114,7 @@ const episodes = {
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h02wd",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xig3TgyiVGvnWuGdI?e=p6Iy3C"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig3TgyiVGvnWuGdI?e=p6Iy3C"
 	},
 	S3E14: {
 		number: 14,
@@ -132,7 +132,7 @@ const episodes = {
 		wikiPages: ["Partyping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h4lbh",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=ag67I0"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=ag67I0"
 	},
 	S3E16: {
 		number: 16,
