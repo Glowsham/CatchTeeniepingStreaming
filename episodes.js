@@ -100,7 +100,7 @@ const episodes = {
 	},
 	S3E12: {
 		number: 12,
-		title: "Don't Move, Police",
+		title: "Don't Move, Policeping",
 		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Policeping enters the bakery: will he team up with Romi to find the missing rings?",
 		wikiPages: ["Policeping"],
 		videoType: "Dailymotion",
@@ -166,10 +166,10 @@ const episodes = {
 		title: "Finding Romi's Necklace",
 		description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
 		wikiPages: ["Romi", "Jennie"],
-		videoType: "YouTube",
-		videoUrl: "V_TsRX3CPiM",
-		airdate: "January 18"
-	}/*,
+		videoType: "Dailymotion",
+		videoUrl: "x8hcmfy",
+		//onedrive: ""
+	},
 	S3E20: {
 		number: 20,
 		title: "",
@@ -178,5 +178,5 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "January 25"
-	}*/
+	}
 }
