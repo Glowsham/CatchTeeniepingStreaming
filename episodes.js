@@ -168,7 +168,7 @@ const episodes = {
 		wikiPages: ["Romi", "Jennie"],
 		videoType: "Dailymotion",
 		videoUrl: "x8hcmfy",
-		//onedrive: ""
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihyPDFfMoPhmwcBr?e=Pc5Zbc"
 	},
 	S3E20: {
 		number: 20,
