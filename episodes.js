@@ -172,11 +172,20 @@ const episodes = {
 	},
 	S3E20: {
 		number: 20,
+		title: "Singing, Aah~ ping",
+		description: "Aahping, the singer Teenieping, has the notes of her score spread out because of a bird! These notes stick onto someone and modify their voice... Romi and the Teeniepings soon enough realize the situation, and decide to look for the Teenieping!",
+		wikiPages: ["Aahping"],
+		videoType: "YouTube",
+		videoUrl: "S8cZbfJo8WY",
+		airdate: "January 25"
+	}/*,
+	S3E20: {
+		number: 21,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
-		airdate: "January 25"
-	}
+		airdate: "February 1"
+	}*/
 }
