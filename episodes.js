@@ -179,7 +179,7 @@ const episodes = {
 		videoUrl: "x8hk442",
 		airdate: "January 25"
 	},
-	S3E20: {
+	S3E21: {
 		number: 21,
 		title: "",
 		description: "",
