@@ -177,7 +177,7 @@ const episodes = {
 		wikiPages: ["Aahping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8hk442",
-		airdate: "January 25"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih0UphQ01EXZn7iC?e=wjIUYe"
 	},
 	S3E21: {
 		number: 21,
