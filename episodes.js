@@ -181,11 +181,20 @@ const episodes = {
 	},
 	S3E21: {
 		number: 21,
+		title: "Let’s Play Together, Teenieping Amusement Park",
+		description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
+		wikiPages: ["Secret Castle", "Onlyping"],
+		videoType: "YouTube",
+		videoUrl: "8AjkS4jcXyk",
+		airdate: "February 1"
+	}/*,
+	S3E22: {
+		number: 22,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
-		airdate: "February 1"
-	}
+		airdate: "February 8"
+	}*/
 }
