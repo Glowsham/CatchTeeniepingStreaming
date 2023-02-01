@@ -55,7 +55,7 @@
 			<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/c/c8/Trueping_render_1.png"></div>
   			<div class="card-body my-auto col-12">
   				<h3>Coming soon!</h3>
-  				<p class="card-text">This episode has recently been aired in South Korea, but is yet to be added to the Catch! Teenieping TV. Just stay patient, it should (hopefully) come soon!</p>
+  				<p class="card-text" id="notice">This episode has recently been aired in South Korea, but is yet to be added to the Catch! Teenieping TV. Just stay patient, it should (hopefully) come soon!</p>
   			</div>
   		</div>
 	</div>
@@ -88,6 +88,7 @@
 				</div>`;
 			} else if (episode.videoType === 'YouTube') {
 				document.getElementById('noEp').style.display = 'flex';
+				if (episode.airdate) document.getElementById('notice').innerHTML = `I know you really want to watch the new episode, but I'm afraid you're gonna have to stay patient for a little longer, as this episode airs on <b>Wednesday, ` + episode.airdate + `</b>. Meanwhile, if you really can't wait, you can still watch that trailer again!`;
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
