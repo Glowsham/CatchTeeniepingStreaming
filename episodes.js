@@ -185,7 +185,8 @@ const episodes = {
 		description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
 		wikiPages: ["Secret Castle", "Onlyping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8ht5ll"
+		videoUrl: "x8ht5ll",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih6ex3eublIySlEl?e=afpXyo"
 	},
 	S3E22: {
 		number: 22,
