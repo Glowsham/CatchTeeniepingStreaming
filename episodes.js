@@ -194,7 +194,8 @@ const episodes = {
 		description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
 		wikiPages: ["Twirlping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8i3nwk"
+		videoUrl: "x8i3nwk",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih8Ivto_taDT4xL8?e=KY8MXe"
 	},
 	S3E23: {
 		number: 23,
