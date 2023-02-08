@@ -181,7 +181,7 @@ const episodes = {
 	},
 	S3E21: {
 		number: 21,
-		title: "Let’s Play Together, Teenieping Amusement Park",
+		title: "Let’s Play Together, Teenieping Park",
 		description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
 		wikiPages: ["Secret Castle", "Onlyping"],
 		videoType: "Dailymotion",
@@ -194,9 +194,8 @@ const episodes = {
 		description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
 		wikiPages: ["Twirlping"],
 		videoType: "YouTube",
-		videoUrl: "3fDI1ni7iTM",
-		airdate: "February 8"
-	}/*,
+		videoUrl: "x8i3nwk"
+	},
 	S3E23: {
 		number: 23,
 		title: "",
@@ -205,5 +204,5 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "February 15"
-	}*/
+	}
 }

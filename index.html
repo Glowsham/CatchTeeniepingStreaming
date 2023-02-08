@@ -70,7 +70,7 @@
 </head>
 <body>
 	<div class="px-4 py-5 text-center">
-		<h1 class="fredoka display-4">Welcome to the Catch! Teenieping TV!</h1>
+		<h1 class="fredoka display-4">- Catch! Teenieping TV -</h1>
 		<div class="col-lg-5 mx-auto"><p class="lead">The Catch! Teenieping TV is back for Season 3! This site allows you to watch the newly released Season 3 episodes in Korean. Enjoy!</p></div>
 	</div>
 	<div class="container pb-md-4 pb-2">
@@ -108,10 +108,17 @@
   		<h2 class="display-6 fredoka mb-3 text-md-start text-center">Announcements</h2>
 		<div class="row pb-5">
 			<div>
+				<div class="card flex-row mb-3">
+					<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/c/c8/Trueping_render_1.png"></div>
+  					<div class="card-body my-auto col-12">
+  						<h3>Watch the premieres live!</h3>
+  						<p class="card-text me-md-5">For this season's end, you can watch the premieres of the episodes (9 a.m. UTC) on the Catch! Teenieping TV's Twitch channel (<a class="stretched-link" href="https://www.twitch.tv/glowsham">click here!</a>). This is a new experimental setup, so feel free to give any feedback you may have!</p>
+  					</div>
+  				</div>
 				<div class="card flex-row">
 					<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/b/b9/Nanaping_render_1.png"></div>
   					<div class="card-body my-auto col-12">
-  						<h3>We need your help!</h3>
+  						<h3>Looking for translators!</h3>
   						<p class="card-text me-md-5">Are you speaking Korean? If you are, then help us translate the episodes so everyone can watch them! To start, you can either introduce yourself to the Catch! Teenieping Wiki (<a class="stretched-link" href="https://catchteenieping.fandom.com/f">click here!</a>) or via Discord (Glowsham#9081). Any help (if only for a single episode) would truly be appreciated!</p>
   					</div>
   				</div>
@@ -131,12 +138,13 @@
 
 		episodesList.forEach((episode) => {
 			document.getElementById('episodesContainer').innerHTML += `<div class="col-lg-4 col-sm-6 pb-3"><div class="card h-100">
-					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" onerror="this.src='thumbnails/comingSoon.jpg';" class="card-img-top"></div>
+					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top"></div>
 					<div class="card-body">
 						<h5 class="card-title">` + 'Episode ' + episode[1].number + `</h5>
 						<p class="card-text"><a class="stretched-link" href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `">` + (episode[1].title || '') + `</a></p>
 					</div>
 				</div></div>`;
+				// onerror="this.src='thumbnails/comingSoon.jpg';"
 		});
 
 		if (nextEpisode.videoType === 'YouTube') {
