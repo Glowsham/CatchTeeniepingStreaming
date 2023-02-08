@@ -193,7 +193,7 @@ const episodes = {
 		title: "Going Round and Round",
 		description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
 		wikiPages: ["Twirlping"],
-		videoType: "YouTube",
+		videoType: "Dailymotion",
 		videoUrl: "x8i3nwk"
 	},
 	S3E23: {
