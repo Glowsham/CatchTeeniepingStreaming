@@ -199,11 +199,20 @@ const episodes = {
 	},
 	S3E23: {
 		number: 23,
+		title: "Appear! Luckyping",
+		description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
+		wikiPages: ["Onlyping", "Jennie", "Flowyping"],
+		videoType: "YouTube",
+		videoUrl: "CZACS7WEnoY",
+		airdate: "February 15"
+	}/*,
+	S3E23: {
+		number: 24,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
-		airdate: "February 15"
-	}
+		airdate: "February 22"
+	}*/
 }
