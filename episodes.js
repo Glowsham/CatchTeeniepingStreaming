@@ -203,7 +203,8 @@ const episodes = {
 		description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
 		wikiPages: ["Onlyping", "Jennie", "Flowyping"],
 		videoType: "Dailymotion",
-		videoUrl: "x8ibeeq"
+		videoUrl: "x8ibeeq",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
 	},
 	S3E24: {
 		number: 24,
