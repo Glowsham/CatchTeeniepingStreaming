@@ -39,7 +39,7 @@ const episodes = {
 		number: 5,
 		title: "I'll Treat You, Beep",
 		description: "Beeping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
-		wikiPages: ["Beeping", "Nurseping"],
+		wikiPages: ["Beeping", "Nursepings"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gqzf3",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihFN_PoFm63cvVqZ?e=fOGyEk"
@@ -111,7 +111,7 @@ const episodes = {
 		number: 13,
 		title: "Sweets Full of Luck",
 		description: "Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
-		wikiPages: ["Key Teeniepings", "Mystic Village"],
+		wikiPages: ["Key Teeniepings", "Mystic Village", "Luckyping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h02wd",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig3TgyiVGvnWuGdI?e=p6Iy3C"
@@ -129,7 +129,7 @@ const episodes = {
 		number: 15,
 		title: "Partyping and Party Party",
 		description: "Romi and Marylou are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a fail?",
-		wikiPages: ["Partyping"],
+		wikiPages: ["Partyping", "Marylou"],
 		videoType: "Dailymotion",
 		videoUrl: "x8h4lbh",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=ag67I0"
@@ -138,7 +138,7 @@ const episodes = {
 		number: 16,
 		title: "Make a Cool Hairdo, Decorping",
 		description: "How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Decorationping. She gets ready to catch her, but the hairdresser won't let this happen!",
-		wikiPages: ["Decorping"],
+		wikiPages: ["Decorping", "Bibi"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gpkah",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihZ-Hs_jYvft_yG1?e=7epMK4"
@@ -147,7 +147,7 @@ const episodes = {
 		number: 17,
 		title: "Dad's Camera",
 		description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings in game?",
-		wikiPages: ["Maya"],
+		wikiPages: ["Maya", "Maya's father"],
 		videoType: "Dailymotion",
 		videoUrl: "x8gy20x",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiheWvGxGdg-t9BHr?e=1skfZh"
@@ -201,18 +201,27 @@ const episodes = {
 		number: 23,
 		title: "Appear! Luckyping",
 		description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
-		wikiPages: ["Onlyping", "Jennie", "Flowyping"],
+		wikiPages: ["Master Key", "Onlyping", "Jennie", "Flowyping"],
 		videoType: "Dailymotion",
 		videoUrl: "x8ibeeq",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
 	},
 	S3E24: {
 		number: 24,
+		title: "Teenieping Fashion Show",
+		description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Policeping comes across something weird...",
+		wikiPages: ["Luckyping", "Fashionping", "Mystic Village"],
+		videoType: "YouTube",
+		videoUrl: "LnH1WPr70Xc",
+		airdate: "February 22"
+	}/*,
+	S3E25: {
+		number: 25,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
-		airdate: "February 22"
-	}
+		airdate: "March 1"
+	}*/
 }
