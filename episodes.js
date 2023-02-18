@@ -175,8 +175,8 @@ const episodes = {
 		title: "Singing, Aah~ ping",
 		description: "Aahping, the singer Teenieping, has the notes of her score spread out because of a bird! These notes stick onto someone and modify their voice... Romi and the Teeniepings soon enough realize the situation, and decide to look for the Teenieping!",
 		wikiPages: ["Aahping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8hk442",
+		videoType: "Bilibili",
+		videoUrl: "2042139334",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih0UphQ01EXZn7iC?e=wjIUYe"
 	},
 	S3E21: {
@@ -184,8 +184,8 @@ const episodes = {
 		title: "Let’s Play Together, Teenieping Park",
 		description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
 		wikiPages: ["Secret Castle", "Onlyping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8ht5ll",
+		videoType: "Bilibili",
+		videoUrl: "4786164724665344",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih6ex3eublIySlEl?e=afpXyo"
 	},
 	S3E22: {
@@ -193,8 +193,8 @@ const episodes = {
 		title: "Going Round and Round",
 		description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
 		wikiPages: ["Twirlping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8i3nwk",
+		videoType: "Bilibili",
+		videoUrl: "4786164274301952",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih8Ivto_taDT4xL8?e=KY8MXe"
 	},
 	S3E23: {
@@ -202,8 +202,8 @@ const episodes = {
 		title: "Appear! Luckyping",
 		description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
 		wikiPages: ["Master Key", "Onlyping", "Jennie", "Flowyping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8ibeeq",
+		videoType: "Bilibili",
+		videoUrl: "2045004862",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
 	},
 	S3E24: {

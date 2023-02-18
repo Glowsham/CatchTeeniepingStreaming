@@ -15,7 +15,7 @@
 		footer a, #wikiLink, footer a:hover, #wikiLink:hover, footer a:focus, #wikiLink:focus {color: #e6ae15;}
 		.btn-primary, .btn-primary:hover, .btn-primary:focus {background: #e6ae15; border-color: #e6ae15;}
 		.btn-primary:focus {box-shadow: 0 0 0 0.25rem rgb(230, 174, 21, 0.5) !important;}
-		.ratio video, .ratio iframe {border-radius: 0.25rem;}
+		.ratio video, .ratio iframe, .ratio.playContainer {border-radius: 0.25rem;}
 		@media (min-width: 1400px) {
 			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
 				max-width: 1140px;
@@ -33,6 +33,18 @@
 		.card .card-body img {
 			max-height: 9rem;
 			width: auto;
+		}
+
+		.playContainer {
+			background-size: cover;
+		}
+		.playContainer a {
+			display: grid;
+			place-items: center;
+		}
+		.playButton {
+			width: 20%;
+			filter: drop-shadow(0 0 50px rgba(0,0,0,1));
 		}
 	</style>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
@@ -86,6 +98,8 @@
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.dailymotion.com/embed/video/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
+			} else if (episode.videoType === 'Bilibili') {
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9 playContainer" style="background-image: url('thumbnails/S3E` + episode.number + `.jpg')"><a href="https://www.bilibili.tv/en/video/` + episode.videoUrl + `"><img src="keyhole.png" class="playButton"></a></div>`;
 			} else if (episode.videoType === 'YouTube') {
 				document.getElementById('noEp').style.display = 'flex';
 				if (episode.airdate) document.getElementById('notice').innerHTML = `I know you really want to watch the new episode, but I'm afraid you're gonna have to stay patient for a little longer, as this episode airs on <b>Wednesday, ` + episode.airdate + `</b>. Meanwhile, if you really can't wait, you can still watch that trailer again!`;
