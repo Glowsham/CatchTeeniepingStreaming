@@ -157,8 +157,8 @@ const episodes = {
 		title: "I'm Gonna Pout, Sulkyping",
 		description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Sulkyping arrives and makes Okeydokeyping burst into tears...",
 		wikiPages: ["Sulkyping", "Okeydokeyping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8h4iyi",
+		videoType: "Bilibili",
+		videoUrl: "4786166488763904",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihiKrD_T25wa5Gvg?e=hXd5hV"
 	},
 	S3E19: {
@@ -166,8 +166,8 @@ const episodes = {
 		title: "Finding Romi's Necklace",
 		description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
 		wikiPages: ["Romi", "Jennie"],
-		videoType: "Dailymotion",
-		videoUrl: "x8hcmfy",
+		videoType: "Bilibili",
+		videoUrl: "2049865082",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihyPDFfMoPhmwcBr?e=Pc5Zbc"
 	},
 	S3E20: {
