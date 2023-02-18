@@ -148,8 +148,8 @@ const episodes = {
 		title: "Dad's Camera",
 		description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings in game?",
 		wikiPages: ["Maya", "Maya's father"],
-		videoType: "Dailymotion",
-		videoUrl: "x8gy20x",
+		videoType: "Bilibili",
+		videoUrl: "2041313470",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiheWvGxGdg-t9BHr?e=1skfZh"
 	},
 	S3E18: {
