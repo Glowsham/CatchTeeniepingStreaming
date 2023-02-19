@@ -126,7 +126,7 @@ const episodes = {
 		wikiPages: ["Splashping"],
 		videoType: "Bilibili",
 		videoUrl: "2049319418",
-		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigpyFbRkpNo_r3jf?e=XPidAQ"
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigpyFbRkpNo_r3jf?e=XPidAQ"
 	},
 	S3E15: {
 		number: 15,
