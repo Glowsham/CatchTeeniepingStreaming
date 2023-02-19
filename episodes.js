@@ -124,7 +124,7 @@ const episodes = {
 		title: "Splash Splash, Splashping",
 		description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium!",
 		wikiPages: ["Splashping"],
-		videoType: "Dailymotion",
+		videoType: "Bilibili",
 		videoUrl: "2049319418",
 		basicUrl: "https://1drv.ms/v/s!AiHQU8LjSx_xigpyFbRkpNo_r3jf?e=XPidAQ"
 	},
