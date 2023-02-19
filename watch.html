@@ -73,7 +73,7 @@
 	</div>
 	<div id="videoContainer" class="container pb-2"></div>
 	<div class="container pb-3">
-		<div id="others" class="pt-4 text-center fw-bold">Other links<br></div>
+		<div id="others" class="pt-4 text-center fw-bold">Other solutions<br></div>
 	</div>
 	<footer class="bg-light mt-5 text-center text-lg-start"><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.01);">Made with love by Glowsham ❤</div></footer>
 
@@ -99,21 +99,21 @@
 					<iframe src="https://www.dailymotion.com/embed/video/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
 			} else if (episode.videoType === 'Bilibili') {
-				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9 playContainer" style="background-image: url('thumbnails/S3E` + episode.number + `.jpg')"><a href="https://www.bilibili.tv/en/video/` + episode.videoUrl + `"><img src="keyhole.png" class="playButton"></a></div>`;
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9 playContainer" style="background-image: url('thumbnails/` + Object.keys(episodes)[episode.number - 1] + `.jpg')"><a href="https://www.bilibili.tv/en/video/` + episode.videoUrl + `"><img src="keyhole.png" class="playButton"></a></div>`;
 			} else if (episode.videoType === 'YouTube') {
 				document.getElementById('noEp').style.display = 'flex';
 				if (episode.airdate) document.getElementById('notice').innerHTML = `I know you really want to watch the new episode, but I'm afraid you're gonna have to stay patient for a little longer, as this episode airs on <b>Wednesday, ` + episode.airdate + `</b>. Meanwhile, if you really can't wait, you can still watch that trailer again!`;
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
-			} else if (episode.videoType === 'OneDrive') {
+			}/* else if (episode.videoType === 'OneDrive') {
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<video controls poster="thumbnails/` + getParameter('episode') + `.jpg">
 						<source src="https://onedrive.live.com/download` + episode.videoUrl + `" type="video/mp4" />
 					</video>
 				</div><div class="pt-4 text-center">The video doesn\'t work?<br>
 				<a class="btn btn-primary m-1" href="` + episode.basicUrl + `" target="_blank">Watch on OneDrive</a></div>`;// + altLink;
-			}
+			}*/
 			/*if (getParameter('altplayer') === 1) {
 				document.getElementById('videoContainer').innerHTML = `<div class="alert alert-warning">This alternative player is a solution is found to allow you to watch episodes when the traffic is high. It contains some ads, but this is not my decision! Please tell me if you encounter any issues. Enjoy!</div>
 				<div class="ratio ratio-16x9">
@@ -128,7 +128,8 @@
 			});
 
 			//if (episode.discussion) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://catchteenieping.fandom.com/f/p/` + episode.discussion + `" target="_blank">Episode discussion</a>`;
-			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive download</a>`;
+			if (episode.bilibili) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="https://www.bilibili.tv/video/` + episode.bilibili + `" target="_blank">Bilibili</a>`;
+			if (episode.onedrive) document.getElementById('others').innerHTML += `<a class="btn btn-primary m-1" href="` + episode.onedrive + `" target="_blank">OneDrive & download</a>`;
 			if (!episode.discussion && !episode.onedrive) document.getElementById('others').style.display = 'none';
 		}
 	</script>
