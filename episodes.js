@@ -4,9 +4,8 @@ const episodes = {
 		title: "Secret Key Teenieping",
 		description: "Jennie strikes once again, and releases all the Key Teeniepings to Earth! Meanwhile, Okeydokeyping, Nanaping, and Trueping, who watched the whole scene, jump into a portal to join them, and fall on Romi herself!",
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
-		videoType: "Dailymotion",
-		videoUrl: "x8iflbi",
-		bilibili: "2042625987",
+		videoType: "Bilibili",
+		videoUrl: "2042625987",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihpOXmCdj9-LPjo0?e=7Wp15d"
 	},
 	S3E02: {
@@ -14,9 +13,8 @@ const episodes = {
 		title: "Transformation! Floraheart",
 		description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Quickping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Quickping's magic!",
 		wikiPages: ["Quickping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8iflbr",
-		bilibili: "2044419442",
+		videoType: "Bilibili",
+		videoUrl: "2044419442",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihtL5U50a5zur17t?e=GQ2j7M"
 	},
 	S3E03: {
@@ -24,9 +22,8 @@ const episodes = {
 		title: "Surfeiting is dangerous, Yamyam",
 		description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yamyamping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
 		wikiPages: ["Yamyamping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8iflc5",
-		bilibili: "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+		videoType: "Bilibili",
+		videoUrl: "4786175238606336",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihleDcOD-T-CtmL7?e=lt2N6Y"
 	},
 	S3E04: {
