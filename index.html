@@ -140,9 +140,6 @@
 		var nextEpisode = episodesList[episodesList.length - 1][1];
 		episodesList.pop();
 
-		console.log(episodesList);
-		console.log(nextEpisode);
-
 		episodesList.forEach((episode) => {
 			document.getElementById('episodesContainer').innerHTML += `<div class="col-lg-4 col-sm-6 pb-3"><div class="card h-100">
 					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top"></div>

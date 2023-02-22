@@ -213,7 +213,7 @@ const episodes = {
 		wikiPages: ["Luckyping", "Fashionping", "Mystic Village"],
 		videoType: "Bilibili",
 		videoUrl: "2046292485"
-	}/*,
+	},
 	S3E25: {
 		number: 25,
 		title: "",
@@ -222,5 +222,5 @@ const episodes = {
 		//videoType: "YouTube",
 		videoUrl: "",
 		airdate: "March 1"
-	}*/
+	}
 }
