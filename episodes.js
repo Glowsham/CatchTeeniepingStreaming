@@ -204,6 +204,7 @@ const episodes = {
 		wikiPages: ["Master Key", "Onlyping", "Jennie", "Flowyping"],
 		videoType: "Bilibili",
 		videoUrl: "2045004862",
+		dailymotion: "x8igo54",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
 	},
 	S3E24: {
@@ -212,7 +213,9 @@ const episodes = {
 		description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Policeping comes across something weird...",
 		wikiPages: ["Luckyping", "Fashionping", "Mystic Village"],
 		videoType: "Bilibili",
-		videoUrl: "2046292485"
+		videoUrl: "2046292485",
+		dailymotion: "x8iiyi8",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiKZeDeGyztrUSIW?e=JbDqJF"
 	},
 	S3E25: {
 		number: 25,
