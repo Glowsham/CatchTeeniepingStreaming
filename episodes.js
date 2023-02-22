@@ -211,9 +211,8 @@ const episodes = {
 		title: "Teenieping Fashion Show",
 		description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Policeping comes across something weird...",
 		wikiPages: ["Luckyping", "Fashionping", "Mystic Village"],
-		videoType: "YouTube",
-		videoUrl: "LnH1WPr70Xc",
-		airdate: "February 22"
+		videoType: "Bilibili",
+		videoUrl: "2046292485"
 	}/*,
 	S3E25: {
 		number: 25,
