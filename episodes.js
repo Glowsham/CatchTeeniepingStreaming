@@ -219,11 +219,19 @@ const episodes = {
 	},
 	S3E25: {
 		number: 25,
+		title: "Mystic Village Crisis",
+		description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She & Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
+		wikiPages: ["Jennie", "Mystic Village", "Romi", "Key Teeniepings"],
+		videoType: "Dailymotion",
+		videoUrl: "x8iq4u8"
+	},
+	S3E26: {
+		number: 26,
 		title: "",
 		description: "",
 		wikiPages: [""],
 		//videoType: "YouTube",
 		videoUrl: "",
-		airdate: "March 1"
+		airdate: "March 8"
 	}
 }
