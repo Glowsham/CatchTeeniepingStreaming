@@ -202,9 +202,9 @@ const episodes = {
 		title: "Appear! Luckyping",
 		description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
 		wikiPages: ["Master Key", "Onlyping", "Jennie", "Flowyping"],
-		videoType: "Bilibili",
-		videoUrl: "2045004862",
-		dailymotion: "x8igo54",
+		videoType: "Dailymotion",
+		videoUrl: "x8igo54",
+		bilibili: "2045004862",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
 	},
 	S3E24: {
@@ -212,9 +212,9 @@ const episodes = {
 		title: "Teenieping Fashion Show",
 		description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Policeping comes across something weird...",
 		wikiPages: ["Luckyping", "Fashionping", "Mystic Village"],
-		videoType: "Bilibili",
-		videoUrl: "2046292485",
-		dailymotion: "x8iiyi8",
+		videoType: "Dailymotion",
+		videoUrl: "x8iiyi8",
+		bilibili: "2046292485",
 		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiKZeDeGyztrUSIW?e=JbDqJF"
 	},
 	S3E25: {
@@ -223,7 +223,9 @@ const episodes = {
 		description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She & Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
 		wikiPages: ["Jennie", "Mystic Village", "Romi", "Key Teeniepings"],
 		videoType: "Dailymotion",
-		videoUrl: "x8iq4u8"
+		videoUrl: "x8iq4u8",
+		bilibili: "2041842858",
+		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiPjohVDxOFtD16k?e=1ZYAMp"
 	},
 	S3E26: {
 		number: 26,
