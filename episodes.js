@@ -220,7 +220,7 @@ const episodes = {
 	S3E25: {
 		number: 25,
 		title: "Mystic Village Crisis",
-		description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She & Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
+		description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She and Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
 		wikiPages: ["Jennie", "Mystic Village", "Romi", "Key Teeniepings"],
 		videoType: "Dailymotion",
 		videoUrl: "x8iq4u8",
@@ -229,11 +229,11 @@ const episodes = {
 	},
 	S3E26: {
 		number: 26,
-		title: "",
-		description: "",
-		wikiPages: [""],
-		//videoType: "YouTube",
-		videoUrl: "",
+		title: "Goodbye, Key Teeniepings",
+		description: "The fight is at its climax: Princess Twilight tries to close the Corrupted Door to prevent the Mystic Village from ending, but she is blocked by Princess Labyrinth! Will Romi be able to bring Jennie back to her senses and stop this madness?",
+		wikiPages: ["Mystic Village", "Jennie", "Romi", "Key Teeniepings"],
+		videoType: "YouTube",
+		videoUrl: "R1rOZ_UCkTw",
 		airdate: "March 8"
 	}
 }
