@@ -142,13 +142,12 @@
 
 		episodesList.forEach((episode) => {
 			document.getElementById('episodesContainer').innerHTML += `<div class="col-lg-4 col-sm-6 pb-3"><div class="card h-100">
-					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top"></div>
+					<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top" onerror="this.src='thumbnails/placeholder.jpg';"></div>
 					<div class="card-body">
 						<h5 class="card-title">` + 'Episode ' + episode[1].number + `</h5>
 						<p class="card-text"><a class="stretched-link" href="` + (episode[1].videoType != 'redirect' ? 'watch?episode=' + episode[0] : episode[1].videoUrl) + `">` + (episode[1].title || '') + `</a></p>
 					</div>
 				</div></div>`;
-				// onerror="this.src='thumbnails/comingSoon.jpg';"
 		});
 
 		if (nextEpisode.videoType === 'YouTube') {
