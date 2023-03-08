@@ -232,8 +232,7 @@ const episodes = {
 		title: "Goodbye, Key Teeniepings",
 		description: "The fight is at its climax: Princess Twilight tries to close the Corrupted Door to prevent the Mystic Village from ending, but she is blocked by Princess Labyrinth! Will Romi be able to bring Jennie back to her senses and stop this madness?",
 		wikiPages: ["Mystic Village", "Jennie", "Romi", "Key Teeniepings"],
-		videoType: "YouTube",
-		videoUrl: "R1rOZ_UCkTw",
-		airdate: "March 8"
+		videoType: "Dailymotion",
+		videoUrl: "x8ix8gs"
 	}
 }
