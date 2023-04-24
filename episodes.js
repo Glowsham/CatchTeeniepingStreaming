@@ -4,45 +4,45 @@ const episodes = {
 		title: "Secret Key Teenieping",
 		description: "Jennie strikes once again, and releases all the Key Teeniepings to Earth! Meanwhile, Okeydokeyping, Nanaping, and Trueping, who watched the whole scene, jump into a portal to join them, and fall on Romi herself!",
 		wikiPages: ["Key Teeniepings", "Mystic Village"],
-		videoType: "Bilibili",
-		videoUrl: "2042625987",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihpOXmCdj9-LPjo0?e=7Wp15d"
+		videoType: "YouTube",
+		videoUrl: "iu_BcpwA_CU",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihpOXmCdj9-LPjo0?e=7Wp15d"
 	},
 	S3E02: {
 		number: 2,
 		title: "Transformation! Floraheart",
 		description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Quickping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Quickping's magic!",
 		wikiPages: ["Quickping"],
-		videoType: "Bilibili",
-		videoUrl: "2044419442",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihtL5U50a5zur17t?e=GQ2j7M"
+		videoType: "YouTube",
+		videoUrl: "REEFFxzbRno",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihtL5U50a5zur17t?e=GQ2j7M"
 	},
 	S3E03: {
 		number: 3,
 		title: "Surfeiting is dangerous, Yamyam",
 		description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yamyamping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
 		wikiPages: ["Yamyamping"],
-		videoType: "Bilibili",
-		videoUrl: "4786175238606336",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihleDcOD-T-CtmL7?e=lt2N6Y"
+		videoType: "YouTube",
+		videoUrl: "gL4e1X6FOLY",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihleDcOD-T-CtmL7?e=lt2N6Y"
 	},
 	S3E04: {
 		number: 4,
 		title: "Hot Hot Camping Commotion",
 		description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
 		wikiPages: ["Hotping"],
-		videoType: "Bilibili",
-		videoUrl: "4786175240441344",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihNT3uV46qGn8llo?e=3d29ya"
+		videoType: "YouTube",
+		videoUrl: "diJjBV2lL7M",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihNT3uV46qGn8llo?e=3d29ya"
 	},
 	S3E05: {
 		number: 5,
 		title: "I'll Treat You, Beep",
 		description: "Beeping is here to take care of the people of Harmony Town... except she has a radical method to heal them! When Lena gets coated with a plaster cast, Romi and the Teeniepings know it's time to catch the troublemaker!",
 		wikiPages: ["Beeping", "Nursepings"],
-		videoType: "Bilibili",
-		videoUrl: "4786175224581120",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihFN_PoFm63cvVqZ?e=fOGyEk"
+		videoType: "YouTube",
+		videoUrl: "Iu8DqU3l8lc",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihFN_PoFm63cvVqZ?e=fOGyEk"
 	},
 	S3E06: {
 		number: 6,
