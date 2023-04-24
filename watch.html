@@ -62,7 +62,7 @@
 		<div id="description" class="col-lg-6 mx-auto"></div>
 	</div>
 	<div id="wikiPromo" class="pb-5 text-center"></div>
-	<div class="container">
+	<!-- <div class="container">
 		<div id="noEp" class="card mb-3 flex-row" style="display: none">
 			<div class="card-body"><img src="https://static.wikia.nocookie.net/catchteeniepin/images/c/c8/Trueping_render_1.png"></div>
   			<div class="card-body my-auto col-12">
@@ -70,7 +70,7 @@
   				<p class="card-text" id="notice">This episode has recently been aired in South Korea, but is yet to be added to the Catch! Teenieping TV. Just stay patient, it should (hopefully) come soon!</p>
   			</div>
   		</div>
-	</div>
+	</div> -->
 	<div id="videoContainer" class="container pb-2"></div>
 	<div class="container pb-3">
 		<div id="others" class="pt-4 text-center fw-bold">Other solutions<br></div>
@@ -101,8 +101,8 @@
 			} else if (episode.videoType === 'Bilibili') {
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9 playContainer" style="background-image: url('thumbnails/` + Object.keys(episodes)[episode.number - 1] + `.jpg')"><a href="https://www.bilibili.tv/en/video/` + episode.videoUrl + `"><img src="keyhole.png" class="playButton"></a></div>`;
 			} else if (episode.videoType === 'YouTube') {
-				document.getElementById('noEp').style.display = 'flex';
-				if (episode.airdate) document.getElementById('notice').innerHTML = `I know you really want to watch the new episode, but I'm afraid you're gonna have to stay patient for a little longer, as this episode airs on <b>Wednesday, ` + episode.airdate + `</b>. Meanwhile, if you really can't wait, you can still watch that trailer again!`;
+				/*document.getElementById('noEp').style.display = 'flex';
+				if (episode.airdate) document.getElementById('notice').innerHTML = `I know you really want to watch the new episode, but I'm afraid you're gonna have to stay patient for a little longer, as this episode airs on <b>Wednesday, ` + episode.airdate + `</b>. Meanwhile, if you really can't wait, you can still watch that trailer again!`;*/
 				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="https://www.youtube.com/embed/` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>`;
