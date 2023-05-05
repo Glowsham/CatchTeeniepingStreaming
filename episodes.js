@@ -49,18 +49,18 @@ const episodes = {
 		title: "Teenieping Hospital is Here",
 		description: "As Beeping just opened the new Teenieping Hospital, which didn't have as much success as planned, Nanaping suddenly faints and is taken by force by Beeping and her team! What in the world is going on?",
 		wikiPages: ["Beeping", "Nanaping"],
-		videoType: "Bilibili",
-		videoUrl: "2048815680",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihLtviRKhPz18jJM?e=wpHnjc"
+		videoType: "YouTube",
+		videoUrl: "mOzmTn5p2IU",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihLtviRKhPz18jJM?e=wpHnjc"
 	},
 	S3E07: {
 		number: 7,
 		title: "Cheer Cheer I’m a Cheerleader",
 		description: "Cheerping is here to help the people of Harmony Town! As Okeydokeyping can't manage to jump on the vaulting boxes, Cheerping makes a striking entrance into the Secret Castle to cheer her up!",
 		wikiPages: ["Cheerping"],
-		videoType: "Bilibili",
-		videoUrl: "4786175228644352",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihXjFuHQfszYvnql?e=gNcWky"
+		videoType: "YouTube",
+		videoUrl: "wAREoM6c4Bc",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihXjFuHQfszYvnql?e=gNcWky"
 	},
 	S3E08:{
 		number: 8,
