@@ -67,18 +67,18 @@ const episodes = {
 		title: "Fix It, Fixping",
 		description: "The Teeniepings ignore Sarah's order and have fun with the robot vacuum, until it suddenly breaks! But luckily, Fixping arrives and uses his powers to fix the robot... But then, things get worse, as the robot became evil!",
 		wikiPages: ["Fixping"],
-		videoType: "Bilibili",
-		videoUrl: "4786175197056000",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=YYHiuE"
+		videoType: "YouTube",
+		videoUrl: "TO9wnBEfZyM",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=YYHiuE"
 	},
 	S3E09: {
 		number: 9,
 		title: "Romi and Heartsping Have Changed",
 		description: "What a terrible fate: because of Enchantping, Romi and Heartsping have switched bodies! How will the girls make everything return to normal, and how will Romi catch Enchantping in those conditions? A crazy adventure awaits...",
 		wikiPages: ["Enchantping"],
-		videoType: "Bilibili",
-		videoUrl: "2048763126",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig8XRHreSmoxyy8y?e=2aJb7L"
+		videoType: "YouTube",
+		videoUrl: "-SVXVzXmH5I",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig8XRHreSmoxyy8y?e=2aJb7L"
 	},
 	S3E10: {
 		number: 10,
