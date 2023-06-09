@@ -85,27 +85,27 @@ const episodes = {
 		title: "Snow White Romi",
 		description: "Romi and the Teeniepings have disappeared! Well, to be exact, they all get transported into Snow White's universe... the latter embodied by Romi in person! The Royal Teeniepings try to save them, but they make things even worse...",
 		wikiPages: ["Magical fairytale book"],
-		videoType: "Bilibili",
-		videoUrl: "2045259947",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihDwvDjK9J7LcJp9?e=3BTmcF"
+		videoType: "YouTube",
+		videoUrl: "kOqF74Gcssw",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihDwvDjK9J7LcJp9?e=3BTmcF"
 	},
 	S3E11: {
 		number: 11,
 		title: "Fashionping is Making Clothes",
 		description: "Fashionping is giving very strange makeovers to Lena... But the fashion artist doesn't seem satisfied, so she looks for some more inspiration when she gets face to face with Princess Solaris... To whom she gives another makeover!",
 		wikiPages: ["Fashionping"],
-		videoType: "Bilibili",
-		videoUrl: "4786175152491520",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig4jAtM1wnTMMz0f?e=MPm7L0"
+		videoType: "YouTube",
+		videoUrl: "W7iHxQxgbY0",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig4jAtM1wnTMMz0f?e=MPm7L0"
 	},
 	S3E12: {
 		number: 12,
 		title: "Don't Move, Policeping",
 		description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Policeping enters the bakery: will he team up with Romi to find the missing rings?",
 		wikiPages: ["Policeping"],
-		videoType: "Bilibili",
-		videoUrl: "4786175153409536",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigykwE6zOVd97mqm?e=nmuNH8"
+		videoType: "YouTube",
+		videoUrl: "tEB6k_ibCXA",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigykwE6zOVd97mqm?e=nmuNH8"
 	},
 	S3E13: {
 		number: 13,
