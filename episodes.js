@@ -112,27 +112,27 @@ const episodes = {
 		title: "Sweets Full of Luck",
 		description: "Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
 		wikiPages: ["Key Teeniepings", "Mystic Village", "Luckyping"],
-		videoType: "Bilibili",
-		videoUrl: "2047031296",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig3TgyiVGvnWuGdI?e=p6Iy3C"
+		videoType: "YouTube",
+		videoUrl: "UgahnwcQpS4",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xig3TgyiVGvnWuGdI?e=p6Iy3C"
 	},
 	S3E14: {
 		number: 14,
 		title: "Splash Splash, Splashping",
 		description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium!",
 		wikiPages: ["Splashping"],
-		videoType: "Bilibili",
-		videoUrl: "2049319418",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigpyFbRkpNo_r3jf?e=XPidAQ"
+		videoType: "YouTube",
+		videoUrl: "pBWDG38n8-U",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xigpyFbRkpNo_r3jf?e=XPidAQ"
 	},
 	S3E15: {
 		number: 15,
 		title: "Partyping and Party Party",
 		description: "Romi and Marylou are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a fail?",
 		wikiPages: ["Partyping", "Marylou"],
-		videoType: "Bilibili",
-		videoUrl: "4786168690904064",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=ag67I0"
+		videoType: "YouTube",
+		videoUrl: "GTwV4PV1iFE",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihRG_pDpUNaJlBaZ?e=ag67I0"
 	},
 	S3E16: {
 		number: 16,
