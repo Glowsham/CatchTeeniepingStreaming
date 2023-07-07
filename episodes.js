@@ -139,9 +139,9 @@ const episodes = {
 		title: "Make a Cool Hairdo, Decorping",
 		description: "How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Decorationping. She gets ready to catch her, but the hairdresser won't let this happen!",
 		wikiPages: ["Decorping", "Bibi"],
-		videoType: "Bilibili",
-		videoUrl: "2044974661",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihZ-Hs_jYvft_yG1?e=7epMK4"
+		videoType: "YouTube",
+		videoUrl: "56d7kVR1vBI",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihZ-Hs_jYvft_yG1?e=7epMK4"
 	},
 	S3E17: {
 		number: 17,
