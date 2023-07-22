@@ -148,18 +148,18 @@ const episodes = {
 		title: "Dad's Camera",
 		description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings in game?",
 		wikiPages: ["Maya", "Maya's father"],
-		videoType: "Bilibili",
-		videoUrl: "2041313470",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiheWvGxGdg-t9BHr?e=1skfZh"
+		videoType: "YouTube",
+		videoUrl: "pJTgeHumFCQ",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiheWvGxGdg-t9BHr?e=1skfZh"
 	},
 	S3E18: {
 		number: 18,
 		title: "I'm Gonna Pout, Sulkyping",
 		description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Sulkyping arrives and makes Okeydokeyping burst into tears...",
 		wikiPages: ["Sulkyping", "Okeydokeyping"],
-		videoType: "Bilibili",
-		videoUrl: "4786166488763904",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihiKrD_T25wa5Gvg?e=hXd5hV"
+		videoType: "YouTube",
+		videoUrl: "aUMy-1IMyVs",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihiKrD_T25wa5Gvg?e=hXd5hV"
 	},
 	S3E19: {
 		number: 19,
