@@ -166,46 +166,45 @@ const episodes = {
 		title: "Finding Romi's Necklace",
 		description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
 		wikiPages: ["Romi", "Jennie"],
-		videoType: "Bilibili",
-		videoUrl: "2049865082",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihyPDFfMoPhmwcBr?e=Pc5Zbc"
+		videoType: "YouTube",
+		videoUrl: "fCj2QgH-_9k",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xihyPDFfMoPhmwcBr?e=Pc5Zbc"
 	},
 	S3E20: {
 		number: 20,
 		title: "Singing, Aah~ ping",
 		description: "Aahping, the singer Teenieping, has the notes of her score spread out because of a bird! These notes stick onto someone and modify their voice... Romi and the Teeniepings soon enough realize the situation, and decide to look for the Teenieping!",
 		wikiPages: ["Aahping"],
-		videoType: "Bilibili",
-		videoUrl: "2042139334",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih0UphQ01EXZn7iC?e=wjIUYe"
+		videoType: "YouTube",
+		videoUrl: "fqSi0HHkyNs",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih0UphQ01EXZn7iC?e=wjIUYe"
 	},
 	S3E21: {
 		number: 21,
 		title: "Let’s Play Together, Teenieping Park",
 		description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
 		wikiPages: ["Secret Castle", "Onlyping"],
-		videoType: "Bilibili",
-		videoUrl: "4786164724665344",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih6ex3eublIySlEl?e=afpXyo"
+		videoType: "YouTube",
+		videoUrl: "ZgN4YSxvd10",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih6ex3eublIySlEl?e=afpXyo"
 	},
 	S3E22: {
 		number: 22,
 		title: "Going Round and Round",
 		description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
 		wikiPages: ["Twirlping"],
-		videoType: "Bilibili",
-		videoUrl: "4786164274301952",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih8Ivto_taDT4xL8?e=KY8MXe"
+		videoType: "YouTube",
+		videoUrl: "2JNMvhG3LlU",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xih8Ivto_taDT4xL8?e=KY8MXe"
 	},
 	S3E23: {
 		number: 23,
 		title: "Appear! Luckyping",
 		description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
 		wikiPages: ["Master Key", "Onlyping", "Jennie", "Flowyping"],
-		videoType: "Dailymotion",
-		videoUrl: "x8igo54",
-		bilibili: "2045004862",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
+		videoType: "YouTube",
+		videoUrl: "-SsZh0Jt-Xs",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiEIvTY6iWHPwxjW?e=BaiEa4"
 	},
 	S3E24: {
 		number: 24,
