@@ -221,9 +221,8 @@ const episodes = {
 		description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She and Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
 		wikiPages: ["Jennie", "Mystic Village", "Romi", "Key Teeniepings"],
 		videoType: "Dailymotion",
-		videoUrl: "x8iq4u8",
-		bilibili: "2041842858",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiPjohVDxOFtD16k?e=1ZYAMp"
+		videoUrl: "jcKoAllmJgQ",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiPjohVDxOFtD16k?e=1ZYAMp"
 	},
 	S3E26: {
 		number: 26,
@@ -231,8 +230,7 @@ const episodes = {
 		description: "The fight is at its climax: Princess Twilight tries to close the Corrupted Door to prevent the Mystic Village from ending, but she is blocked by Princess Labyrinth! Will Romi be able to bring Jennie back to her senses and stop this madness?",
 		wikiPages: ["Mystic Village", "Jennie", "Romi", "Key Teeniepings"],
 		videoType: "Dailymotion",
-		videoUrl: "x8ix8gs",
-		bilibili: "2047716598",
-		onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiQ0qAlt_TdXPe1H?e=pyyVZf"
+		videoUrl: "xqE5yWIy_XE",
+		//onedrive: "https://1drv.ms/v/s!AiHQU8LjSx_xiiQ0qAlt_TdXPe1H?e=pyyVZf"
 	}
 }
