@@ -12,7 +12,10 @@ const episodes = {
 		number: 2,
 		title: "Transformation! Princess Berryheart",
 		description: "After Fluffyping mistakes Lena for Princess Romi, she — along with Heartsping, Shashaping & Jellyping — gets into a mad chase all over Harmony Town to get her back and retrieve the Sugar Berry Pact!",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8of1sl"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8of1sl",
+		videoAlts: {
+			"Google Drive": "https://drive.google.com/file/d/18-zpptJJKOSSRnH39bF40aGAVI-IR3S4/view"
+		}
 	},
 	S4E03: {
 		number: 3,
