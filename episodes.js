@@ -5,7 +5,7 @@ const episodes = {
 		description: "The desserts in the Dessert Village all appear to taste very strange! Moreover, the Magic Sugar Ball that protects the village has disappeared, and so have the Dessert Teeniepings! What on Earth is going on!?",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8of1sk",
 		videoAlts: {
-			"Google Drive": "https://drive.google.com/file/d/1Po6jrTsj_A1bHK6yroqjk-D0ZemJMPHW/view"
+			"Bilibili": "https://www.bilibili.tv/en/video/4788702030730752"
 		}
 	},
 	S4E02: {
@@ -14,7 +14,7 @@ const episodes = {
 		description: "After Fluffyping mistakes Lena for Princess Romi, she — along with Heartsping, Shashaping & Jellyping — gets into a mad chase all over Harmony Town to get her back and retrieve the Sugar Berry Pact!",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8of1sl",
 		videoAlts: {
-			"Google Drive": "https://drive.google.com/file/d/18-zpptJJKOSSRnH39bF40aGAVI-IR3S4/view"
+			"Bilibili": "https://www.bilibili.tv/en/video/4788702040430080"
 		}
 	},
 	S4E03: {
