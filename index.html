@@ -15,11 +15,13 @@
 
 
 		/* general */
-		body {
+		#bg {
 			background-image: linear-gradient(130deg, #ffd1a8 25%, #ffd7ba 25%, #ffd7ba 50%, #ffd1a8 50%, #ffd1a8 75%, #ffd7ba 75%, #ffd7ba 100%);
 			background-size: 182.76px 217.80px;
-			background-attachment: fixed;
-			min-height: 100%;
+			height: 100vh;
+			width: 100vw;
+			position: fixed;
+			z-index: -1;
 		}
 		@media (min-width: 1400px) {
 			.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -93,6 +95,8 @@
 	</script>
 </head>
 <body>
+	<div id="bg"></div>
+
 	<div class="px-4 py-3 text-center">
 		<a href="/CatchTeeniepingTV/"><img src="banner.png" id="icon" class="col-lg-4 col-md-6 col-10"></a>
 	</div>
