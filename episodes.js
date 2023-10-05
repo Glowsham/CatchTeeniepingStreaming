@@ -21,7 +21,16 @@ const episodes = {
 		number: 3,
 		title: "I Want To Decorate It Pretty, Meringue",
 		description: "Meringueping is in some serious trouble as she is pursued by a furious bird! Romi bumps into her and gets to her rescue, but things are about to get a little more complicated!",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8okg31"/*,
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4788702040430080"
+		}*/
+	},
+	S4E04: {
+		number: 4,
+		title: "Sandping And The Secret Of Sand Cookies",
+		description: "What's going on in Harmony Town? Sandping, the Teenieping of sandwich cookies, is wreaking havoc in all the city by turning everything into sandwich cookies!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8of2ku"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8okg5m"
 	}
 };
