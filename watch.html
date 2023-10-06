@@ -146,7 +146,7 @@
 		if (getParameter('ep')) {
 			var episode = episodes[getParameter('ep')];
 
-			document.querySelector('title').innerHTML = 'Watch "' + getParameter('ep') + '" online for free - Catch! Teenieping TV';
+			document.querySelector('title').innerHTML = 'Watch "' + episode.title + '" online for free - Catch! Teenieping TV';
 			document.getElementById('desc').innerHTML = episode.description;
 			document.getElementById('title').innerHTML = "Watch \"" + episode.title + `"`;
 			
