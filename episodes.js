@@ -20,11 +20,11 @@ const episodes = {
 	S4E03: {
 		number: 3,
 		title: "I Want To Decorate It Pretty, Meringue",
-		description: "Meringueping is in some serious trouble as she is pursued by a furious bird! Romi bumps into her and gets to her rescue, but things are about to get a little more complicated!",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8okg31"/*,
+		description: "Hye-Joo visits the bakery and asks for a cake, so the Royal Teeniepings and Kyle work hard to satisfy her demand! But what they don't know is that a big twist awaits as Meringueping sets foot in the shop...",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8okg31",
 		videoAlts: {
-			"Bilibili": "https://www.bilibili.tv/en/video/4788702040430080"
-		}*/
+			"Bilibili": "https://www.bilibili.tv/en/video/4788760551757312"
+		}
 	},
 	S4E04: {
 		number: 4,
