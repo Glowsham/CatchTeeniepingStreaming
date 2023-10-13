@@ -20,7 +20,7 @@ const episodes = {
 	S4E03: {
 		number: 3,
 		title: "I Want To Decorate It Pretty, Meringue",
-		description: "Hye-Joo visits the bakery and asks for a cake, so the Royal Teeniepings and Kyle work hard to satisfy her demand! But what they don't know is that a big twist awaits as Meringueping sets foot in the shop...",
+		description: "Hye-joo visits the bakery and asks for a cake, so the Royal Teeniepings and Kyle get work to satisfy her demand! But what they don't know is that a big twist awaits as Meringueping sets foot in the shop...",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8okg31",
 		videoAlts: {
 			"Bilibili": "https://www.bilibili.tv/en/video/4788760551757312"
@@ -28,9 +28,18 @@ const episodes = {
 	},
 	S4E04: {
 		number: 4,
-		title: "Sandping And The Secret Of Sand Cookies",
-		description: "What's going on in Harmony Town? Sandping, the Teenieping of sandwich cookies, is wreaking havoc in all the city by turning everything into sandwich cookies!",
+		title: "Sandping and the Secret of Sand Cookies",
+		description: "A new Teenieping appears: Sandping, who is well-known for her delicious sandwich cookies, but also for her weird habits, like her dedication to never breaking a cookie, or creating cookies with very unexpected side effects!",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ot24a",
+		videoAlts: {
+			"Bilibili": ""
+		}
+	},
+	S4E05: {
+		number: 5,
+		title: "Catch Puffping",
+		description: "Puffping discovers the wonderful power that the Magic Sugar Ball has, and will now do anything to keep it! But when Maya alerts Romi of this mischievous Teenieping, Romi transforms and sets out to stop him!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8okg5m"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ot27q"
 	}
 };
