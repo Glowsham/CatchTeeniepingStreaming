@@ -136,8 +136,8 @@
   					<h4 class="lh-1 pt-md-0 pt-3 mb-2">Next episode:</h4>
   					<h3 id="nwTitle" class="lh-1 pe-3 mb-3">...</h3>
 					<p id="nwDesc" class="pe-3 mb-0"></p>
-					<!--<h4 id="nwAirdate" class="pt-2 col-md-10"></h4>
-					<a href="https://dateful.com/time-zone-converter?t=0850&tz2=Korea-Standard-Time-KST" id="nwTime" class="ctvbutton card align-self-start h6">Check time for your region</a>-->
+					<h4 id="nwAirdate" class="pt-3 col-md-10">Airing on Thursday</h4>
+					<a href="https://catchteenieping.fandom.com/f/p/4400000000000042600" id="nwTime" class="ctvbutton card align-self-start h6">Learn more</a>
   				</div>
   			</div>
   		</div>
@@ -156,7 +156,6 @@
 			document.getElementById('nwEmpty').style.display = 'none';
 			document.getElementById('nwTitle').innerHTML = nextEpisode.title;
 			document.getElementById('nwDesc').innerHTML = nextEpisode.description;
-			//document.getElementById('nwAirdate').innerHTML = 'Airing on Wednesday, ' + nextEpisode.airdate + ' at 9:35 AM UTC';
 			document.getElementById('nwTrailer').src = nextEpisode.videoUrl;
 		} else {
 			document.getElementById('nwContainer').classList.remove('d-md-flex');
