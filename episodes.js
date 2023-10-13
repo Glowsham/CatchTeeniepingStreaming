@@ -32,7 +32,7 @@ const episodes = {
 		description: "A new Teenieping appears: Sandping, who is well-known for her delicious sandwich cookies, but also for her weird habits, like her dedication to never breaking a cookie, or creating cookies with very unexpected side effects!",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ot24a",
 		videoAlts: {
-			"Bilibili": ""
+			"Bilibili": "https://www.bilibili.tv/en/video/4788851078470144"
 		}
 	},
 	S4E05: {
