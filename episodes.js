@@ -39,7 +39,16 @@ const episodes = {
 		number: 5,
 		title: "Catch Puffping",
 		description: "Puffping discovers the wonderful power that the Magic Sugar Ball has, and will now do anything to keep it! But when Maya alerts Romi of this mischievous Teenieping, Romi transforms and sets out to stop him!",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8oyeoj",
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4788918800225792"
+		}
+	},
+	S4E06: {
+		number: 6,
+		title: "I Wanna be a Royal Teenieping",
+		description: "When Donutping sees Romi transform, she only wants one thing: to transform with her! Unfortunately, this is something only the Royal Teeniepings can do... But Donutping has an idea in mind!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ot27q"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8oyer0"
 	}
 };
