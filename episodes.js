@@ -48,7 +48,16 @@ const episodes = {
 		number: 6,
 		title: "I Wanna be a Royal Teenieping",
 		description: "When Donutping sees Romi transform, she only wants one thing: to transform with her! Unfortunately, this is something only the Royal Teeniepings can do... But Donutping has an idea in mind!",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8p48wa",
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4788997083765248"
+		}
+	},
+	S4E07: {
+		number: 7,
+		title: "Be Flat! Waffleping",
+		description: "Another day, another Teenieping wreaking havoc: this time, Waffleping makes food and people become flat! But not only that, the troublemaker also made an encounter with Puffping, which ended in a fight!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8oyer0"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8p491i"
 	}
 };
