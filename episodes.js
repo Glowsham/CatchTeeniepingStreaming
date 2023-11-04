@@ -46,7 +46,7 @@ const episodes = {
 	},
 	S4E06: {
 		number: 6,
-		title: "I Wanna be a Royal Teenieping",
+		title: "I Want To be a Royal Teenieping",
 		description: "When Donutping sees Romi transform, she only wants one thing: to transform with her! Unfortunately, this is something only the Royal Teeniepings can do... But Donutping has an idea in mind!",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8p48wa",
 		videoAlts: {
@@ -56,8 +56,17 @@ const episodes = {
 	S4E07: {
 		number: 7,
 		title: "Be Flat! Waffleping",
-		description: "Another day, another Teenieping wreaking havoc: this time, Waffleping makes food and people become flat! But not only that, the troublemaker also made an encounter with Puffping, which ended in a fight!",
+		description: "The Teeniepings are happily shopping at the Teenieping Village, when the stores' groceries, and even the shops itself start to become as flat as a paper sheet! A new Teenieping, Waffleping, has appeared!",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pce5x",
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4789097537863680"
+		}
+	},
+	S4E08: {
+		number: 8,
+		title: "Turn, Turn~ Lolliping",
+		description: "Luca's day is ruined as the carousel she wanted to go to is broken! But things are not over yet, as Lolliping, who has the power to rotate objects, runs into Luca while trying to avoid Princess SweetFloss!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8p491i"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pce5g"
 	}
 };
