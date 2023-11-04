@@ -56,7 +56,7 @@ const episodes = {
 	S4E07: {
 		number: 7,
 		title: "Be Flat! Waffleping",
-		description: "The Teeniepings are happily shopping at the Teenieping Village, when the stores' groceries, and even the shops itself start to become as flat as a paper sheet! A new Teenieping, Waffleping, has appeared!",
+		description: "The Teeniepings are happily shopping at the Teenieping Village, when the stores' groceries, and even the shops themselves start to become as flat as a paper sheet! A new Teenieping, Waffleping, has appeared!",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pce5x",
 		videoAlts: {
 			"Bilibili": "https://www.bilibili.tv/en/video/4789097537863680"
