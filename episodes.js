@@ -65,8 +65,17 @@ const episodes = {
 	S4E08: {
 		number: 8,
 		title: "Turn, Turn~ Lolliping",
-		description: "Luca's day is ruined as the carousel she wanted to go to is broken! But things are not over yet, as Lolliping, who has the power to rotate objects, runs into Luca while trying to avoid Princess SweetFloss!",
+		description: "Luca's day takes a turn for the worse when she discovers that the carousel she had been excited to ride on is out of order. However, just as her disappointment grows, a stroke of luck comes her way - Lolliping, with the ability to spin objects at will, unexpectedly crosses paths with Luca while skillfully dodging Princess SweetFloss' attacks.",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pj0mu",
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4789169105797632"
+		}
+	},
+	S4E09: {
+		number: 9,
+		title: "Fluffyping And Her Tiny Friends",
+		description: "While Princess SweetFloss is once again fighting Puffping, a strange phenomenon happens where the Magic Sugar Ball and the Sugar Berry Pact touch, which results in Fluffyping becoming giant! Following this strange discovery, Fluffyping goes on another mission on her own...",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pce5g"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pj0o1"
 	}
 };
