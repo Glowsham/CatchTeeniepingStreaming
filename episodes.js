@@ -75,7 +75,13 @@ const episodes = {
 		number: 9,
 		title: "Fluffyping And Her Tiny Friends",
 		description: "While Princess SweetFloss is once again fighting Puffping, a strange phenomenon happens where the Magic Sugar Ball and the Sugar Berry Pact touch, which results in Fluffyping becoming giant! Following this strange discovery, Fluffyping goes on another mission on her own...",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8possd"
+	},
+	S4E10: {
+		number: 10,
+		title: "Let's Color It Colorfully, Macaping",
+		description: "Poor Jellyping has suddenly turned all green... and even worse, Puffping has become like a clown! Only one possible explanation: Macaping!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pj0o1"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8posu2"
 	}
 };
