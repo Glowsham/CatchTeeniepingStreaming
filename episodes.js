@@ -74,7 +74,7 @@ const episodes = {
 	S4E09: {
 		number: 9,
 		title: "Fluffyping And Her Tiny Friends",
-		description: "While Princess SweetFloss is once again fighting Puffping, a strange phenomenon happens where the Magic Sugar Ball and the Sugar Berry Pact touch, which results in Fluffyping becoming giant! Following this strange discovery, Fluffyping goes on another mission on her own...",
+		description: "During a fight against Puffping, a strange phenomenon happens, which results in Princess Berryheart and the Royal Teeniepings - with the exception of Fluffyping - becoming giant! And in order to save her tiny friends, Fluffyping has no choice but to fight on her own...",
 		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8possd"
 	},
 	S4E10: {
