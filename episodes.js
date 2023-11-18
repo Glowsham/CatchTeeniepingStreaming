@@ -75,7 +75,10 @@ const episodes = {
 		number: 9,
 		title: "Fluffyping And Her Tiny Friends",
 		description: "During a fight against Puffping, a strange phenomenon happens, which results in Princess Berryheart and the Royal Teeniepings - with the exception of Fluffyping - becoming giant! And in order to save her tiny friends, Fluffyping has no choice but to fight on her own...",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8possd"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8possd",
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4789255691043328"
+		}
 	},
 	S4E10: {
 		number: 10,
