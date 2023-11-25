@@ -83,8 +83,17 @@ const episodes = {
 	S4E10: {
 		number: 10,
 		title: "Let's Color It Colorfully, Macaping",
-		description: "Poor Jellyping has suddenly turned all green... and even worse, Puffping has become like a clown! Only one possible explanation: Macaping!",
+		description: "Jellyping has suddenly turned green! Her friends believe she has caught a rare disease, and begin to take good care of her. But little do they know this is nothing but the work of Macaping, which Jellyping might be using to her advantage!",
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pyj7r",
+		videoAlts: {
+			"Bilibili": "https://www.bilibili.tv/en/video/4789339648558080"
+		}
+	},
+	S4E11: {
+		number: 11,
+		title: "Stack It Up, One By One, Pancakeping",
+		description: "Pancakeping has a lot of fun using her powers carelessly: this has caused some fortunate events, and even an encounter with Dylan, who is gonna share with her something big!",
 		videoType: "trailer",
-		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8posu2"
+		videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8pyj73"
 	}
 };
