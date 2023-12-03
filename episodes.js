@@ -1,5 +1,5 @@
 const episodes = {
-	//"Season 4": {
+	"Season 4": {
 		S4E01: {
 			number: 1,
 			title: "Sweet and Sour Dessert Teenieping",
@@ -106,27 +106,27 @@ const episodes = {
 			videoType: "trailer",
 			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8q52wg"
 		}
-	/*},
+	},
 
 	"<b>NEW!</b> Season 2": {
 		S2E01: {
 			number: 1,
 			title: "Twinkle Twinkle Jewel Teeniepings",
-			description: "While Romi is having peaceful days in Harmony Town, Maskping, a mysterious Teenieping, releases all the Jewel Teeniepings of the Jewel Forest on Earth. To save them, three students of the Teenieping School decide to secretly go with the [[Jewel Heart Wing Phone]].",
+			description: "While Romi is having peaceful days in Harmony Town, Maskping, a mysterious Teenieping, releases all the Jewel Teeniepings of the Jewel Forest on Earth. To save them, three students of the Teenieping School decide to secretly go with the Jewel Heart Wing Phone.",
 			videoUrl: "https://drive.google.com/file/d/1rFbivaThQzIUK8ippFpnafZnIbFb4idL/preview",
 			message: "NetflixWatch"
 		},
 		S2E02: {
 			number: 2,
 			title: "Welcome to Teenieping School!",
-			description: "After Romi finally got the Jewel Heart Wing Phone, she comes in contact with Dr. Monziu. The latter decides that the students Teeniepings will help Romi that will once again be in charge of catching all the Teeniepings. Later, Romi receives he [[Teenieping School]], a new house for the Teeniepings.",
+			description: "After Romi finally got the Jewel Heart Wing Phone, she comes in contact with Dr. Monziu. The latter decides that the students Teeniepings will help Romi that will once again be in charge of catching all the Teeniepings. Later, Romi receives he Teenieping School, a new house for the Teeniepings.",
 			videoUrl: "https://drive.google.com/file/d/1jWHpZllqy-mlCE03itfBVy8lB0Cla95J/preview",
 			message: "NetflixWatch"
 		},
 		S2E03: {
 			number: 3,
 			title: "Tickle Tickle, Try Not to Laugh!",
-			description: "While the Teeniepings discover Romi's school, [[Tickleping]] is having fun tickling everyone in Harmony Town. And, to catch her, the Teeniepings will have to train to put up with the tickling, and the winner will have to fight Tickleping.",
+			description: "While the Teeniepings discover Romi's school, Tickleping is having fun tickling everyone in Harmony Town. And, to catch her, the Teeniepings will have to train to put up with the tickling, and the winner will have to fight Tickleping.",
 			videoUrl: "https://drive.google.com/file/d/1iEHe-XRM2fSwm3dJcOmH97avNEcfLmcW/preview",
 			message: "NetflixWatch"
 		},
@@ -189,14 +189,14 @@ const episodes = {
 		S2E12: {
 			number: 12,
 			title: "A Teddy Bear Comes to Life",
-			description: "While everyone is relaxing, Maskping takes control of [[Romi's teddy bear]], to attack the Teenieping School. The Teeniepings get afraid, and Tidyping gets devoured! All of this must end!",
+			description: "While everyone is relaxing, Maskping takes control of Romi's teddy bear, to attack the Teenieping School. The Teeniepings get afraid, and Tidyping gets devoured! All of this must end!",
 			videoUrl: "https://drive.google.com/file/d/1w-ifrmwscntqPIKLqcz3HOcuI6krOidS/preview",
 			message: "NetflixWatch"
 		},
 		S2E13: {
 			number: 13,
 			title: "Another Princess",
-			description: "Jennie, Romi's other cousin from the Emotions Kingdom, arrives in Harmony Town. But if Romi and she are like sisters, her personal Teenieping [[Onlyping]] hates Heartsping, and an argument quickly starts...",
+			description: "Jennie, Romi's other cousin from the Emotions Kingdom, arrives in Harmony Town. But if Romi and she are like sisters, her personal Teenieping Onlyping hates Heartsping, and an argument quickly starts...",
 			videoUrl: "https://drive.google.com/file/d/1Q0uuSOwvjnGEdJkbHNxlga4elVDHQKT_/preview",
 			message: "NetflixWatch"
 		},
@@ -224,7 +224,7 @@ const episodes = {
 		S2E17: {
 			number: 17,
 			title: "A Jewel Teenieping Heist!",
-			description: "While everyone is sleeping, two [[Thieves|thieves]] enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
+			description: "While everyone is sleeping, two Thieves|thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
 			videoUrl: "https://drive.google.com/file/d/1LNKf5PUpwAADvkCz8OfU3W1CE-jTTR89/preview",
 			message: "NetflixWatch"
 		},
@@ -291,7 +291,7 @@ const episodes = {
 			videoUrl: "https://drive.google.com/file/d/1qveMcNSUn_ZVEESCf0hEuE1nbIi5SdRa/preview",
 			message: "NetflixWatch"
 		}
-	}*/
+	}
 };
 
 var messages = {

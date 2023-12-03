@@ -52,6 +52,24 @@
 				width: auto;
 			}
 		}
+		#snow {
+			position: fixed;
+			z-index: -1;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		.snowflake {
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			background: white;
+			border-radius: 50%;
+			filter: drop-shadow(0 0 10px white);
+		}
+
+		/* banner */
+		#icon.clickable {cursor: pointer}
 
 		/* cards */
 		.card {
@@ -78,9 +96,20 @@
 		.stretched-link, .stretched-link:hover, .stretched-link:focus {color: inherit; text-decoration: inherit !important;}
 		.ratio iframe {
 			border-radius: 0.25rem;
-			border: 2px solid #CB997E;
-			border-bottom-width: 1.5px;
+			border: 3px solid #CB997E;
+			border-bottom-width: 2px;
 			background: #CB997E;
+		}
+		#backButton {
+			background: url(assets/leftArrow.png) no-repeat;
+			background-size: contain;
+			height: 1em;
+			width: 1em;
+			display: inline;
+		}
+		#snow {
+			transition: opacity 3s ease-in-out;
+			opacity: 0;
 		}
 
 		/* button */
@@ -112,14 +141,15 @@
 </head>
 <body>
 	<div id="bg"></div>
+	<div id="snow"></div>
 	
 	<div class="px-4 py-3 text-center">
-		<a href="/CatchTeeniepingTV/"><img src="assets/banner.png" alt="Site banner" id="icon" class="col-lg-4 col-md-6 col-10"></a>
+		<img src="assets/banner.png" alt="Site banner" id="icon" class="col-lg-4 col-md-6 col-10 clickable user-select-none" draggable="false" />
 	</div>
 
 	<div class="container pt-2 pb-1">
 		<div class="ctv_container card row mb-4 mx-sm-0 mx-3">
-			<h4 id="title" class="mb-2">...</h4>
+			<h4 id="title" class="mb-2 d-flex align-items-center">...</h4>
 			<p id="desc" class="mb-4">...</p>
 
 			<div id="videoContainer"></div>
@@ -128,9 +158,16 @@
 				<p class="mt-4 mb-1">The video doesn't work? Try using these alternatives:</p>
 			</div>
 		</div>
-  	</div>
 
-	<footer class="text-center text-lg-start"><h6 class="text-center p-3 pt-md-3 pt-0 lh-base">Website made by Glowsham</h6></footer>
+		<div id="msgContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3" style="display: none">
+			<div class="card flex-md-row flex-column">
+				<div class="p-0 card-body text-md-center d-flex justify-content-center mb-md-0 mb-4"><img src="assets/cuteIcon.png" alt="Cute icon"></div>
+				<div id="msgText" class="card-body ps-md-5 p-0 my-auto col-12"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="text-center text-lg-start"><h6 class="text-center p-3 pt-md-3 pt-0 lh-base">Website made by @Trueping and @Glowsham</h6></footer>
 
 	
 	<script src="episodes.js"></script>
@@ -144,14 +181,15 @@
 		}
 
 		if (getParameter('ep')) {
-			var episode = episodes[getParameter('ep')];
+			var allEps = Object.assign(...Object.values(episodes));
+			var episode = allEps[getParameter('ep')];
 
 			document.querySelector('title').innerHTML = 'Watch "' + episode.title + '" online for free - Catch! Teenieping TV';
 			document.getElementById('desc').innerHTML = episode.description;
-			document.getElementById('title').innerHTML = "Watch \"" + episode.title + `"`;
+			document.getElementById('title').innerHTML = `<a id="backButton" class="me-3" aria-label="Back" href="/CatchTeeniepingTV/"></a> ${episode.title}`;
 			
 			document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
-					<iframe src="` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
 				</div>`;
 
 			if (episode.videoAlts) {
@@ -160,7 +198,22 @@
 					document.getElementById('alts').innerHTML += `<a href="` + altUrl + `" class="ctvbutton card h6 d-inline">` + altName + `</a>`;
 				});
 			}
+
+			if (episode.message) {
+				document.getElementById('msgContainer').style.display = 'block';
+				document.getElementById('msgText').innerHTML = `<h3>${messages[episode.message][0]}</h3><p class="mb-0">${messages[episode.message][1]}</p>`;
+			}
 		}
+
+		function makeItSnow() {
+			spawnSnowCSS(500);
+			spawnSnow(500);
+			document.getElementById('snow').style.opacity = '1';
+			document.getElementById('icon').removeEventListener('click', makeItSnow);
+			document.getElementById('icon').classList.remove('clickable');
+		}
+		document.getElementById('icon').addEventListener('click', makeItSnow);
 	</script>
+	<script src="assets/pureSnow.js"></script>
 </body>
 </html>
