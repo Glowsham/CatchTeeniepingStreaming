@@ -53,6 +53,26 @@
 				width: auto;
 			}
 		}
+		#snow {
+			position: fixed;
+			z-index: -1;
+			height: 100vh;
+			width: 100vw;
+			transition: opacity 3s ease-in-out;
+			opacity: 0;
+		}
+
+		.snowflake {
+			position: absolute;
+			width: 10px;
+			height: 10px;
+			background: white;
+			border-radius: 50%;
+			filter: drop-shadow(0 0 10px white);
+		}
+
+		/* banner */
+		#icon.clickable {cursor: pointer}
 
 		/* cards */
 		.card {
@@ -125,19 +145,20 @@
 </head>
 <body>
 	<div id="bg"></div>
+	<div id="snow"></div>
 
 	<div class="px-4 py-3 text-center">
-		<a href="/CatchTeeniepingTV/"><img src="assets/banner.png" alt="Site banner" id="icon" class="col-lg-4 col-md-6 col-10"></a>
+		<img src="assets/banner.png" alt="Site banner" id="icon" class="col-lg-4 col-md-6 col-10 clickable user-select-none" draggable="false" />
 	</div>
 
 	<div class="container pt-2 pb-1">
-		<div class="ctv_container card row mb-4 mx-sm-0 mx-3">
-			<h5 class="mb-3"><ul id="sectionsContainer" class="nav"></ul></h5>
+		<div class="ctv_container card row mb-4 mx-sm-0 mx-3 d-flex justify-content-center p-sm-4 p-0">
+			<h5 class="mb-3"><ul id="sectionsContainer" class="nav mt-sm-0 mt-3"></ul></h5>
 			<div id="episodesContainer" class="row"></div>
 			<!--<div class="mt-2"><a href="https://dateful.com/time-zone-converter?t=0850&tz2=Korea-Standard-Time-KST" class="ctvbutton card h6 d-inline">Watch other seasons</a></div>-->
 		</div>
 
-		<div id="nwBigContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3">
+		<div id="nwBigContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3">
 			<div id="nwContainer" class="d-md-flex">
 				<div class="col-md-6 py-2 d-md-flex justify-content-center flex-column">
 					<div class="ratio ratio-16x9"><iframe id="nwTrailer" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -153,7 +174,7 @@
   		</div>
   	</div>
 
-	<footer class="text-center text-lg-start"><h6 class="text-center p-3 pt-md-3 pt-0 lh-base">Website made by @Trueping and @Glowsham</h6></footer>
+	<footer class="text-center text-lg-start"><h6 class="text-center p-3 pt-md-3 pt-0 lh-base px-4 mx-5">Website made by @Glowsham and @Trueping</h6></footer>
 
 	
 	<script src="episodesList.js"></script>
@@ -165,7 +186,7 @@
 
 			document.getElementById('sectionsContainer').innerHTML = null;
 			sectionsList.forEach((section) => {
-				document.getElementById('sectionsContainer').innerHTML += `<li class="nav-item"><a class="nav-link${selectedSection === section ? ' active' : ''}" aria-current="page" onclick="generateNav('${section}')">${section}</a></li>`;
+				document.getElementById('sectionsContainer').innerHTML += `<li class="nav-item"><a class="nav-link${selectedSection === section ? ' active' : ''} mx-sm-2 mx-2" aria-current="page" onclick="generateNav('${section}')">${section}</a></li>`;
 			});
 
 			generateEpisodesList(selectedSection);
@@ -196,6 +217,16 @@
 				</div></div>`;
 			});
 		}
+
+		function makeItSnow() {
+			spawnSnowCSS(300);
+			spawnSnow(300);
+			document.getElementById('snow').style.opacity = '1';
+			document.getElementById('icon').removeEventListener('click', makeItSnow);
+			document.getElementById('icon').classList.remove('clickable');
+		}
+		document.getElementById('icon').addEventListener('click', makeItSnow);
 	</script>
+	<script src="assets/pureSnow.js"></script>
 </body>
 </html>
