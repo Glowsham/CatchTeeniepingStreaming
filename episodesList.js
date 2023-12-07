@@ -103,8 +103,17 @@ const episodes = {
 			number: 12,
 			title: "Jellyping's Heart is Soft",
 			description: "Romi is studying very hard, until Jellyping's clumsiness results in her homework being all ruined by water! Furious, Romi scolds Jellyping, which results in the latter leaving, out of guilt!",
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8qc8zf",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4789475214099456"
+			}
+		},
+		S4E13: {
+			number: 13,
+			title: "Romi Goes To The Dessert Village",
+			description: "Romi's Sugar Berry Pact starts to behave in an unusual way... so unusual, actually, that it creates a portal transporting Romi and the Teeniepings to the Dessert Village, in ruins because of the lack of Teeniepings...",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8q52wg"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8qc9kc"
 		}
 	},
 
