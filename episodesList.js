@@ -113,7 +113,10 @@ const episodes = {
 			title: "Romi Goes To The Dessert Village",
 			description: "Romi's Sugar Berry Pact starts to behave in an unusual way... so unusual, actually, that it creates a portal transporting Romi and the Teeniepings to the Dessert Village, in ruins because of the lack of Teeniepings...",
 			//videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8qlvlh"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8qlvlh",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4789609907749376"
+			}
 		}
 	},
 
