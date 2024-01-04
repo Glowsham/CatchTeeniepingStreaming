@@ -152,7 +152,7 @@
 
 			<div id="videoContainer"></div>
 
-			<div id="alts" style="display: none">
+			<div id="alts" class="mb-md-0 mb-1" style="display: none">
 				<p class="mt-4 mb-1">The video doesn't work? Try using these alternatives:</p>
 			</div>
 		</div>
@@ -177,10 +177,12 @@
 			if (!results || !results[2]) return null;
 			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
+		var request = getParameter('ep');
 
 		if (getParameter('ep')) {
+			var season = Object.entries(episodes).find(season => Object.keys(season[1]).includes(request))[0];
 			var allEps = Object.assign(...Object.values(episodes));
-			var episode = allEps[getParameter('ep')];
+			var episode = allEps[request];
 
 			document.querySelector('title').innerHTML = 'Watch "' + episode.title + '" online for free - Catch! Teenieping TV';
 			document.getElementById('desc').innerHTML = episode.description;
@@ -197,9 +199,9 @@
 				});
 			}
 
-			if (episode.message) {
+			if (messages[season]) {
 				document.getElementById('msgContainer').style.display = 'block';
-				document.getElementById('msgText').innerHTML = `<h3>${messages[episode.message][0]}</h3><p class="mb-0">${messages[episode.message][1]}</p>`;
+				document.getElementById('msgText').innerHTML = `<h3>${messages[season][0]}</h3><p class="mb-0">${messages[season][1]}</p>`;
 			}
 		}
 
