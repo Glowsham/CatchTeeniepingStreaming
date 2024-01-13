@@ -135,7 +135,7 @@ const episodes = {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789888384238080"
 			}
 		},
-		S4E15: {
+		S4E16: {
 			number: 16,
 			title: "Shashaping Wil Make You Better",
 			description: "Shashaping is making the most delicious ice cream, as it contains magical star fragments she got from a star shower! But as Heartsping tastes it, she suddenly turns red... and faints! What is wrong with Shashaping's ice cream?",
