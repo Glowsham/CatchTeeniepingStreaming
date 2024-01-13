@@ -128,10 +128,19 @@ const episodes = {
 		},
 		S4E15: {
 			number: 15,
-			title: "Taking Care Of A Baby Is Hard, Again",
+			title: "Taking Care Of A Baby Is Hard, Donut",
 			description: "Cupping and Muffping are the stars of the Teenieping Village! Everyone loves them, even when they create a mess at the restaurant... Except for Donutping, who is not only outshined by the two but is also given the difficult task of babysitting them!",
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rf461",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4789888384238080"
+			}
+		},
+		S4E15: {
+			number: 16,
+			title: "Shashaping Wil Make You Better",
+			description: "Shashaping is making the most delicious ice cream, as it contains magical star fragments she got from a star shower! But as Heartsping tastes it, she suddenly turns red... and faints! What is wrong with Shashaping's ice cream?",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8r5hrb"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rf46z"
 		}
 	},
 
