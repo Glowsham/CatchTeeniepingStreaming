@@ -130,17 +130,26 @@ const episodes = {
 			number: 15,
 			title: "Taking Care Of A Baby Is Hard, Donut",
 			description: "Cupping and Muffping are the stars of the Teenieping Village! Everyone loves them, even when they create a mess at the restaurant... Except for Donutping, who is not only outshined by the two but is also given the difficult task of babysitting them!",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rf461",
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rlvbs",
 			videoAlts: {
-				"Bilibili": "https://www.bilibili.tv/en/video/4789888384238080"
+				"Bilibili": "https://www.bilibili.tv/en/video/4789961129198592"
 			}
 		},
 		S4E16: {
 			number: 16,
 			title: "Shashaping Will Make You Better",
 			description: "Shashaping is making the most delicious ice cream, as it contains magical star fragments she got from a star shower! But as Heartsping tastes it, she suddenly turns red... and faints! What is wrong with Shashaping's ice cream?",
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rlvbr",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4789961189622272"
+			}
+		},
+		S4E17: {
+			number: 17,
+			title: "Yodelay-Sleep Well, Yogurt~",
+			description: "Romi's study session is interrupted by Yogurtping's magic, who uses her sheep fairies to put her to sleep! Fortunately, the Teeniepings manage to wake her up, but she's gonna have to catch Yogurtping quickly if she wanna keep those grades up!",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rf46z"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rlvi8"
 		}
 	},
 
