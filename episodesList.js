@@ -153,7 +153,7 @@ const episodes = {
 		}
 	},
 
-	"Season 2": {
+	/*"Season 2": {
 		S2E01: {
 			number: 1,
 			title: "Twinkle Twinkle Jewel Teeniepings",
@@ -310,7 +310,7 @@ const episodes = {
 			description: "After defeating Maskping, Romi finally discovers the whole truth... The story of her friend who stayed in the shadow for way too long... But the battle is not over yet.",
 			videoUrl: "https://drive.google.com/file/d/1qveMcNSUn_ZVEESCf0hEuE1nbIi5SdRa/preview"
 		}
-	}
+	}*/
 };
 
 var messages = {
