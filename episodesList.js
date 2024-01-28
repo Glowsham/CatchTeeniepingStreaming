@@ -148,8 +148,17 @@ const episodes = {
 			number: 17,
 			title: "Yodelay-Sleep Well, Yogurt~",
 			description: "Romi's study session is interrupted by Yogurtping's magic, who uses her sheep fairies to put her to sleep! Fortunately, the Teeniepings manage to wake her up, but she's gonna have to catch Yogurtping quickly if she wanna keep those grades up!",
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ruoeb",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790058865525760"
+			}
+		},
+		S4E18: {
+			number: 18,
+			title: "Ice Princess Iceflakeping",
+			description: "Shashaping remembers of Iceflakeping, with who she used to have so much fun! But that was before their friendship brutally ended, as they discovered Iceflakeping's magic was uncompatible with Shashaping, and kept pushing the latter away while weakening Iceflakeping...",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8rlvi8"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ruotc"
 		}
 	},
 
