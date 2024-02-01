@@ -156,9 +156,18 @@ const episodes = {
 		S4E18: {
 			number: 18,
 			title: "Ice Princess Iceflakeping",
-			description: "Shashaping remembers of Iceflakeping, with who she used to have so much fun! But that was before their friendship brutally ended, as they discovered Iceflakeping's magic was uncompatible with Shashaping, and kept pushing the latter away while weakening Iceflakeping...",
+			description: "Shashaping remembers of Iceflakeping, with whom she used to have so much fun! But that was before their friendship brutally ended, as they discovered Iceflakeping's magic was incompatible with Shashaping, and kept pushing the latter away while weakening Iceflakeping...",
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8s05l4",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
+			}
+		},
+		S4E19: {
+			number: 19,
+			title: "Pudding Pudding Pudding Dance",
+			description: "Whenever Puddingping hears some good music, something strange happens: she starts dancing uncontrollably, her magic activates, and there she goes creating a dancing frenzy with the people around her! And unfortunately for the Harmony Town citizens, they're gonna end up being the next victims of the Teenieping's magic...",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8ruotc"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8s05ne"
 		}
 	},
 
