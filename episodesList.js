@@ -157,7 +157,7 @@ const episodes = {
 			number: 18,
 			title: "Ice Princess Iceflakeping",
 			description: "Shashaping remembers of Iceflakeping, with whom she used to have so much fun! But that was before their friendship brutally ended, as they discovered Iceflakeping's magic was incompatible with Shashaping, and kept pushing the latter away while weakening Iceflakeping...",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8s05l4",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8s05l4?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
 			}
@@ -166,8 +166,17 @@ const episodes = {
 			number: 19,
 			title: "Pudding Pudding Pudding Dance",
 			description: "Whenever Puddingping hears some good music, something strange happens: she starts dancing uncontrollably, her magic activates, and there she goes creating a dancing frenzy with the people around her! And unfortunately for the Harmony Town citizens, they're gonna end up being the next victims of the Teenieping's magic...",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8skzre?subtitles-default=en",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
+			}
+		},
+		S4E20: {
+			number: 20,
+			title: "Fluffy Marshmallow",
+			description: "Mallowping is making everything in Harmony Town soft!",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8s05ne"
+			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8skzrc"
 		}
 	},
 
@@ -336,12 +345,12 @@ var messages = {
 		"Where to watch Twinkle Catch! Teenieping",
 		"This episode was taken from Netflix America by @Trueping. If you have Netflix America, you can also watch the English dub there as it would allow you to financially support the show's creators!"
 	],
-	"Season 3": [
+	/*"Season 3": [
 		"We need translation!",
 		"This season's English dub is not yet available, but meanwhile, you can watch it in Korean! If you speak Korean and would like to help make the subtitles, please contact the admins of the Catch! Teenieping Wiki."
 	],
 	"Season 4": [
 		"We need translation!",
 		"This season's English dub is not yet available, but meanwhile, you can watch it in Korean! If you speak Korean and would like to help make the subtitles, please contact the admins of the Catch! Teenieping Wiki."
-	]
+	]*/
 };
