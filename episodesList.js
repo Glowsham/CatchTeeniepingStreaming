@@ -173,10 +173,19 @@ const episodes = {
 		},
 		S4E20: {
 			number: 20,
-			title: "Fluffy Marshmallow",
+			title: "Fluffy Fluffy Marshmallow",
 			description: "Mallowping is making everything in Harmony Town soft!",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sqmfq?subtitles-default=en",
+			/*videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
+			}*/
+		},
+		S4E21: {
+			number: 21,
+			title: "We All Get Along Well With Little Hats",
+			description: "Chocoping's magic is to give people cute chocolate hats. But (un)fortunately for Lena and Marylou, those hats make the people who wear them get along well with each other, and, in their case, Lena and Marylou even become besties... Much to Maya and Hani's surprise!",
 			videoType: "trailer",
-			videoUrl: "https://geo.dailymotion.com/player/xjrv1.html?video=x8skzrc"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sqmhm"
 		}
 	},
 
