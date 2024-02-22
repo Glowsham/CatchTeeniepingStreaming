@@ -910,7 +910,7 @@ const episodes = {
 			title: "Sweet and Sour Legendary Teenieping",
 			description: "The Sugar Berry Pact starts to work against Romi, as it spreads Tinkle Puff that imprisons all the Dessert Teeniepings! Fortunately, the two Teeniepings that couldn't stop arguing now manage to work together to stop this mess... But as they do, they end up revealing their true identity!",
 			videoType: "trailer",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sqmhm"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t4ite"
 		},
 	}
 };
