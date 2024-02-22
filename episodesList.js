@@ -901,9 +901,9 @@ const episodes = {
 			title: "We All Get Along Well With Little Hats",
 			description: "Chocoping's magic is to give people cute chocolate hats. But (un)fortunately for Lena and Marylou, those hats make the people who wear them get along well with each other, and, in their case, Lena and Marylou even become besties... Much to Maya and Hani's surprise!",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8t4itc?subtitles-default=en",
-			/*videoAlts: {
-				"Bilibili": "https://www.bilibili.tv/en/video/4790263745217536"
-			}*/
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790342699844096"
+			}
 		},
 		S4E22: {
 			number: 22,
