@@ -886,6 +886,11 @@ const episodes = {
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
 			}
+		S4E20: {
+			number: 20,
+			title: "Fluffy Fluffy Marshmallow",
+			description: "Mallowping's magic is to make objects soft. But even though she believes it's for the best, it often causes more harm than good: especially for Ian and Kyle, whose baguette turned completely soft, right when the Baguette King is about to visit!",
+			videoUrl: "https://www.dailymotion.com/video/x8sqmfq"
 		},
 	}
 };
