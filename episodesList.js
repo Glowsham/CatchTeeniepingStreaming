@@ -319,7 +319,6 @@ const episodes = {
 			videoUrl: "https://www.youtube.com/embed/sk-afosHQm4"
 		},
 	},
-
 	"Season 2": {
 		seasonInfo: {
 			number: 2,
@@ -506,7 +505,6 @@ const episodes = {
 			message: "goNetflix"
 		},
 	},
-
 	"Season 3": {
 		seasonInfo: {
 			number: 3,
@@ -909,7 +907,7 @@ const episodes = {
 			number: 22,
 			title: "Sweet and Sour Legendary Teenieping",
 			description: "The Sugar Berry Pact starts to work against Romi, as it spreads Tinkle Puff that imprisons all the Dessert Teeniepings! Fortunately, the two Teeniepings that couldn't stop arguing now manage to work together to stop this mess... But as they do, they end up revealing their true identity!",
-			videoUrl: "https://drive.google.com/file/d/18OWfYsTd5JiCIPccKOHYukZvzsc9SowB/preview",
+			videoUrl: "https://drive.google.com/file/d/18OWfYsTd5JiCIPccKOHYukZvzsc9SowB/preview?usp=drive_link"
 		},
 	}
 };
