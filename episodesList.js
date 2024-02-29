@@ -901,18 +901,19 @@ const episodes = {
 			title: "We All Get Along Well With Little Hats",
 			description: "Chocoping's magic is to give people cute chocolate hats. But (un)fortunately for Lena and Marylou, those hats make the people who wear them get along well with each other, and, in their case, Lena and Marylou even become besties... Much to Maya and Hani's surprise!",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8t4itc?subtitles-default=en",
-			videoAlts: {
-				"Bilibili": "https://www.bilibili.tv/en/video/4790342699844096"
-			}
+			/*videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790263745217536"
+			}*/
 		},
 		S4E22: {
 			number: 22,
 			title: "Sweet and Sour Legendary Teenieping",
-			description: "The Sugar Berry Pact starts to work against Romi, as it spreads Tinkle Puff that imprisons all the Dessert Teeniepings! Fortunately, the two Legendary Teeniepings that couldn't stop arguing now manage to work together to stop this mess. But as they do, they end up revealing their true identity!",
-			videoUrl: "https://drive.google.com/file/d/18OWfYsTd5JiCIPccKOHYukZvzsc9SowB/preview",
-			}
+			description: "The Sugar Berry Pact starts to work against Romi, as it spreads Tinkle Puff that imprisons all the Dessert Teeniepings! Fortunately, the two Teeniepings that couldn't stop arguing now manage to work together to stop this mess... But as they do, they end up revealing their true identity!",
+			videoType: "trailer",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sqmhm"
 		},
 	}
+};
 
 var messages = {
 	/*"Season 1": [
