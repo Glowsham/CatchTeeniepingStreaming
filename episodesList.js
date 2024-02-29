@@ -94,7 +94,7 @@ const episodes = {
 			number: 15,
 			title: "Come Back Home, Heartsping!",
 			description: "After an argument, Heartsping decides to leave the bakery. She then meets Luca, Marylou's sister, who takes care of her. Romi must quickly recover her before it's too late!",
-			videoUrl: "hhttps://www.youtube.com/watch?v=0T1Nn1vl2VY&list=PL1xFxUg2L2fijwyHZKRR2rx3SmO8KZWct&index=15&pp=iAQB"
+			videoUrl: "hhttps://www.youtube.com/embed/0T1Nn1vl2VY"
 		},
 		S1E16: {
 			number: 16,
@@ -354,154 +354,154 @@ const episodes = {
 			number: 5,
 			title: "Wishping's Three Wishes",
 			description: "Lena, Romi's greatest enemy, discovers Wishping. To thank her, Wishping decides to grant Lena 3 wishes. But when Romi finds her, it's too late: Lena refuses to give up Wishping...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/2Ov3kRZU5o4", // HERE AND BELOW ARE KOREAN VERSIONS
 			message: "goNetflix"
 		},
 		S2E06: {
 			number: 6,
 			title: "Pat Pat, It's Okay",
 			description: "Kyle is devastated when he learns that he failed to enter the international pastry school, and decides to leave. Joahping decides to follow him, when she suddenly runs into her friend Patping...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/QUUXGhWLoDc",
 			message: "goNetflix"
 		},
 		S2E07: {
 			number: 7,
 			title: "Shrinking Romi",
 			description: "Maskping is in Harmony Town! And to make things worse, while Heartsping is searching for them, Timidping turns Romi and her friends into super small persons!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/ezbVkqn_Yrs",
 			message: "goNetflix"
 		},
 		S2E08: {
 			number: 8,
 			title: "Tidy Up Until It Sparkles!",
 			description: "Dylan encounters MJ, a famous basketball player, and asks for an autograph. But Tidyping, who wants to clean everything, makes the autograph mysteriously disappear...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/TbcO8leL6eE",
 			message: "goNetflix"
 		},
 		S2E09: {
 			number: 9,
 			title: "Top Chef Yummyping",
 			description: "After the chef quits, the business isn't going well at Eline's Seasoned Chicken Restaurant. To help her mother, Ellie practices day and night, but keeps failing over and over again. But Yummyping, who smells the chicken, decides to help her.",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/VEKpAWIuMWY",
 			message: "goNetflix"
 		},
 		S2E10: {
 			number: 10,
 			title: "Trustping Has Fainted!",
 			description: "While Trustping and Teeheeping are fighting each other, Trustping suddenly faints! In order to cure Trustping's disease, The Tomato Jewel is needed. With the help of Dadaping, the Teeniepings make everything possible to cure him.",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/vQvlazM_Avg",
 			message: "goNetflix"
 		},
 		S2E11: {
 			number: 11,
 			title: "Things Get Wooly!",
 			description: "Cozyping enters the Teenieping School and transforms objects into wooly creations... But when the Teeniepings wake up, a bad surprise awaits: there's a giant Heartsping doll!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/1qAf2VzYjSo",
 			message: "goNetflix"
 		},
 		S2E12: {
 			number: 12,
 			title: "A Teddy Bear Comes to Life",
 			description: "While everyone is relaxing, Maskping takes control of Romi's teddy bear, to attack the Teenieping School. The Teeniepings get afraid, and Tidyping gets devoured! All of this must end!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/28jVRbD1oQM",
 			message: "goNetflix"
 		},
 		S2E13: {
 			number: 13,
 			title: "Another Princess",
 			description: "Jennie, Romi's other cousin from the Emotions Kingdom, arrives in Harmony Town. But if Romi and she are like sisters, her personal Teenieping Onlyping hates Heartsping, and an argument quickly starts...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/lN3ehNt-7mE",
 			message: "goNetflix"
 		},
 		S2E14: {
 			number: 14,
 			title: "Memo This, Memoping!",
 			description: "Memoping has a really special power: everything she notes in her notebook will become true! And when Romi finds her, a race starts, but Romi can't manage to catch Memoping...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/4cci7UNZUU4",
 			message: "goNetflix"
 		},
 		S2E15: {
 			number: 15,
 			title: "Royal Teeniepings' Face-Off!",
 			description: "The Royal Teeniepings arrive at the Teenieping School, and they say that the students Teeniepings cannot help Romi properly. To keep their place, the students Teeniepings will have to win a duel...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/mKfAi8jXnwI",
 			message: "goNetflix"
 		},
 		S2E16: {
 			number: 16,
 			title: "Heartrose Becomes a Kingdom",
 			description: "While Romi is at school, Ladyping, who was tricked by Maskping, enters the bakery and creates her own kingdom, with everyone being at her service, including all the Teeniepings!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/U405uyyJ4-s",
 			message: "goNetflix"
 		},
 		S2E17: {
 			number: 17,
 			title: "A Jewel Teenieping Heist!",
 			description: "While everyone is sleeping, two Thieves|thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/yGkzrdnjAJw",
 			message: "goNetflix"
 		},
 		S2E18: {
 			number: 18,
 			title: "Who's the Real Heartsping?",
 			description: "Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/JZnlWeDYd8I",
 			message: "goNetflix"
 		},
 		S2E19: {
 			number: 19,
 			title: "Find the Gift Box!",
 			description: "Giftping likes to give gifts to everyone! But when she gets chased by Romi, instead of taking her prop, she takes another gift and runs... She will have to recover her magic prop, but how?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/icrTBeHtCfI",
 			message: "goNetflix"
 		},
 		S2E20: {
 			number: 20,
 			title: "Where's My Muse, Sculpt?",
 			description: "Sculptping tries to sculpt a Teenieping of the Jewel Forest, but he can't remember her. Later, his statue is found by the Teeniepings, who take it at the Teenieping School. But suddenly, the statue starts to move!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/IudjMP1aoL8",
 			message: "goNetflix"
 		},
 		S2E21: {
 			number: 21,
 			title: "A Perilous Picnic",
 			description: "Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Maskping suddenly appears!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/VgtBEZXvXcI",
 			message: "goNetflix"
 		},
 		S2E22: {
 			number: 22,
 			title: "Twirl Whirl Teenieping Ballet",
 			description: "When Princess Ruby approaches Balletping, the latter reveals her secret: she wants to have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/h4AOB0tYt6w",
 			message: "goNetflix"
 		},
 		S2E23: {
 			number: 23,
 			title: "Wonderping, the Hero Teenieping",
 			description: "Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/gND01AXNUZw",
 			message: "goNetflix"
 		},
 		S2E24: {
 			number: 24,
 			title: "Teenieping School Graduation",
 			description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping School. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/watch?v=aiqqHC84tKs&list=PLSAMBs4HHBS6nCw481EZOAKkDZq0gpTN_&index=24&t=346s&pp=iAQB,
 			message: "goNetflix"
 		},
 		S2E25: {
 			number: 25,
 			title: "Heartsping in Danger",
 			description: "Heartsping has been made prisoner by Maskping! To save them, Romi, helped by Jennie, go to the Emotions Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/dWFD-Ke0UHQ",
 			message: "goNetflix"
 		},
 		S2E26: {
 			number: 26,
 			title: "The Jewel Forest is Restored",
 			description: "After defeating Maskping, Romi finally discovers the whole truth... The story of her friend who stayed in the shadow for way too long... But the battle is not over yet.",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.youtube.com/embed/4wQH2kgzmuM",
 			message: "goNetflix"
 		},
 	},
@@ -516,176 +516,176 @@ const episodes = {
 			number: 1,
 			title: "Secret Key Teenieping",
 			description: "Jennie strikes once again, and releases all the Key Teeniepings to Earth! Meanwhile, Okeydokeyping, Nanaping, and Trueping, who watched the whole scene, jump into a portal to join them, and fall on Romi herself!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbbs?subtitles-default=en"
 		},
 		S3E02: {
 			number: 2,
 			title: "Transformation! Floraheart",
 			description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Hurryping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Hurryping's magic!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbbq?subtitles-default=en"
 		},
 		S3E03: {
 			number: 3,
 			title: "Surfeiting is dangerous, Yumyum",
 			description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yumyumping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbbu?subtitles-default=en"
 		},
 		S3E04: {
 			number: 4,
 			title: "Hot Hot Camping Commotion",
 			description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfo?subtitles-default=en"
 		},
 		S3E05: {
 			number: 5,
 			title: "I'll Treat You, Cure",
 			description: "Cureping has come to Harmony Town to take care of everyone! But her methods are rather extreme, so when the Teeniepings notice several of Romi's classmates with bandages on them, they know it's time to catch the troublemaker.",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfs?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E06: {
 			number: 6,
 			title: "Teenieping Hospital is Here",
 			description: "The Teenieping Hospital is now open! Beeping and the Nursepings are ready to take care of everyone, but nobody wants to get treated! But when Nanaping faints, it's up to the crew to cure Nanaping no matter what! Is Nanaping in good hands?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E07: {
 			number: 7,
 			title: "Cheer Cheer I’m a Cheerleader",
 			description: "Cheerupping is here to help the people of Harmony Town! As Okeydokeyping can't manage to jump on the vaulting boxes, Cheerupping makes a striking entrance into the Secret Castle to cheer her up!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wg?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E08: {
 			number: 8,
 			title: "Fix It, Handyping",
 			description: "The Teeniepings ignore Sarah's order and have fun with the vacuum cleaner, until it suddenly breaks! But luckily, Fixping is here to lend a hand. But when he uses his magic to try to fix it, the vacuum cleaner suddenly turns evil!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wc?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E09: {
 			number: 9,
 			title: "Romi and Heartsping Have Changed",
 			description: "Because of Wizping's magic, Romi and Heartsping have switched bodies! Will they manage to make everything return to normal, and catch Wizping before something worse happens? A crazy adventure awaits...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wa?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E10: {
 			number: 10,
 			title: "Snow White Romi",
 			description: "Romi and the Teeniepings have disappeared! Well, to be exact, they all get transported into Snow White's universe... the latter embodied by Romi in person! The Royal Teeniepings try to save them, but they make things even worse...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx80k?subtitles-default=en"
 		},
 		S3E11: {
 			number: 11,
 			title: "Fashionping is Making Clothes",
 			description: "Fashionping is giving very strange makeovers to Lena... But the fashion artist doesn't seem satisfied, so she looks for some more inspiration when she gets face to face with Princess Solaris... To whom she gives another makeover!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx80m?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E12: {
 			number: 12,
 			title: "Don't Move, Justiceping",
 			description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Policeping enters the bakery: will he team up with Romi to find the missing rings?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84k?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E13: {
 			number: 13,
 			title: "Sweets Full of Luck",
 			description: " Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84m?subtitles-default=en"
 		},
 		S3E14: {
 			number: 14,
 			title: "Splash Splash Splashping",
 			description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84i?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E15: {
 			number: 15,
 			title: "Partyping and Party Party",
 			description: "Romi and Maya are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a flop?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h7a?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E16: {
 			number: 16,
 			title: "Make a Cool Hairdo, Styleping",
 			description: " How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Styleping. She gets ready to catch her, but the hairdresser won't let this happen!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h78?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E17: {
 			number: 17,
 			title: "Dad's Camera",
 			description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings' help?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h76?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E18: {
 			number: 18,
 			title: "I'm Gonna Pout, Huffyping",
 			description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Huffyping arrives and makes Okeydokeyping burst into tears...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h9q?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E19: {
 			number: 19,
 			title: "Finding Romi's Necklace",
 			description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h9s?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E20: {
 			number: 20,
 			title: "Singing, Aah~ ping",
 			description: "Ariaping, the singer Teenieping, has the notes of her score spread out because of a bird! These notes stick onto someone and modify their voice... Romi and the Teeniepings soon enough realize the situation, and decide to look for the Teenieping!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h9u?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E21: {
 			number: 21,
 			title: "Let’s Play Together, Teenieping Park",
 			description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1hdy?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E22: {
 			number: 22,
 			title: "Going Round and Round",
 			description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1he0?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E23: {
 			number: 23,
 			title: "Appear! Luckyping",
 			description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1he2?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E24: {
 			number: 24,
 			title: "Teenieping Fashion Show",
 			description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Policeping comes across something weird...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t1hgi?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E25: {
 			number: 25,
 			title: "Mystic Village Crisis",
 			description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She and Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t34fk?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 		S3E26: {
 			number: 26,
 			title: "Goodbye, Key Teeniepings",
 			description: "The fight is at its climax: Princess Twilight tries to close the Corrupted Door to prevent the Mystic Village from ending, but she is blocked by Princess Labyrinth! Will Romi be able to bring Jennie back to her senses and stop this madness?",
-			videoUrl: "https://www.dailymotion.com/embed/video/?subtitles-default=en",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8t34gk?subtitles-default=en",
 			message: "approxSubtitles"
 		},
 	},*/
@@ -924,5 +924,12 @@ var messages = {
 	"approxSubtitles": [
 		"Careful, the subtitles might not be accurate!",
 		"The subtitles provided on this video are the results of automatic generation combined with automatic translation. They might therefore not make sense, or might appear at the wrong time, which is why a human intervention is needed, but is yet to come! If you want to help, please contact @Glowsham on the Catch! Teenieping Wiki."
+	]
+};
+
+var globalMessages = {
+	"Season 4": [
+		"No episode next week!",
+		"The trailer for episode 23, the next episode, is going to be aired next week on the Teenieping Show, which means that the episode itself will air the following week. The season is for sure coming to an end, but luckily it will last a few more weeks!"
 	]
 };

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-	<title>Catch! Teenieping TV - Watch Dessert Catch! Teenieping online for free</title>
+	<title>Catch! Teenieping TV - Watch Catch! Teenieping online for free</title>
 	<script type="application/ld+json">
 	{
 		"@context" : "https://schema.org",
@@ -14,9 +14,9 @@
 		"url" : "https://glowsham.github.io"
 	}
 	</script>
-	<meta property="og:title" content="Watch Dessert Catch! Teenieping online for free">
-	<meta property="og:description" content="Watch Dessert Catch! Tenieping, the latest season of the Catch! Teenieping series, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch.">
-	<meta name="description" content="Watch Dessert Catch! Tenieping, the latest season of the Catch! Teenieping series, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch." />
+	<meta property="og:title" content="Watch Catch! Teenieping online for free">
+	<meta property="og:description" content="Watch the Catch! Tenieping series and its latest season, Dessert Catch! Teenieping, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch.">
+	<meta name="description" content="Watch the Catch! Tenieping series and its latest season, Dessert Catch! Teenieping, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch." />
 	<meta name="theme-color" content="#774936" />
 	<link rel="icon" href="assets/favicon.ico">
 	<link rel="apple-touch-icon" href="assets/touchicon.png">
@@ -53,13 +53,13 @@
 				width: auto;
 			}
 		}
-		#snow {
+		#canvas {
 			position: fixed;
 			z-index: -1;
 			height: 100vh;
 			width: 100vw;
-			transition: opacity 3s ease-in-out;
-			opacity: 0;
+			/*transition: opacity 3s ease-in-out;
+			opacity: 0;*/
 		}
 
 		.snowflake {
@@ -99,6 +99,7 @@
 			cursor: pointer;
 			border-width: 5px 10px !important;
 			border-radius: 5px;
+			user-select: none;
 		}
 		.ctv_container .nav-link {
 			background: #ffe5d9;
@@ -125,6 +126,10 @@
 			border-radius: 3px;
 			font-family: 'Fredoka One';
 		}
+		.brownButton {
+			background: #774936;
+			border-color: #774936;
+		}
 		.ctvbutton, .ctvbutton:hover, .ctvbutton:focus {color: white; text-decoration: inherit !important;}
 
 		/* footer */
@@ -132,7 +137,7 @@
 			color: #774936;
 			font-family: 'Fredoka One';
 		}
-		footer a, footer a:hover, footer a:focus, #nwAirdate {color: #e6ae15;}
+		footer a, footer a:hover, footer a:focus, .yellow {color: #e6ae15;}
 	</style>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DDFYT5P728"></script>
 	<script>
@@ -145,7 +150,8 @@
 </head>
 <body>
 	<div id="bg"></div>
-	<div id="snow"></div>
+	<!--<div id="canvas"></div>-->
+	<canvas id="canvas"></canvas>
 
 	<div class="px-4 py-3 text-center">
 		<img src="assets/banner.png" alt="Site banner" id="icon" class="col-lg-4 col-md-6 col-10 clickable user-select-none" draggable="false" />
@@ -154,6 +160,16 @@
 	<div class="container pt-2 pb-1">
 		<div class="ctv_container card row mb-4 mx-sm-0 mx-3 d-flex justify-content-center p-sm-4 p-0">
 			<h5 class="mb-3"><ul id="sectionsContainer" class="nav mt-sm-0 mt-3"></ul></h5>
+			<div id="seasonInfoContainer" class="row mt-2 mb-4" style="display: none;">
+				<div class="d-flex">
+					<div class="d-md-flex align-items-center d-none col-lg-2 col-4"><img class="img-fluid epThumbnail" id="seasonPoster" alt="Season poster"></div>
+					<div id="msgText" class="col-lg-10 col-md-8 px-4 my-md-2 d-flex flex-column justify-content-center">
+						<h4 id="seasonTitle">...</h4>
+						<p id="seasonDesc" class="mb-0">...</p>
+						<div id="seasonDubs" class="ctvbutton card align-self-start h6 mt-3">...</div>
+					</div>
+				</div>
+			</div>
 			<div id="episodesContainer" class="row"></div>
 			<!--<div class="mt-2"><a href="https://dateful.com/time-zone-converter?t=0850&tz2=Korea-Standard-Time-KST" class="ctvbutton card h6 d-inline">Watch other seasons</a></div>-->
 		</div>
@@ -167,17 +183,29 @@
   					<h4 class="lh-1 pt-md-0 pt-3 mb-2">Next episode:</h4>
   					<h3 id="nwTitle" class="lh-1 pe-3 mb-3">...</h3>
 					<p id="nwDesc" class="pe-3 mb-0"></p>
-					<h4 id="nwAirdate" class="pt-3 col-md-10">Airing on Thursday</h4>
-					<a href="https://catchteenieping.fandom.com/f/p/4400000000000042600" id="nwTime" class="ctvbutton card align-self-start h6">Learn more</a>
+					<h4 class="pt-3 col-md-10 yellow">Airing Thursday on the Teenieping Show</h4>
+					<div>
+						<a href="https://catchteenieping.fandom.com/f/p/4400000000000042600" class="ctvbutton card align-self-start h6 d-inline">About the Teenieping Show</a>
+						<a href="https://catchteenieping.fandom.com/f/p/4400000000000051514" class="ctvbutton card align-self-start h6 d-inline">VPNs guide</a>
+					</div>
   				</div>
   			</div>
   		</div>
+
+  		<div id="msgContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3" style="display: none">
+			<div class="card flex-md-row flex-column">
+				<div class="p-0 card-body text-md-center d-flex justify-content-center mb-md-0 mb-4"><img src="assets/cuteIcon.png" alt="Cute icon"></div>
+				<div id="msgText" class="card-body ps-md-5 p-0 my-auto col-12"></div>
+			</div>
+		</div>
   	</div>
 
 	<footer class="text-center text-lg-start"><h6 class="text-center p-3 pt-md-3 pt-0 lh-base px-4 mx-5">Website made by @Glowsham and @LoyalTeenieping</h6></footer>
 
 	
 	<script src="episodesList.js"></script>
+	<!--<script src="assets/pureSnow.js"></script>-->
+	<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 	<script>
 		generateNav('Season 4');
 
@@ -195,16 +223,16 @@
 
 		function generateEpisodesList(section) {
 			var episodesList = Object.entries(episodes[section]);
-			var nextEpisode = episodesList[episodesList.length - 1][1];
 
-			if (nextEpisode.videoType === 'trailer') {
-				document.getElementById('nwBigContainer').classList.remove('d-none');
-				episodesList.pop();
-				document.getElementById('nwTitle').innerHTML = nextEpisode.title;
-				document.getElementById('nwDesc').innerHTML = nextEpisode.description;
-				document.getElementById('nwTrailer').src = nextEpisode.videoUrl;
-			} else {
-				document.getElementById('nwBigContainer').classList.add('d-none');
+			document.getElementById('seasonInfoContainer').style.display = 'none';
+			var seasonInfo = episodesList[0][1];
+			if (seasonInfo.dubs) {
+				document.getElementById('seasonTitle').innerHTML = seasonInfo.name;
+				document.getElementById('seasonDesc').innerHTML = seasonInfo.description;
+				document.getElementById('seasonDubs').innerHTML = seasonInfo.dubs;
+				document.getElementById('seasonPoster').src = 'posters/S' + seasonInfo.number + '.jpg';
+				document.getElementById('seasonInfoContainer').style.display = 'flex';
+				episodesList.shift();
 			}
 
 			document.getElementById('episodesContainer').innerHTML = null;
@@ -216,17 +244,42 @@
 				</div>
 				</div></div>`;
 			});
+
+			var nextEpisode = episodesList[episodesList.length - 1][1];
+			if (nextEpisode.videoType === 'trailer') {
+				document.getElementById('nwBigContainer').classList.remove('d-none');
+				episodesList.pop();
+				document.getElementById('nwTitle').innerHTML = nextEpisode.title;
+				document.getElementById('nwDesc').innerHTML = nextEpisode.description;
+				document.getElementById('nwTrailer').src = nextEpisode.videoUrl;
+			} else {
+				document.getElementById('nwBigContainer').classList.add('d-none');
+			}
+
+			if (globalMessages[season]) {
+				document.getElementById('msgContainer').style.display = 'block';
+				document.getElementById('msgText').innerHTML = `<h3>${globalMessages[season][0]}</h3><p class="mb-0">${globalMessages[season][1]}</p>`;
+			}
 		}
 
-		function makeItSnow() {
+		const canvas = document.getElementById('canvas');
+		const jsConfetti = new JSConfetti({ canvas });
+
+		function animation() {
+			/* --- snow animation
 			spawnSnowCSS(300);
 			spawnSnow(300);
-			document.getElementById('snow').style.opacity = '1';
+			document.getElementById('canvas').style.opacity = '1';
 			document.getElementById('icon').removeEventListener('click', makeItSnow);
-			document.getElementById('icon').classList.remove('clickable');
+			document.getElementById('icon').classList.remove('clickable');*/
+
+			jsConfetti.addConfetti({
+				confettiColors: [
+					'#e44d8e',
+				]
+			});
 		}
-		document.getElementById('icon').addEventListener('click', makeItSnow);
+		document.getElementById('icon').addEventListener('click', animation);
 	</script>
-	<script src="assets/pureSnow.js"></script>
 </body>
 </html>

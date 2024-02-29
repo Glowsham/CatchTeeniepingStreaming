@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-	<title>Catch! Teenieping TV - Watch Dessert Catch! Teenieping online for free</title>
+	<title>Catch! Teenieping TV - Watch Catch! Teenieping online for free</title>
 	<script type="application/ld+json">
 	{
 		"@context" : "https://schema.org",
@@ -13,9 +13,9 @@
 		"url" : "https://glowsham.github.io/"
 	}
 	</script>
-	<meta property="og:title" content="Watch Dessert Catch! Teenieping online for free">
-	<meta property="og:description" content="Watch Dessert Catch! Tenieping, the latest season of the Catch! Teenieping series, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch.">
-	<meta name="description" content="Watch Dessert Catch! Tenieping, the latest season of the Catch! Teenieping series, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch." />
+	<meta property="og:title" content="Watch Catch! Teenieping online for free">
+	<meta property="og:description" content="Watch the Catch! Tenieping series and its latest season, Dessert Catch! Teenieping, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch.">
+	<meta name="description" content="Watch the Catch! Tenieping series and its latest season, Dessert Catch! Teenieping, revolving around the adorable Dessert Teeniepings of the Dessert Village, set free on Earth for Romi to catch." />
 	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 	<link href="assets/touchicon.png" rel="apple-touch-icon">
 	<meta name="theme-color" content="#774936" />
@@ -52,13 +52,13 @@
 				width: auto;
 			}
 		}
-		#snow {
+		#canvas {
 			position: fixed;
 			z-index: -1;
 			height: 100vh;
 			width: 100vw;
-			transition: opacity 3s ease-in-out;
-			opacity: 0;
+			/*transition: opacity 3s ease-in-out;
+			opacity: 0;*/
 		}
 
 		.snowflake {
@@ -119,6 +119,10 @@
 			border-radius: 3px;
 			font-family: 'Fredoka One';
 		}
+		.brownButton {
+			background: #774936;
+			border-color: #774936;
+		}
 		.ctvbutton, .ctvbutton:hover, .ctvbutton:focus {color: white; text-decoration: inherit !important;}
 
 		/* footer */
@@ -139,7 +143,8 @@
 </head>
 <body>
 	<div id="bg"></div>
-	<div id="snow"></div>
+	<!--<div id="canvas"></div>-->
+	<canvas id="canvas"></canvas>
 	
 	<div class="px-4 py-3 text-center">
 		<img src="assets/banner.png" alt="Site banner" id="icon" class="col-lg-4 col-md-6 col-10 clickable user-select-none" draggable="false" />
@@ -153,7 +158,7 @@
 			<div id="videoContainer"></div>
 
 			<div id="alts" class="mb-md-1 mb-1" style="display: none">
-				<p class="mt-4 mb-1">The video doesn't work? Try using these alternatives:</p>
+				<p class="mt-4 mb-1">The video doesn't work? Try these alternatives:</p>
 			</div>
 		</div>
 
@@ -169,6 +174,8 @@
 
 	
 	<script src="episodesList.js"></script>
+	<!--<script src="assets/pureSnow.js"></script>-->
+	<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 	<script>
 		function getParameter(name) {
 			name = name.replace(/[\[\]]/g, "\\$&");
@@ -199,21 +206,31 @@
 				});
 			}
 
-			if (messages[season]) {
+			var msg = messages[season] || messages[episode.message];
+			if (msg) {
 				document.getElementById('msgContainer').style.display = 'block';
-				document.getElementById('msgText').innerHTML = `<h3>${messages[season][0]}</h3><p class="mb-0">${messages[season][1]}</p>`;
+				document.getElementById('msgText').innerHTML = `<h3>${msg[0]}</h3><p class="mb-0">${msg[1]}</p>`;
 			}
 		}
 
-		function makeItSnow() {
+		const canvas = document.getElementById('canvas');
+		const jsConfetti = new JSConfetti({ canvas });
+
+		function animation() {
+			/* --- snow animation
 			spawnSnowCSS(300);
 			spawnSnow(300);
-			document.getElementById('snow').style.opacity = '1';
+			document.getElementById('canvas').style.opacity = '1';
 			document.getElementById('icon').removeEventListener('click', makeItSnow);
-			document.getElementById('icon').classList.remove('clickable');
+			document.getElementById('icon').classList.remove('clickable');*/
+
+			jsConfetti.addConfetti({
+				confettiColors: [
+					'#e44d8e',
+				]
+			});
 		}
-		document.getElementById('icon').addEventListener('click', makeItSnow);
+		document.getElementById('icon').addEventListener('click', animation);
 	</script>
-	<script src="assets/pureSnow.js"></script>
 </body>
 </html>
