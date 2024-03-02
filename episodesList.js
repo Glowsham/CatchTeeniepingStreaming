@@ -899,15 +899,18 @@ const episodes = {
 			title: "We All Get Along Well With Little Hats",
 			description: "Chocoping's magic is to give people cute chocolate hats. But (un)fortunately for Lena and Marylou, those hats make the people who wear them get along well with each other, and, in their case, Lena and Marylou even become besties... Much to Maya and Hani's surprise!",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8t4itc?subtitles-default=en",
-			/*videoAlts: {
-				"Bilibili": "https://www.bilibili.tv/en/video/4790263745217536"
-			}*/
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790342699844096"
+			}
 		},
 		S4E22: {
 			number: 22,
 			title: "Sweet and Sour Legendary Teenieping",
 			description: "The Sugar Berry Pact starts to work against Romi, as it spreads Tinkle Puff that imprisons all the Dessert Teeniepings! Fortunately, the two Teeniepings that couldn't stop arguing now manage to work together to stop this mess... But as they do, they end up revealing their true identity!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8tlg96?subtitles-default=en"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8tlg96?subtitles-default=en",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790443569054720"
+			}
 		},
 	}
 };
@@ -924,12 +927,12 @@ var messages = {
 	"approxSubtitles": [
 		"Careful, the subtitles might not be accurate!",
 		"The subtitles provided on this video are the results of automatic generation combined with automatic translation. They might therefore not make sense, or might appear at the wrong time, which is why a human intervention is needed, but is yet to come! If you want to help, please contact @Glowsham on the Catch! Teenieping Wiki."
-	]
+	],
 };
 
 var globalMessages = {
 	"Season 4": [
 		"No episode next week!",
 		"The trailer for episode 23, the next episode, is going to be aired next week on the Teenieping Show, which means that the episode itself will air the following week. The season is for sure coming to an end, but luckily it will last a few more weeks!"
-	]
+	],
 };

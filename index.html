@@ -195,7 +195,7 @@
   		<div id="msgContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3" style="display: none">
 			<div class="card flex-md-row flex-column">
 				<div class="p-0 card-body text-md-center d-flex justify-content-center mb-md-0 mb-4"><img src="assets/cuteIcon.png" alt="Cute icon"></div>
-				<div id="msgText" class="card-body ps-md-5 p-0 my-auto col-12"></div>
+				<div id="specialMsgText" class="card-body ps-md-5 p-0 my-auto col-12"></div>
 			</div>
 		</div>
   	</div>
@@ -256,9 +256,9 @@
 				document.getElementById('nwBigContainer').classList.add('d-none');
 			}
 
-			if (globalMessages[season]) {
+			if (globalMessages[section]) {
 				document.getElementById('msgContainer').style.display = 'block';
-				document.getElementById('msgText').innerHTML = `<h3>${globalMessages[season][0]}</h3><p class="mb-0">${globalMessages[season][1]}</p>`;
+				document.getElementById('specialMsgText').innerHTML = `<h3>${globalMessages[section][0]}</h3><p class="mb-0">${globalMessages[section][1]}</p>`;
 			}
 		}
 
