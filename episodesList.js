@@ -912,27 +912,34 @@ const episodes = {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790443569054720"
 			}
 		},
+		S4E23: {
+			number: 23,
+			title: "Sweet and Sour Dessert Party",
+			description: "To celebrate Sweetping & Tangyping finally being freed, Romi decides the best way to celebrate is with a dessert party, with all the Dessert Teeniepings! While preparations are going well, a transformed Puffping hopes to spoil the fun. Will things go according to plan?",
+			videoUrl: "https://drive.google.com/file/d/1DMJM0uRAUTqELjrI5odekhUQPVLy8SG1/preview?usp=drive_link"
+			}
+		},
 	}
 };
 
 var messages = {
 	/*"Season 1": [
 		"Supporting the show's creators is important!",
-		"This episode was taken from Netflix America, but watching it here on this site does not allow to financially support the show's creators. Therefore, if you can watch this episode on Netflix, please do, as it would really be a great way to show your support for free!"
+		"This episode was taken from Netflix, but watching it here on this site does not financially support the show's creators. Therefore, if you can watch this episode on Netflix, please do, as it would really be a great way to show your support for free!"
 	],*/
 	"goNetflix": [
 		"The English dub is on Netflix!",
-		"Unfortunately, the official YouTube video of this episode's English has not yet been published. But the English dub of the whole season is already available on Netflix America for you to watch, so feel free to watch this episode on Netflix if you can!"
+		"Unfortunately, the official YouTube video of this episode's English has not yet been published. But the English dub of the whole season is already available on Netflix for you to watch, so feel free to watch it on Netflix if you can!"
 	],
 	"approxSubtitles": [
 		"Careful, the subtitles might not be accurate!",
-		"The subtitles provided on this video are the results of automatic generation combined with automatic translation. They might therefore not make sense, or might appear at the wrong time, which is why a human intervention is needed, but is yet to come! If you want to help, please contact @Glowsham on the Catch! Teenieping Wiki."
+		"The subtitles in this video were automatically generated and translated. Therefore, they may not make sense, or might appear at the wrong time, which is why human intervention is needed, but is yet to come! If you want to help, please contact @Glowsham or @LoyalTeenieping on the Catch! Teenieping Wiki."
 	],
 };
 
 var globalMessages = {
 	"Season 4": [
-		"No episode next week!",
-		"The trailer for episode 23, the next episode, is going to be aired next week on the Teenieping Show, which means that the episode itself will air the following week. The season is for sure coming to an end, but luckily it will last a few more weeks!"
+		"An update!",
+		"The trailer for episode 24 — as well as episode 24 — will air next week on the Teenieping Show. The season may be coming to an end, but luckily it will last a few more weeks!"
 	],
 };
