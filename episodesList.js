@@ -916,7 +916,7 @@ const episodes = {
 			number: 23,
 			title: "Sweet and Sour Dessert Party",
 			description: "To celebrate Sweetping & Tangyping finally being freed, Romi decides the best way to celebrate is with a dessert party, with all the Dessert Teeniepings! While preparations are going well, a transformed Puffping hopes to spoil the fun. Will things go according to plan?",
-			videoUrl: "https://drive.google.com/file/d/1DMJM0uRAUTqELjrI5odekhUQPVLy8SG1/preview?usp=drive_link"
+			videoUrl: "https://drive.google.com/file/d/1DMJM0uRAUTqELjrI5odekhUQPVLy8SG1/preview?usp=drive_link",
 		},
 	}
 };
