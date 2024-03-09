@@ -824,8 +824,7 @@ const episodes = {
 			videoUrl: "https://www.dailymotion.com/embed/video/x8qlvlh?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789609907749376"
-			},
-			message: "approxSubtitles"
+			}
 		},
 		S4E14: {
 			number: 14,
@@ -919,7 +918,8 @@ const episodes = {
 			videoUrl: "https://www.dailymotion.com/embed/video/x8u3of4?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790517734310400"
-			}
+			},
+			message: "approxSubtitles"
 		},
 	}
 };
