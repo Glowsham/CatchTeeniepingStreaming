@@ -184,7 +184,7 @@
   					<h3 id="nwTitle" class="lh-1 pe-3 mb-3">...</h3>
 					<p id="nwDesc" class="pe-3 mb-0"></p>
 					<h4 class="pt-3 col-md-10 yellow">Airing Thursday on the Teenieping Show</h4>
-					<div>
+					<div id="nwButtons">
 						<a href="https://catchteenieping.fandom.com/f/p/4400000000000042600" class="ctvbutton card align-self-start h6 d-inline">About the Teenieping Show</a>
 						<a href="https://catchteenieping.fandom.com/f/p/4400000000000051514" class="ctvbutton card align-self-start h6 d-inline">VPNs guide</a>
 					</div>
@@ -259,6 +259,7 @@
 			if (globalMessages[section]) {
 				document.getElementById('msgContainer').style.display = 'block';
 				document.getElementById('specialMsgText').innerHTML = `<h3>${globalMessages[section][0]}</h3><p class="mb-0">${globalMessages[section][1]}</p>`;
+				if (globalMessages[section][2].buttons) document.getElementById('specialMsgText').innerHTML += '<div class="pt-2">' + document.getElementById(globalMessages[section][2].buttons).innerHTML + '</div>';
 			}
 		}
 

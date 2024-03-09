@@ -916,7 +916,10 @@ const episodes = {
 			number: 23,
 			title: "Sweet and Sour Dessert Party",
 			description: "To celebrate Sweetping & Tangyping finally being freed, Romi decides the best way to celebrate is with a dessert party, with all the Dessert Teeniepings! While preparations are going well, a transformed Puffping hopes to spoil the fun. Will things go according to plan?",
-			videoUrl: "https://drive.google.com/file/d/1DMJM0uRAUTqELjrI5odekhUQPVLy8SG1/preview?usp=drive_link",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8u3of4?subtitles-default=en",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790517734310400"
+			}
 		},
 	}
 };
@@ -938,7 +941,8 @@ var messages = {
 
 var globalMessages = {
 	"Season 4": [
-		"An update!",
-		"The trailer for episode 24 — as well as episode 24 — will air next week on the Teenieping Show. The season may be coming to an end, but luckily it will last a few more weeks!"
+		"Next week on the Teenieping Show...",
+		"The next episode of Season 4 will air next week on the Teenieping Show, a special event organized by the show's creators. The episode's trailer exceptionally wasn't published to keep the element of surprise!",
+		{ buttons: 'nwButtons' }
 	],
 };
