@@ -11,7 +11,7 @@
 		"@type" : "WebSite",
 		"name" : "Catch! Teenieping TV",
 		"alternateName" : "CTTV",
-		"url" : "https://glowsham.github.io"
+		"url" : "https://glowsham.github.io/"
 	}
 	</script>
 	<meta property="og:title" content="Watch Catch! Teenieping online for free">
@@ -162,7 +162,7 @@
 			<h5 class="mb-3"><ul id="sectionsContainer" class="nav mt-sm-0 mt-3"></ul></h5>
 			<div id="seasonInfoContainer" class="row mt-2 mb-4" style="display: none;">
 				<div class="d-flex">
-					<div class="d-md-flex align-items-center d-none col-lg-2 col-4"><img class="img-fluid epThumbnail" id="seasonPoster" alt="Season poster"></div>
+					<div class="d-md-flex align-items-center d-none col-lg-2 col-4" id="seasonPoster"></div>
 					<div id="msgText" class="col-lg-10 col-md-8 px-4 my-md-2 d-flex flex-column justify-content-center">
 						<h4 id="seasonTitle">...</h4>
 						<p id="seasonDesc" class="mb-0">...</p>
@@ -174,7 +174,7 @@
 			<!--<div class="mt-2"><a href="https://dateful.com/time-zone-converter?t=0850&tz2=Korea-Standard-Time-KST" class="ctvbutton card h6 d-inline">Watch other seasons</a></div>-->
 		</div>
 
-		<div id="nwBigContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3">
+		<div id="nwBigContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3 d-none">
 			<div id="nwContainer" class="d-md-flex">
 				<div class="col-md-6 py-2 d-md-flex justify-content-center flex-column">
 					<div class="ratio ratio-16x9"><iframe id="nwTrailer" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -192,7 +192,7 @@
   			</div>
   		</div>
 
-  		<div id="msgContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3" style="display: none">
+  		<div id="msgContainer" class="ctv_container card row mb-4 mx-sm-0 mx-3 p-sm-4 p-3 d-none">
 			<div class="card flex-md-row flex-column">
 				<div class="p-0 card-body text-md-center d-flex justify-content-center mb-md-0 mb-4"><img src="assets/cuteIcon.png" alt="Cute icon"></div>
 				<div id="specialMsgText" class="card-body ps-md-5 p-0 my-auto col-12"></div>
@@ -230,8 +230,14 @@
 				document.getElementById('seasonTitle').innerHTML = seasonInfo.name;
 				document.getElementById('seasonDesc').innerHTML = seasonInfo.description;
 				document.getElementById('seasonDubs').innerHTML = seasonInfo.dubs;
-				document.getElementById('seasonPoster').src = 'posters/S' + seasonInfo.number + '.jpg';
 				document.getElementById('seasonInfoContainer').style.display = 'flex';
+
+				document.getElementById('seasonPoster').innerHTML = '';
+				var seasonsInfo = Object.values(episodes);
+				seasonsInfo.forEach((season) => {
+					document.getElementById('seasonPoster').innerHTML += `<img class="img-fluid epThumbnail" style="display: ${season.seasonInfo.number === seasonInfo.number ? 'block' : 'none'}" id="S${season.seasonInfo.number}poster" alt="Season ${season.seasonInfo.number} poster" src="posters/S${season.seasonInfo.number}.jpg">`;
+				});
+
 				episodesList.shift();
 			}
 
@@ -257,9 +263,11 @@
 			}
 
 			if (globalMessages[section]) {
-				document.getElementById('msgContainer').style.display = 'block';
+				document.getElementById('msgContainer').classList.remove('d-none');
 				document.getElementById('specialMsgText').innerHTML = `<h3>${globalMessages[section][0]}</h3><p class="mb-0">${globalMessages[section][1]}</p>`;
 				if (globalMessages[section][2].buttons) document.getElementById('specialMsgText').innerHTML += '<div>' + document.getElementById(globalMessages[section][2].buttons).innerHTML + '</div>';
+			} else {
+				document.getElementById('msgContainer').classList.add('d-none');
 			}
 		}
 

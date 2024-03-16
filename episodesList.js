@@ -1,5 +1,5 @@
 const episodes = {
-	/*"Season 1": {
+	"Season 1": {
 		seasonInfo: {
 			number: 1,
 			name: "Catch! Teenieping",
@@ -319,6 +319,7 @@ const episodes = {
 			videoUrl: "https://www.youtube.com/embed/sk-afosHQm4"
 		},
 	},
+
 	"Season 2": {
 		seasonInfo: {
 			number: 2,
@@ -354,35 +355,35 @@ const episodes = {
 			number: 5,
 			title: "Wishping's Three Wishes",
 			description: "Lena, Romi's greatest enemy, discovers Wishping. To thank her, Wishping decides to grant Lena 3 wishes. But when Romi finds her, it's too late: Lena refuses to give up Wishping...",
-			videoUrl: "https://www.youtube.com/embed/2Ov3kRZU5o4", // HERE AND BELOW ARE KOREAN VERSIONS
+			videoUrl: "https://www.youtube.com/embed/2Ov3kRZU5o4",
 			message: "goNetflix"
 		},
 		S2E06: {
 			number: 6,
 			title: "Pat Pat, It's Okay",
 			description: "Kyle is devastated when he learns that he failed to enter the international pastry school, and decides to leave. Joahping decides to follow him, when she suddenly runs into her friend Patping...",
-			videoUrl: "https://www.youtube.com/embed/QUUXGhWLoDc",
+			videoUrl: "https://www.youtube.com/embed/F1EtPQYR-Eg",
 			message: "goNetflix"
 		},
 		S2E07: {
 			number: 7,
 			title: "Shrinking Romi",
 			description: "Maskping is in Harmony Town! And to make things worse, while Heartsping is searching for them, Timidping turns Romi and her friends into super small persons!",
-			videoUrl: "https://www.youtube.com/embed/ezbVkqn_Yrs",
+			videoUrl: "https://www.youtube.com/embed/PWzv1JwGW48",
 			message: "goNetflix"
 		},
 		S2E08: {
 			number: 8,
 			title: "Tidy Up Until It Sparkles!",
 			description: "Dylan encounters MJ, a famous basketball player, and asks for an autograph. But Tidyping, who wants to clean everything, makes the autograph mysteriously disappear...",
-			videoUrl: "https://www.youtube.com/embed/TbcO8leL6eE",
+			videoUrl: "https://www.youtube.com/embed/mt8InrfSXCI",
 			message: "goNetflix"
 		},
 		S2E09: {
 			number: 9,
 			title: "Top Chef Yummyping",
 			description: "After the chef quits, the business isn't going well at Eline's Seasoned Chicken Restaurant. To help her mother, Ellie practices day and night, but keeps failing over and over again. But Yummyping, who smells the chicken, decides to help her.",
-			videoUrl: "https://www.youtube.com/embed/VEKpAWIuMWY",
+			videoUrl: "https://www.youtube.com/embed/VEKpAWIuMWY", // HERE AND BELOW ARE KOREAN VERSIONS
 			message: "goNetflix"
 		},
 		S2E10: {
@@ -487,7 +488,7 @@ const episodes = {
 			number: 24,
 			title: "Teenieping School Graduation",
 			description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping School. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
-			videoUrl: "https://www.youtube.com/watch?v=aiqqHC84tKs&list=PLSAMBs4HHBS6nCw481EZOAKkDZq0gpTN_&index=24&t=346s&pp=iAQB,
+			videoUrl: "https://www.youtube.com/watch?v=aiqqHC84tKs&list=PLSAMBs4HHBS6nCw481EZOAKkDZq0gpTN_&index=24&t=346s&pp=iAQB",
 			message: "goNetflix"
 		},
 		S2E25: {
@@ -505,6 +506,7 @@ const episodes = {
 			message: "goNetflix"
 		},
 	},
+
 	"Season 3": {
 		seasonInfo: {
 			number: 3,
@@ -688,15 +690,15 @@ const episodes = {
 			videoUrl: "https://www.dailymotion.com/embed/video/x8t34gk?subtitles-default=en",
 			message: "approxSubtitles"
 		},
-	},*/
+	},
 
 	"Season 4": {
-		/*seasonInfo: {
+		seasonInfo: {
 			number: 4,
 			name: "Dessert Catch! Teenieping",
 			description: "The Dessert Teeniepings are known for making the most delicious treats, but that was until Puffping, a seemingly normal Dessert Teenieping, stole the Magic Sugar Ball, releasing all his friends on Earth for Romi to catch! Romi and the Royal Dessert Teeniepings then get on a new mission, and learn more about the life of Dessert Village, while also meeting two Teeniepings who refuse to show their faces and can't stop arguing. And while Puffping's attempts to stop them fortunately always remain unsuccessful, it seems like his actions might be hiding a bigger mystery...",
 			dubs: "Available in Korean with English subtitles"
-		},*/
+		},
 		S4E01: {
 			number: 1,
 			title: "Sweet and Sour Dessert Teenieping",
@@ -918,6 +920,16 @@ const episodes = {
 			videoUrl: "https://www.dailymotion.com/embed/video/x8u3of4?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790517734310400"
+			},
+			message: "approxSubtitles"
+		},
+		S4E24: {
+			number: 24,
+			title: "Come Back, Puffping",
+			description: "Puffping takes a stand and battles Romi. But Romi is not prepared for what will happen. While Sweetping and Tangyping try to put the Magic Sugar Ball back in its original state. Romi is at her knees.",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8ulk6u?subtitles-default=en",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790602746037248"
 			},
 			message: "approxSubtitles"
 		},
