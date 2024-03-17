@@ -737,7 +737,7 @@ const episodes = {
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788851078470144"
 			},
-			message: "approxSubtitles"
+			message: "noSubtitles"
 		},
 		S4E05: {
 			number: 5,
@@ -757,7 +757,7 @@ const episodes = {
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788997083765248"
 			},
-			message: "approxSubtitles"
+			message: "noSubtitles"
 		},
 		S4E07: {
 			number: 7,
@@ -836,7 +836,7 @@ const episodes = {
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789788622848512"
 			},
-			message: "approxSubtitles"
+			message: "noSubtitles"
 		},
 		S4E15: {
 			number: 15,
@@ -948,6 +948,10 @@ var messages = {
 	"approxSubtitles": [
 		"Careful, the subtitles might not be accurate!",
 		"The subtitles in this video were automatically generated and translated. Therefore, they may not make sense, or might appear at the wrong time, which is why human intervention is needed, but is yet to come! If you want to help, please contact @Glowsham or @LoyalTeenieping on the Catch! Teenieping Wiki."
+	],
+	"noSubtitles": [
+		"No subtitles yet!",
+		"Because of some technical difficulties, the subtitles for this episode are not yet available. Please remain patient, and maybe try to watch the episode in Korean: you can easily grab the meaning even without the dialogue. But don't fret, as this issue should be resolved soon anyway!"
 	],
 };
 
