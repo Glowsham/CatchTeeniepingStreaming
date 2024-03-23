@@ -926,12 +926,22 @@ const episodes = {
 		S4E24: {
 			number: 24,
 			title: "Come Back, Puffping",
-			description: "Puffping takes a stand and battles Romi. But Romi is not prepared for what will happen. While Sweetping and Tangyping try to put the Magic Sugar Ball back in its original state. Romi is at her knees.",
+			description: "As the sun sets, Puffping, now more evil and powerful than ever as he now has the Sugar Berry Pact, takes a stand and battles Romi for the very last time. The princess is more determined than ever, but will that be enough to stop her enemy for good?",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8ulk6u?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790602746037248"
 			},
 			message: "approxSubtitles"
+		},
+		S4E24: {
+			number: 25,
+			title: "Back to Dessert Village",
+			description: "The Dessert Teeniepings, finally all reunited, are about to go back to the Dessert Village! But even though Puffping has reconciled with his enemies, he still is under the influence of the Magic Sugar Ball, which is still inhabited by some dark magic...",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8vgtni?subtitles-default=en",
+			/*videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790602746037248"
+			},*/
+			message: "noSubtitles"
 		},
 	}
 };
