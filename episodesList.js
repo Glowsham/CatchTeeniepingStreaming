@@ -938,9 +938,9 @@ const episodes = {
 			title: "Back to Dessert Village",
 			description: "The Dessert Teeniepings, finally all reunited, are about to go back to the Dessert Village! But even though Puffping has reconciled with his enemies, he still is under the influence of the Magic Sugar Ball, which is still inhabited by some dark magic...",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8vgtni?subtitles-default=en",
-			/*videoAlts: {
-				"Bilibili": "https://www.bilibili.tv/en/video/4790602746037248"
-			},*/
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790682035946496"
+			},
 			message: "noSubtitles"
 		},
 	}
