@@ -933,7 +933,7 @@ const episodes = {
 			},
 			message: "approxSubtitles"
 		},
-		S4E24: {
+		S4E25: {
 			number: 25,
 			title: "Back to Dessert Village",
 			description: "The Dessert Teeniepings, finally all reunited, are about to go back to the Dessert Village! But even though Puffping has reconciled with his enemies, he still is under the influence of the Magic Sugar Ball, which is still inhabited by some dark magic...",
