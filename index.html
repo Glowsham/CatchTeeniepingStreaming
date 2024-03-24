@@ -246,7 +246,7 @@
 				document.getElementById('episodesContainer').innerHTML += `<div class="col-lg-4 col-sm-6 py-2"><div class="card h-100">
 				<div class="ratio ratio-16x9"><img src="thumbnails/` + episode[0] + `.jpg" class="card-img-top epThumbnail" onerror="this.src='thumbnails/placeholder.jpg';" alt="Watch ` + episode[0] + `"></div>
 				<div class="card-body px-0 pt-1 pb-2">
-				<p class="card-text"><a class="stretched-link" href="` + (episode[1].external ? episode[1].videoUrl : 'watch?ep=' + episode [0]) + `">` + episode[1].number + `. ` + (episode[1].title || '') + `</a></p>
+				<p class="card-text"><a class="stretched-link" href="${episode[1].external ? episode[1].videoUrl : 'watch?ep=' + episode [0]}">${episode[1].number ? episode[1].number + '. ' : ''}${episode[1].title || ''}</a></p>
 				</div>
 				</div></div>`;
 			});

@@ -383,14 +383,14 @@ const episodes = {
 			number: 9,
 			title: "Top Chef Yummyping",
 			description: "After the chef quits, the business isn't going well at Eline's Seasoned Chicken Restaurant. To help her mother, Ellie practices day and night, but keeps failing over and over again. But Yummyping, who smells the chicken, decides to help her.",
-			videoUrl: "https://www.youtube.com/embed/VEKpAWIuMWY", // HERE AND BELOW ARE KOREAN VERSIONS
+			videoUrl: "https://www.youtube.com/embed/wmbjjkJ9_CQ",
 			message: "goNetflix"
 		},
 		S2E10: {
 			number: 10,
 			title: "Trustping Has Fainted!",
 			description: "While Trustping and Teeheeping are fighting each other, Trustping suddenly faints! In order to cure Trustping's disease, The Tomato Jewel is needed. With the help of Dadaping, the Teeniepings make everything possible to cure him.",
-			videoUrl: "https://www.youtube.com/embed/vQvlazM_Avg",
+			videoUrl: "https://www.youtube.com/embed/vQvlazM_Avg", // HERE AND BELOW ARE KOREAN VERSIONS
 			message: "goNetflix"
 		},
 		S2E11: {
@@ -549,8 +549,7 @@ const episodes = {
 			number: 6,
 			title: "Teenieping Hospital is Here",
 			description: "The Teenieping Hospital is now open! Beeping and the Nursepings are ready to take care of everyone, but nobody wants to get treated! But when Nanaping faints, it's up to the crew to cure Nanaping no matter what! Is Nanaping in good hands?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=en",
-			message: "approxSubtitles"
+			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=kr" // WRONG SUB LANGUAGE
 		},
 		S3E07: {
 			number: 7,
@@ -968,7 +967,7 @@ var messages = {
 var globalMessages = {
 	"Season 4": [
 		"Next week on the Teenieping Show...",
-		"The next episode of Season 4 will air next week on the Teenieping Show, a special event organized by the show's creators. The episode's trailer exceptionally wasn't published to keep the element of surprise!",
+		"The next episode of Season 4 will air next week on the Teenieping Show, a special event organized by the show's creators. The episode's trailer wasn't published to keep the element of surprise!",
 		{ buttons: 'nwButtons' }
 	],
 };
