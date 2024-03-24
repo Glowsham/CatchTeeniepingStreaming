@@ -901,7 +901,8 @@ const episodes = {
 			videoUrl: "https://www.dailymotion.com/embed/video/x8t4itc?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790342699844096"
-			}
+			},
+			message: "noSubtitles"
 		},
 		S4E22: {
 			number: 22,
@@ -939,8 +940,7 @@ const episodes = {
 			videoUrl: "https://www.dailymotion.com/embed/video/x8vgtni?subtitles-default=en",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790682035946496"
-			},
-			message: "noSubtitles"
+			}
 		},
 	}
 };
