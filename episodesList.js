@@ -942,6 +942,12 @@ const episodes = {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790682035946496"
 			}
 		},
+		S4E26: {
+			number: 26,
+			title: "Back to Dessert Village",
+			description: "The very last episode of the season!",
+			videoUrl: "https://www.dailymotion.com/embed/video/x8vyrk4?subtitles-default=en",
+		},
 	}
 };
 
@@ -965,9 +971,9 @@ var messages = {
 };
 
 var globalMessages = {
-	"Season 4": [
+	/*"Season 4": [
 		"Next week on the Teenieping Show...",
 		"The next episode of Season 4 will air next week on the Teenieping Show, a special event organized by the show's creators. The episode's trailer wasn't published to keep the element of surprise!",
 		{ buttons: 'nwButtons' }
-	],
+	],*/
 };
