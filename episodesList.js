@@ -548,7 +548,7 @@ const episodes = {
 		S3E06: {
 			number: 6,
 			title: "Teenieping Hospital is Here",
-			description: "The Teenieping Hospital is now open! Beeping and the Nursepings are ready to take care of everyone, but nobody wants to get treated! But when Nanaping faints, it's up to the crew to cure Nanaping no matter what! Is Nanaping in good hands?",
+			description: "The Teenieping Hospital is now open! Cureping and the Nursepings are ready to take care of everyone, but nobody wants to get treated! But when Nanaping faints, it's up to the crew to cure Nanaping no matter what! Is Nanaping in good hands?",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=kr" // WRONG SUB LANGUAGE
 		},
 		S3E07: {
@@ -945,8 +945,11 @@ const episodes = {
 		S4E26: {
 			number: 26,
 			title: "Back to Dessert Village",
-			description: "The very last episode of the season!",
+			description: "Puffping tries to destroy the village! As he is now headed to the Cake Castle, they need to protect the Castle in order to save the village! As much worse comes in, they somehow need to get in the body and free Puffping.",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8vyrk4?subtitles-default=en",
+			videoAlts: {
+				"Bilibili": "https://www.bilibili.tv/en/video/4790761702170112"
+			}
 		},
 	}
 };
