@@ -561,7 +561,7 @@ const episodes = {
 		S3E08: {
 			number: 8,
 			title: "Fix It, Handyping",
-			description: "The Teeniepings ignore Sarah's order and have fun with the vacuum cleaner, until it suddenly breaks! But luckily, Fixping is here to lend a hand. But when he uses his magic to try to fix it, the vacuum cleaner suddenly turns evil!",
+			description: "The Teeniepings ignore Sarah's order and have fun with the vacuum cleaner, until it suddenly breaks! But luckily, Handyping is here to lend a hand. But when he uses his magic to try to fix it, the vacuum cleaner suddenly turns evil!",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wc?subtitles-default=en",
 			message: "approxSubtitles"
 		},
@@ -588,7 +588,7 @@ const episodes = {
 		S3E12: {
 			number: 12,
 			title: "Don't Move, Justiceping",
-			description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Policeping enters the bakery: will he team up with Romi to find the missing rings?",
+			description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Justiceping enters the bakery: will he team up with Romi to find the missing rings?",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84k?subtitles-default=en",
 			message: "approxSubtitles"
 		},
@@ -671,7 +671,7 @@ const episodes = {
 		S3E24: {
 			number: 24,
 			title: "Teenieping Fashion Show",
-			description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Policeping comes across something weird...",
+			description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Justiceping comes across something weird...",
 			videoUrl: "https://www.dailymotion.com/embed/video/x8t1hgi?subtitles-default=en",
 			message: "approxSubtitles"
 		},
