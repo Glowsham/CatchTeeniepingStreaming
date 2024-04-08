@@ -488,7 +488,7 @@ const episodes = {
 			number: 24,
 			title: "Teenieping School Graduation",
 			description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping School. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
-			videoUrl: "https://www.youtube.com/watch?v=aiqqHC84tKs&list=PLSAMBs4HHBS6nCw481EZOAKkDZq0gpTN_&index=24&t=346s&pp=iAQB",
+			videoUrl: "https://www.youtube.com/embed/aiqqHC84tKs",
 			message: "goNetflix"
 		},
 		S2E25: {
