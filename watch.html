@@ -96,11 +96,11 @@
 			font-family: 'Fredoka One';
 		}
 		.stretched-link, .stretched-link:hover, .stretched-link:focus {color: inherit; text-decoration: inherit !important;}
-		.ratio iframe {
+		.ratio iframe, .ratio img {
 			border-radius: 0.25rem;
 			/*border: 3.5px solid #CB997E;
 			border-bottom-width: 2.5px;*/
-			background: black;/*#CB997E;*/
+			/*background: black;*//*#CB997E;*/
 		}
 		#backButton {
 			background: url(assets/leftArrow.png) no-repeat;
@@ -108,6 +108,17 @@
 			height: 1em;
 			width: 1em;
 			display: inline;
+		}
+		.playContainer {
+			background-size: cover;
+		}
+		.playContainer a {
+			display: grid;
+			place-items: center;
+		}
+		.playButton {
+			width: 20%;
+			filter: drop-shadow(0 0 50px rgba(0,0,0,1));
 		}
 
 		/* button */
@@ -200,13 +211,17 @@
 				</div>`;
 
 			var driveRegex = /d\/(.+?)\/preview/;
-			if (episode.videoUrl.match(driveRegex)) episode.videoAlts = { 'Google Drive': `https://drive.google.com/file/d/${driveRegex[1]}/view` };
+			if (episode.videoUrl && episode.videoUrl.match(driveRegex)) episode.videoAlts = { 'Google Drive': `https://drive.google.com/file/d/${driveRegex[1]}/view` };
 
 			if (episode.videoAlts) {
 				document.getElementById('alts').style.display = 'block';
 				Object.entries(episode.videoAlts).forEach(([ altName, altUrl ]) => {
 					document.getElementById('alts').innerHTML += `<a href="` + altUrl + `" class="ctvbutton card h6 d-inline">` + altName + `</a>\n`;
 				});
+			}
+
+			if (!episode.videoUrl && episode.redirect) {
+				document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9 playContainer" style="background-image: url('thumbnails/${request}.jpg')"><a href="${episode.redirect}"><img src="playbutton.png" class="playButton" alt="Click here to play the episode!"></a></div>`;
 			}
 
 			var msg = messages[season] || messages[episode.message];

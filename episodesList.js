@@ -518,175 +518,175 @@ const episodes = {
 			number: 1,
 			title: "Secret Key Teenieping",
 			description: "Jennie strikes once again, and releases all the Key Teeniepings to Earth! Meanwhile, Okeydokeyping, Nanaping, and Trueping, who watched the whole scene, jump into a portal to join them, and fall on Romi herself!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbbs?subtitles-default=en"
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc" // old embed: https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=en
 		},
 		S3E02: {
 			number: 2,
 			title: "Transformation! Floraheart",
 			description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Hurryping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Hurryping's magic!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbbq?subtitles-default=en"
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
 		},
 		S3E03: {
 			number: 3,
 			title: "Surfeiting is dangerous, Yumyum",
 			description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yumyumping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbbu?subtitles-default=en"
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
 		},
 		S3E04: {
 			number: 4,
 			title: "Hot Hot Camping Commotion",
 			description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfo?subtitles-default=en"
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
 		},
 		S3E05: {
 			number: 5,
 			title: "I'll Treat You, Cure",
 			description: "Cureping has come to Harmony Town to take care of everyone! But her methods are rather extreme, so when the Teeniepings notice several of Romi's classmates with bandages on them, they know it's time to catch the troublemaker.",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfs?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E06: {
 			number: 6,
 			title: "Teenieping Hospital is Here",
 			description: "The Teenieping Hospital is now open! Cureping and the Nursepings are ready to take care of everyone, but nobody wants to get treated! But when Nanaping faints, it's up to the crew to cure Nanaping no matter what! Is Nanaping in good hands?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=kr" // WRONG SUB LANGUAGE
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc" // WRONG SUB LANGUAGE
 		},
 		S3E07: {
 			number: 7,
 			title: "Cheer Cheer I’m a Cheerleader",
 			description: "Cheerupping is here to help the people of Harmony Town! As Okeydokeyping can't manage to jump on the vaulting boxes, Cheerupping makes a striking entrance into the Secret Castle to cheer her up!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wg?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E08: {
 			number: 8,
 			title: "Fix It, Handyping",
 			description: "The Teeniepings ignore Sarah's order and have fun with the vacuum cleaner, until it suddenly breaks! But luckily, Handyping is here to lend a hand. But when he uses his magic to try to fix it, the vacuum cleaner suddenly turns evil!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wc?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E09: {
 			number: 9,
 			title: "Romi and Heartsping Have Changed",
 			description: "Because of Wizping's magic, Romi and Heartsping have switched bodies! Will they manage to make everything return to normal, and catch Wizping before something worse happens? A crazy adventure awaits...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx7wa?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E10: {
 			number: 10,
 			title: "Snow White Romi",
 			description: "Romi and the Teeniepings have disappeared! Well, to be exact, they all get transported into Snow White's universe... the latter embodied by Romi in person! The Royal Teeniepings try to save them, but they make things even worse...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx80k?subtitles-default=en"
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
 		},
 		S3E11: {
 			number: 11,
 			title: "Fashionping is Making Clothes",
 			description: "Fashionping is giving very strange makeovers to Lena... But the fashion artist doesn't seem satisfied, so she looks for some more inspiration when she gets face to face with Princess Solaris... To whom she gives another makeover!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx80m?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E12: {
 			number: 12,
 			title: "Don't Move, Justiceping",
 			description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Justiceping enters the bakery: will he team up with Romi to find the missing rings?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84k?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E13: {
 			number: 13,
 			title: "Sweets Full of Luck",
 			description: " Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84m?subtitles-default=en"
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
 		},
 		S3E14: {
 			number: 14,
 			title: "Splash Splash Splashping",
 			description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sx84i?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E15: {
 			number: 15,
 			title: "Partyping and Party Party",
 			description: "Romi and Maya are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a flop?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h7a?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E16: {
 			number: 16,
 			title: "Make a Cool Hairdo, Styleping",
 			description: " How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Styleping. She gets ready to catch her, but the hairdresser won't let this happen!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h78?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E17: {
 			number: 17,
 			title: "Dad's Camera",
 			description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings' help?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h76?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E18: {
 			number: 18,
 			title: "I'm Gonna Pout, Huffyping",
 			description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Huffyping arrives and makes Okeydokeyping burst into tears...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h9q?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E19: {
 			number: 19,
 			title: "Finding Romi's Necklace",
 			description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h9s?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E20: {
 			number: 20,
 			title: "Singing, Aah~ ping",
 			description: "Ariaping, the singer Teenieping, has the notes of her score spread out because of a bird! These notes stick onto someone and modify their voice... Romi and the Teeniepings soon enough realize the situation, and decide to look for the Teenieping!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1h9u?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E21: {
 			number: 21,
 			title: "Let’s Play Together, Teenieping Park",
 			description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1hdy?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E22: {
 			number: 22,
 			title: "Going Round and Round",
 			description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1he0?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E23: {
 			number: 23,
 			title: "Appear! Luckyping",
 			description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1he2?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E24: {
 			number: 24,
 			title: "Teenieping Fashion Show",
 			description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Justiceping comes across something weird...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t1hgi?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E25: {
 			number: 25,
 			title: "Mystic Village Crisis",
 			description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She and Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t34fk?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 		S3E26: {
 			number: 26,
 			title: "Goodbye, Key Teeniepings",
 			description: "The fight is at its climax: Princess Twilight tries to close the Corrupted Door to prevent the Mystic Village from ending, but she is blocked by Princess Labyrinth! Will Romi be able to bring Jennie back to her senses and stop this madness?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t34gk?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			message: "approxSubtitles"
 		},
 	},
@@ -702,7 +702,7 @@ const episodes = {
 			number: 1,
 			title: "Sweet and Sour Dessert Teenieping",
 			description: "Something strange is happening with the desserts of the Dessert Village: the tasty treats taste unusually odd! To make matters worse, the protective Magic Sugar Ball and the adorable Dessert Teeniepings have vanished without a trace. What could possibly be the explanation for this  mystery?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8of1sk?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788702030730752"
 			},
@@ -712,7 +712,7 @@ const episodes = {
 			number: 2,
 			title: "Transformation! Princess Berryheart",
 			description: "After Fluffyping mistakes Lena for Princess Romi, she — along with Heartsping, Shashaping & Jellyping — gets into a mad chase all over Harmony Town to get her back and retrieve the Sugar Berry Pact!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8of1sl?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788702040430080"
 			},
@@ -722,7 +722,7 @@ const episodes = {
 			number: 3,
 			title: "I Want To Decorate It Pretty, Meringue",
 			description: "Hye-joo visits the bakery and asks for a cake, so the Royal Teeniepings and Kyle get work to satisfy her demand! But what they don't know is that a big twist awaits as Meringueping sets foot in the shop...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8okg31?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788760551757312"
 			},
@@ -732,7 +732,7 @@ const episodes = {
 			number: 4,
 			title: "Sandping and the Secret of Sand Cookies",
 			description: "A new Teenieping appears: Sandping, who is well-known for her delicious sandwich cookies, but also for her weird habits, like her dedication to never breaking a cookie, or creating cookies with very unexpected side effects!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8ot24a?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788851078470144"
 			},
@@ -742,7 +742,7 @@ const episodes = {
 			number: 5,
 			title: "Catch Puffping",
 			description: "Puffping discovers the wonderful power that the Magic Sugar Ball has, and will now do anything to keep it! But when Maya alerts Romi of this mischievous Teenieping, Romi transforms and sets out to stop him!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8oyeoj?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788918800225792"
 			},
@@ -752,7 +752,7 @@ const episodes = {
 			number: 6,
 			title: "I Want To be a Royal Teenieping",
 			description: "When Donutping sees Romi transform, she only wants one thing: to transform with her! Unfortunately, this is something only the Royal Teeniepings can do this... But Donutping has an idea in mind!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8p48wa?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4788997083765248"
 			},
@@ -762,7 +762,7 @@ const episodes = {
 			number: 7,
 			title: "Be Flat! Waffleping",
 			description: "The Teeniepings are happily shopping at the Teenieping Village, when the stores' groceries, and even the shops themselves start to become as flat as a paper sheet! A new Teenieping, Waffleping, has appeared!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8pce5x?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789097537863680"
 			},
@@ -772,7 +772,7 @@ const episodes = {
 			number: 8,
 			title: "Turn, Turn~ Lolliping",
 			description: "Luca's day takes a turn for the worse when she discovers that the carousel she had been excited to ride on is out of order. However, just as her disappointment grows, a stroke of luck comes her way - Lolliping, with the ability to spin objects at will, unexpectedly crosses paths with Luca while skillfully dodging Princess SweetFloss' attacks.",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8pj0mu?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789169105797632"
 			},
@@ -782,7 +782,7 @@ const episodes = {
 			number: 9,
 			title: "Fluffyping And Her Tiny Friends",
 			description: "During a fight against Puffping, a strange phenomenon happens, which results in Princess Berryheart and the Royal Teeniepings - with the exception of Fluffyping - becoming tiny! And in order to save her tiny friends, Fluffyping has to find Puffping...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8possd?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789255691043328"
 			},
@@ -792,7 +792,7 @@ const episodes = {
 			number: 10,
 			title: "Let's Color It Colorfully, Macaping",
 			description: "Jellyping has suddenly turned green! Her friends believe she has caught a rare disease, and begin to take good care of her. But little do they know this is nothing but the work of Macaping, which Jellyping might be using to her advantage!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8pyj7r?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789339648558080"
 			},
@@ -802,7 +802,7 @@ const episodes = {
 			number: 11,
 			title: "Stack It Up, One By One, Pancakeping",
 			description: "Dylan is trying to build the highest tennis ball tower! But the stakes get high when he challenges Lena, who keeps mocking him, in a tennis ball tower contest: what if he doesn't win? But luckily, one wonderful encounter is about to change everything!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8q52pb?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789406179656192"
 			},
@@ -812,7 +812,7 @@ const episodes = {
 			number: 12,
 			title: "Jellyping's Heart is Soft",
 			description: "Romi is studying very hard, until Jellyping's clumsiness results in her homework being all ruined by water! Furious, Romi scolds Jellyping, which results in the latter leaving, out of guilt!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8qc8zf?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789475214099456"
 			},
@@ -822,7 +822,7 @@ const episodes = {
 			number: 13,
 			title: "Romi Goes To The Dessert Village",
 			description: "Romi's Sugar Berry Pact starts to behave unusually... so unusual that it creates a portal transporting Romi and the Teeniepings to the Dessert Village, in ruins because of the lack of Teeniepings!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8qlvlh?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789609907749376"
 			}
@@ -831,7 +831,7 @@ const episodes = {
 			number: 14,
 			title: "You Can't Cry! Cupping, Muffping",
 			description: "Teeniepings may be cute, but baby Teeniepings like Cupping and Muffping are even cuter! But not when it comes to catching them, as the two siblings know how to avoid their enemies, and worse, they become giants when they cry!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8r5hz1?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789788622848512"
 			},
@@ -841,7 +841,7 @@ const episodes = {
 			number: 15,
 			title: "Taking Care Of A Baby Is Hard, Donut",
 			description: "Cupping and Muffping are the stars of the Teenieping Village! Everyone loves them, even when they create a mess at the restaurant... Except for Donutping, who is not only outshined by the two but is also given the difficult task of babysitting them!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8rlvbs?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789961129198592"
 			},
@@ -851,7 +851,7 @@ const episodes = {
 			number: 16,
 			title: "Shashaping Will Make You Better",
 			description: "Shashaping is making the most delicious ice cream, as it contains magical star fragments she got from a star shower! But as Heartsping tastes it, she suddenly turns red... and faints! What is wrong with Shashaping's ice cream?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8rlvbr?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4789961189622272"
 			},
@@ -861,7 +861,7 @@ const episodes = {
 			number: 17,
 			title: "Yodelay-Sleep Well, Yogurt~",
 			description: "Romi's study session is interrupted by Yogurtping's magic, who uses her sheep fairies to put her to sleep! Fortunately, the Teeniepings manage to wake her up, but she's gonna have to catch Yogurtping quickly if she wanna keep those grades up!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8ruoeb?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790058865525760"
 			},
@@ -871,7 +871,7 @@ const episodes = {
 			number: 18,
 			title: "Ice Princess Iceflakeping",
 			description: "Shashaping remembers of Iceflakeping, with whom she used to have so much fun! But that was before their friendship brutally ended, as they discovered Iceflakeping's magic was incompatible with Shashaping, and kept pushing the latter away while weakening Iceflakeping...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8s05l4?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
 			}
@@ -880,7 +880,7 @@ const episodes = {
 			number: 19,
 			title: "Pudding Pudding Pudding Dance",
 			description: "Whenever Puddingping hears some good music, something strange happens: she starts dancing uncontrollably, her magic activates, and there she goes creating a dancing frenzy with the people around her! And unfortunately for the Harmony Town citizens, they're gonna end up being the next victims of the Teenieping's magic...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8skzre?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790108879585792"
 			}
@@ -889,7 +889,7 @@ const episodes = {
 			number: 20,
 			title: "Fluffy Fluffy Marshmallow",
 			description: "Mallowping's magic is to make objects soft. But even though she believes it's for the best, it often causes more harm than good: especially for Ian and Kyle, whose baguette turned completely soft, right when the Baguette King is about to visit!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8sqmfq?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790263745217536"
 			}
@@ -898,7 +898,7 @@ const episodes = {
 			number: 21,
 			title: "We All Get Along Well With Little Hats",
 			description: "Chocoping's magic is to give people cute chocolate hats. But (un)fortunately for Lena and Marylou, those hats make the people who wear them get along well with each other, and, in their case, Lena and Marylou even become besties... Much to Maya and Hani's surprise!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8t4itc?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790342699844096"
 			},
@@ -908,7 +908,7 @@ const episodes = {
 			number: 22,
 			title: "Sweet and Sour Legendary Teenieping",
 			description: "The Sugar Berry Pact starts to work against Romi, as it spreads Tinkle Puff that imprisons all the Dessert Teeniepings! Fortunately, the two Teeniepings that couldn't stop arguing now manage to work together to stop this mess... But as they do, they end up revealing their true identity!",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8tlg96?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790443569054720"
 			}
@@ -917,7 +917,7 @@ const episodes = {
 			number: 23,
 			title: "Sweet and Sour Dessert Party",
 			description: "To celebrate Sweetping & Tangyping finally being freed, Romi decides the best way to celebrate is with a dessert party, with all the Dessert Teeniepings! While preparations are going well, a transformed Puffping hopes to spoil the fun. Will things go according to plan?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8u3of4?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790517734310400"
 			},
@@ -927,7 +927,7 @@ const episodes = {
 			number: 24,
 			title: "Come Back, Puffping",
 			description: "As the sun sets, Puffping, now more evil and powerful than ever as he now has the Sugar Berry Pact, takes a stand and battles Romi for the very last time. The princess is more determined than ever, but will that be enough to stop her enemy for good?",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8ulk6u?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790602746037248"
 			},
@@ -937,7 +937,7 @@ const episodes = {
 			number: 25,
 			title: "Back to Dessert Village",
 			description: "The Dessert Teeniepings, finally all reunited, are about to go back to the Dessert Village! But even though Puffping has reconciled with his enemies, he still is under the influence of the Magic Sugar Ball, which is still inhabited by some dark magic...",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8vgtni?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790682035946496"
 			}
@@ -946,7 +946,7 @@ const episodes = {
 			number: 26,
 			title: "Back to Dessert Village",
 			description: "Puffping tries to destroy the village! As he is now headed to the Cake Castle, they need to protect the Castle in order to save the village! As much worse comes in, they somehow need to get in the body and free Puffping.",
-			videoUrl: "https://www.dailymotion.com/embed/video/x8vyrk4?subtitles-default=en",
+			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
 			videoAlts: {
 				"Bilibili": "https://www.bilibili.tv/en/video/4790761702170112"
 			}
