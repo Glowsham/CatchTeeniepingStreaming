@@ -518,175 +518,175 @@ const episodes = {
 			number: 1,
 			title: "Secret Key Teenieping",
 			description: "Jennie strikes once again, and releases all the Key Teeniepings to Earth! Meanwhile, Okeydokeyping, Nanaping, and Trueping, who watched the whole scene, jump into a portal to join them, and fall on Romi herself!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc" // old embed: https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=en
+			redirect: "https://drive.google.com/file/d/1dWWIzLreT4nQDD2ANPbCfc4MFyaLFa8f/view?usp=drive_link" // old embed: https://www.dailymotion.com/embed/video/x8slbfq?subtitles-default=en
 		},
 		S3E02: {
 			number: 2,
 			title: "Transformation! Floraheart",
 			description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Hurryping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Hurryping's magic!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
+			redirect: "https://drive.google.com/file/d/1w4FU3RU-3dI3TSo9aUaEs9Ncdct_zRh8/view?usp=sharing"
 		},
 		S3E03: {
 			number: 3,
 			title: "Surfeiting is dangerous, Yumyum",
 			description: "Romi and the Teeniepings are helping at Raymond's snack bar, but food keeps disappearing: because of Yumyumping, someone is eating all the food in secret! Will the princess be able to put an end to this mess?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
+			redirect: "https://drive.google.com/file/d/17hqYkUbnATQF_5Gq4_i1Wf0ByCWmPd8e/view?usp=drive_link"
 		},
 		S3E04: {
 			number: 4,
 			title: "Hot Hot Camping Commotion",
 			description: "Everyone is excited about today's camping party... except Trueping who would have rather gone to the beach. But while he is taking care of the fire, it gets repeatedly extinguished! Is Trueping having illusions, or is someone behind all this?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
+			redirect: "https://drive.google.com/file/d/17vM3LiXEY2rHg1lFAYE1eBRz-eckid1T/view?usp=drive_link"
 		},
 		S3E05: {
 			number: 5,
 			title: "I'll Treat You, Cure",
 			description: "Cureping has come to Harmony Town to take care of everyone! But her methods are rather extreme, so when the Teeniepings notice several of Romi's classmates with bandages on them, they know it's time to catch the troublemaker.",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1IEgyEAVsxQjugb_Y4LAo_WnxwYgPocS7/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E06: {
 			number: 6,
 			title: "Teenieping Hospital is Here",
 			description: "The Teenieping Hospital is now open! Cureping and the Nursepings are ready to take care of everyone, but nobody wants to get treated! But when Nanaping faints, it's up to the crew to cure Nanaping no matter what! Is Nanaping in good hands?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc" // WRONG SUB LANGUAGE
+			redirect: "https://drive.google.com/file/d/1suuUX6CpKZb54TLK7laBW3vC3TYh6_F2/view?usp=drive_link"
 		},
 		S3E07: {
 			number: 7,
 			title: "Cheer Cheer I’m a Cheerleader",
 			description: "Cheerupping is here to help the people of Harmony Town! As Okeydokeyping can't manage to jump on the vaulting boxes, Cheerupping makes a striking entrance into the Secret Castle to cheer her up!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1sGsWScQwkXC7nHLgRh92KshjW58b8j83/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E08: {
 			number: 8,
 			title: "Fix It, Handyping",
 			description: "The Teeniepings ignore Sarah's order and have fun with the vacuum cleaner, until it suddenly breaks! But luckily, Handyping is here to lend a hand. But when he uses his magic to try to fix it, the vacuum cleaner suddenly turns evil!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1Guif2ACDQuw6Vy8UX9j0ZUx2a3Kp62C7/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E09: {
 			number: 9,
 			title: "Romi and Heartsping Have Changed",
 			description: "Because of Wizping's magic, Romi and Heartsping have switched bodies! Will they manage to make everything return to normal, and catch Wizping before something worse happens? A crazy adventure awaits...",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1H6wAybwQFe5hPUjiHv2gnUaFYqEtEjB_/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E10: {
 			number: 10,
 			title: "Snow White Romi",
 			description: "Romi and the Teeniepings have disappeared! Well, to be exact, they all get transported into Snow White's universe... the latter embodied by Romi in person! The Royal Teeniepings try to save them, but they make things even worse...",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
+			redirect: "https://drive.google.com/file/d/1pvDQKmM0zxMkmYWfvfNaVmKfqKDkh3Yx/view?usp=drive_link"
 		},
 		S3E11: {
 			number: 11,
 			title: "Fashionping is Making Clothes",
 			description: "Fashionping is giving very strange makeovers to Lena... But the fashion artist doesn't seem satisfied, so she looks for some more inspiration when she gets face to face with Princess Solaris... To whom she gives another makeover!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1BR-aYkWORdplW1h5ygPfQYhnE9BgExw5/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E12: {
 			number: 12,
 			title: "Don't Move, Justiceping",
 			description: "Romi leaves her precious rings to the Teeniepings, but an unpleasant surprise awaits on her return: the rings have been stolen! But as they call for the police, Justiceping enters the bakery: will he team up with Romi to find the missing rings?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1fhAA084vrew9XzuyRixAxT_4Jgolnbh2/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E13: {
 			number: 13,
 			title: "Sweets Full of Luck",
 			description: " Jun shows his new fortune cookies to the Teeniepings, which reminds them of their time in the Mystic Village: by eating a magic fortune cookie, their luck is revealed. Romi then decides to surprise everyone, by organizing the Luck Festival!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc"
+			redirect: "https://drive.google.com/file/d/1aKaq-hYCMwrlYSWtzCZH84h6RYTD2d8G/view?usp=drive_link"
 		},
 		S3E14: {
 			number: 14,
 			title: "Splash Splash Splashping",
 			description: "Splashping, the mermaid Teenieping, is swimming in the sea with a pink dolphin, when the latter gets imprisoned in a fishing net. Splashping rushes to save her friend, and she ends up in Harmony Town's aquarium!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1GxqP0EAbDNj0sNzvZy86qhlsMSeWmhp4/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E15: {
 			number: 15,
 			title: "Partyping and Party Party",
 			description: "Romi and Maya are organizing a huge birthday party for Marylou in the Heartrose Bakery... when Partyping comes around and ruins all the preparatives! Will the girls manage to prepare everything on time, or will Marylou's birthday be a flop?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1EP2Safn2bZ0mLpQFz-Lv0wxFGTr5Xelb/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E16: {
 			number: 16,
 			title: "Make a Cool Hairdo, Styleping",
 			description: " How awful! Romi is having a terrible hair day... On the Teeniepings' advice, she goes to Harmony Town's hairdressing salon, where she comes face to face with Styleping. She gets ready to catch her, but the hairdresser won't let this happen!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1MPn9rN-J8YsoQd9iufjJCAfduClUZdRZ/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E17: {
 			number: 17,
 			title: "Dad's Camera",
 			description: "Maya, who likes to take photos of everyone, is actually super camera-shy! She doesn't like to be photographed because it reminds her that her dad is too busy to be in the picture... But will things stay that way with the Teeniepings' help?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1ipHFk2qdqnUnYjslbq4M3QuY3YcFq0IA/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E18: {
 			number: 18,
 			title: "I'm Gonna Pout, Huffyping",
 			description: "Okeydokeyping agrees to help Romi, as she promised to give her the candy she loves most in exchange... but once the work is done, Romi says she will have to wait a little longer! That's when Huffyping arrives and makes Okeydokeyping burst into tears...",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1Czb5fGjpTIh-yi65uWyxMCRHIg4gm6ku/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E19: {
 			number: 19,
 			title: "Finding Romi's Necklace",
 			description: "Romi's necklace, a long-time gift of Jennie, falls into the sewers. No way Romi is ever gonna give it up; that's why the Teeniepings all get into the sewers! The investigation starts, but it is brutally interrupted by an unwanted guest...",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1ZDaHHZXZ8TDyPEPMxHFImu4Ia0N7iPmw/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E20: {
 			number: 20,
 			title: "Singing, Aah~ ping",
 			description: "Ariaping, the singer Teenieping, has the notes of her score spread out because of a bird! These notes stick onto someone and modify their voice... Romi and the Teeniepings soon enough realize the situation, and decide to look for the Teenieping!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1lX4o8tmT_mtJpFGd8yfGDeUc2shF_3gG/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E21: {
 			number: 21,
 			title: "Let’s Play Together, Teenieping Park",
 			description: "A rainy day cancels the girls' plans to see a Hye-Joo concert. Luckily, Heartsping unveils a Teenieping theme park for everyone — including Romi, Maya and Marylou — to enjoy! But what's Onlyping doing here?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1pMjBkxHJ_Qi5oeM9QM34r5G6_cuvluUH/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E22: {
 			number: 22,
 			title: "Going Round and Round",
 			description: "Twirlping — the figure-skating Teenieping — is the last Key Teenieping for Romi to catch. But it won't be easy, as Twirlping seeks a new partner, and Onlyping is following behind them, willing to prevent the catch from happening!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1Wj6aGpBijuDqwhtwIiETCvL2EKsKIyVf/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E23: {
 			number: 23,
 			title: "Appear! Luckyping",
 			description: "With Twirlping seized by Onlyping, a chase between her and the Royal Key Teeniepings ensues. And with Jennie discovering an overwhelming power, the battle to stop her plans and free Luckyping has reached its climax!",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1g1OduhLiGf7KWEqoojczMHMo_HFftixd/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E24: {
 			number: 24,
 			title: "Teenieping Fashion Show",
 			description: "Everyone is pretty enthusiastic about going back to the Mystic Village... except Fashionping, who hasn't finished her Heartrose collection yet! Everyone comes to help her and a fashion show is organized, but Justiceping comes across something weird...",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1FHWI7KucXCTh3ZCB4vncdFEOLJLAv8hq/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E25: {
 			number: 25,
 			title: "Mystic Village Crisis",
 			description: "With the Key Teeniepings trapped, Jennie traps Romi by creating a maze in Mystic Village. She and Heartsping aim to escape together, with the Royal Key Teeniepings watching on. One false step could bring Jennie to her ultimate goal...",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1_uRmYMfzlIQtY4ar3dVi_5ws4OwIv-UM/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 		S3E26: {
 			number: 26,
 			title: "Goodbye, Key Teeniepings",
 			description: "The fight is at its climax: Princess Twilight tries to close the Corrupted Door to prevent the Mystic Village from ending, but she is blocked by Princess Labyrinth! Will Romi be able to bring Jennie back to her senses and stop this madness?",
-			redirect: "https://drive.google.com/drive/folders/17Gxsn20iQuJMS2e2nVUK5QimP0bQZDAc",
+			redirect: "https://drive.google.com/file/d/1dO4MacBJxd3OCORLybweQDUwRQzx6p-S/view?usp=drive_link",
 			message: "approxSubtitles"
 		},
 	},
