@@ -211,7 +211,7 @@
 				</div>`;
 
 			var driveRegex = /d\/(.+?)\/preview/;
-			if (episode.videoUrl && episode.videoUrl.match(driveRegex)) episode.videoAlts = { 'Google Drive': `https://drive.google.com/file/d/${driveRegex[1]}/view` };
+			if (episode.videoUrl && episode.videoUrl.match(driveRegex)) episode.videoAlts = { 'Google Drive': `https://drive.google.com/file/d/${episode.videoUrl.match(driveRegex)[1]}/view` };
 
 			if (episode.videoAlts) {
 				document.getElementById('alts').style.display = 'block';
