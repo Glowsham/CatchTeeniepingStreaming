@@ -390,28 +390,28 @@ const episodes = {
 			number: 10,
 			title: "Trustping Has Fainted!",
 			description: "While Trustping and Teeheeping are fighting each other, Trustping suddenly faints! In order to cure Trustping's disease, The Tomato Jewel is needed. With the help of Dadaping, the Teeniepings make everything possible to cure him.",
-			videoUrl: "https://www.youtube.com/embed/vQvlazM_Avg", // HERE AND BELOW ARE KOREAN VERSIONS
+			videoUrl: "https://www.youtube.com/embed/vKSrG0iK5jQ",
 			message: "goNetflix"
 		},
 		S2E11: {
 			number: 11,
 			title: "Things Get Wooly!",
 			description: "Cozyping enters the Teenieping School and transforms objects into wooly creations... But when the Teeniepings wake up, a bad surprise awaits: there's a giant Heartsping doll!",
-			videoUrl: "https://www.youtube.com/embed/1qAf2VzYjSo",
+			videoUrl: "https://www.youtube.com/embed/k9RhQZYC080",
 			message: "goNetflix"
 		},
 		S2E12: {
 			number: 12,
 			title: "A Teddy Bear Comes to Life",
 			description: "While everyone is relaxing, Maskping takes control of Romi's teddy bear, to attack the Teenieping School. The Teeniepings get afraid, and Tidyping gets devoured! All of this must end!",
-			videoUrl: "https://www.youtube.com/embed/28jVRbD1oQM",
+			videoUrl: "https://www.youtube.com/embed/2ARNCdUXALU",
 			message: "goNetflix"
 		},
 		S2E13: {
 			number: 13,
 			title: "Another Princess",
 			description: "Jennie, Romi's other cousin from the Emotions Kingdom, arrives in Harmony Town. But if Romi and she are like sisters, her personal Teenieping Onlyping hates Heartsping, and an argument quickly starts...",
-			videoUrl: "https://www.youtube.com/embed/lN3ehNt-7mE",
+			videoUrl: "https://www.youtube.com/embed/7D2cLr_he-w",
 			message: "goNetflix"
 		},
 		S2E14: {
@@ -453,7 +453,7 @@ const episodes = {
 			number: 19,
 			title: "Find the Gift Box!",
 			description: "Giftping likes to give gifts to everyone! But when she gets chased by Romi, instead of taking her prop, she takes another gift and runs... She will have to recover her magic prop, but how?",
-			videoUrl: "https://www.youtube.com/embed/icrTBeHtCfI",
+			videoUrl: "https://www.youtube.com/embed/icrTBeHtCfI",  // HERE AND BELOW ARE KOREAN VERSIONS
 			message: "goNetflix"
 		},
 		S2E20: {
