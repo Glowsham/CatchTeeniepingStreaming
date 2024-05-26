@@ -418,35 +418,35 @@ const episodes = {
 			number: 14,
 			title: "Memo This, Memoping!",
 			description: "Memoping has a really special power: everything she notes in her notebook will become true! And when Romi finds her, a race starts, but Romi can't manage to catch Memoping...",
-			videoUrl: "https://www.youtube.com/embed/4cci7UNZUU4",
+			videoUrl: "https://www.youtube.com/embed/OPyj_SJy_ac",
 			message: "goNetflix"
 		},
 		S2E15: {
 			number: 15,
 			title: "Royal Teeniepings' Face-Off!",
 			description: "The Royal Teeniepings arrive at the Teenieping School, and they say that the students Teeniepings cannot help Romi properly. To keep their place, the students Teeniepings will have to win a duel...",
-			videoUrl: "https://www.youtube.com/embed/mKfAi8jXnwI",
+			videoUrl: "https://www.youtube.com/embed/f3i_34cWPjM",
 			message: "goNetflix"
 		},
 		S2E16: {
 			number: 16,
 			title: "Heartrose Becomes a Kingdom",
 			description: "While Romi is at school, Ladyping, who was tricked by Maskping, enters the bakery and creates her own kingdom, with everyone being at her service, including all the Teeniepings!",
-			videoUrl: "https://www.youtube.com/embed/U405uyyJ4-s",
+			videoUrl: "https://www.youtube.com/embed/Lk2GommCVYU",
 			message: "goNetflix"
 		},
 		S2E17: {
 			number: 17,
 			title: "A Jewel Teenieping Heist!",
 			description: "While everyone is sleeping, two Thieves|thieves enter the bakery to steal the Jewelry Box and the Jewel Teeniepings! And when Romi wakes up, it's already too late...",
-			videoUrl: "https://www.youtube.com/embed/yGkzrdnjAJw",
+			videoUrl: "https://www.youtube.com/embed/7A8j3NSFiqU",
 			message: "goNetflix"
 		},
 		S2E18: {
 			number: 18,
 			title: "Who's the Real Heartsping?",
 			description: "Buddyping is having fun duplicating everything in the bakery. And when Heartsping tries to find him, she gets duplicated into her twin... Good luck finding who's the real one!",
-			videoUrl: "https://www.youtube.com/embed/JZnlWeDYd8I",
+			videoUrl: "https://www.youtube.com/embed/cQRtgks82Io",
 			message: "goNetflix"
 		},
 		S2E19: {
