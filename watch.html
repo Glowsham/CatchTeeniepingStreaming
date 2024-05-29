@@ -204,7 +204,7 @@
 
 			document.querySelector('title').innerHTML = 'Watch "' + episode.title + '" online for free - Catch! Teenieping TV';
 			document.getElementById('desc').innerHTML = episode.description;
-			document.getElementById('title').innerHTML = `<a id="backButton" class="me-3" aria-label="Back" href="/CatchTeeniepingTV/"></a> ${episode.title}`;
+			document.getElementById('title').innerHTML = `<a id="backButton" class="me-3" aria-label="Back" onclick="window.history.back()" style="cursor: pointer"></a> ${episode.title}`;
 			
 			document.getElementById('videoContainer').innerHTML = `<div class="ratio ratio-16x9">
 					<iframe src="` + episode.videoUrl + `" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
