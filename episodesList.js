@@ -524,7 +524,7 @@ const episodes = {
 			number: 2,
 			title: "Transformation! Floraheart",
 			description: "When Romi returns to the bakery, Jun is in a super energetic state of mind, all because of Hurryping! Romi and the Teeniepings quickly get sight of the intruder and a race starts, but Romi gets hit by Hurryping's magic!",
-			videoUrl: "https://drive.google.com/file/d/1w4FU3RU-3dI3TSo9aUaEs9Ncdct_zRh8/view?usp=sharing"
+			videoUrl: "https://drive.google.com/file/d/1w4FU3RU-3dI3TSo9aUaEs9Ncdct_zRh8/preview"
 		},
 		S3E03: {
 			number: 3,
