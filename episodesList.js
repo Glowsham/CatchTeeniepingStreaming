@@ -325,7 +325,7 @@ const episodes = {
 			number: 2,
 			name: "Twinkle Catch! Teenieping",
 			description: "The Jewel Teeniepings, jewel-themed Teeniepings of the Jewel Forest, are all released on Earth by a mysterious masked Teenieping by the name of Maskping. Romi is once again assigned to catch them all, accompanied by three new Teeniepings studying at the Royal Teenieping School of the Emotions Kingdom, hoping to become Royal Teeniepings, while Heartsping becomes the teacher of the Teenieping School to help the newbies out. But as the story progresses, clues about Maskping's true identity are discovered, and life at Harmony Town gets more and more dangerous...",
-			dubs: "Available in English (first episodes only) or Korean"
+			dubs: "Available in English "
 		},
 		S2E01: {
 			number: 1,
@@ -453,56 +453,56 @@ const episodes = {
 			number: 19,
 			title: "Find the Gift Box!",
 			description: "Giftping likes to give gifts to everyone! But when she gets chased by Romi, instead of taking her prop, she takes another gift and runs... She will have to recover her magic prop, but how?",
-			videoUrl: "https://www.youtube.com/embed/icrTBeHtCfI",  // HERE AND BELOW ARE KOREAN VERSIONS
+			videoUrl: "https://www.youtube.com/embed/i8K_FVr07cA",
 			message: "goNetflix"
 		},
 		S2E20: {
 			number: 20,
 			title: "Where's My Muse, Sculpt?",
 			description: "Sculptping tries to sculpt a Teenieping of the Jewel Forest, but he can't remember her. Later, his statue is found by the Teeniepings, who take it at the Teenieping School. But suddenly, the statue starts to move!",
-			videoUrl: "https://www.youtube.com/embed/IudjMP1aoL8",
+			videoUrl: "https://www.youtube.com/embed/2si0ASgllpY",
 			message: "goNetflix"
 		},
 		S2E21: {
 			number: 21,
 			title: "A Perilous Picnic",
 			description: "Jennie invites everyone to go to a picnic, and Heartsping, who has a bad feeling about this, is forced to come. But while everyone is having fun, Maskping suddenly appears!",
-			videoUrl: "https://www.youtube.com/embed/VgtBEZXvXcI",
+			videoUrl: "https://www.youtube.com/embed/iY59weQnqYU",
 			message: "goNetflix"
 		},
 		S2E22: {
 			number: 22,
 			title: "Twirl Whirl Teenieping Ballet",
 			description: "When Princess Ruby approaches Balletping, the latter reveals her secret: she wants to have a friend to make a ballet with them. But then, she hears about the Teenieping Ballet...",
-			videoUrl: "https://www.youtube.com/embed/h4AOB0tYt6w",
+			videoUrl: "https://www.youtube.com/embed/JX35R19gd8o",
 			message: "goNetflix"
 		},
 		S2E23: {
 			number: 23,
 			title: "Wonderping, the Hero Teenieping",
 			description: "Wonderping, a self-proclaimed heroine, is always here to help others! Everyone is looking for her, but when she appears, she gets Princess Ruby into a lot of trouble!",
-			videoUrl: "https://www.youtube.com/embed/gND01AXNUZw",
+			videoUrl: "https://www.youtube.com/embed/HzUf_dZ4ztw",
 			message: "goNetflix"
 		},
 		S2E24: {
 			number: 24,
 			title: "Teenieping School Graduation",
 			description: "Since all the Jewel Teeniepings are now caught, a graduation ceremony is organized at the Teenieping School. Everyone joins, even Jennie and the Royal Teeniepings! Let the party begin!",
-			videoUrl: "https://www.youtube.com/embed/aiqqHC84tKs",
+			videoUrl: "https://www.youtube.com/embed/LTeCe7GLgg8",
 			message: "goNetflix"
 		},
 		S2E25: {
 			number: 25,
 			title: "Heartsping in Danger",
 			description: "Heartsping has been made prisoner by Maskping! To save them, Romi, helped by Jennie, go to the Emotions Kingdom and they promise to save Heartsping. Meanwhile, the latter discovers in her hiding place something very strange...",
-			videoUrl: "https://www.youtube.com/embed/dWFD-Ke0UHQ",
+			videoUrl: "https://www.youtube.com/embed/ZwXlDVeXygQ",
 			message: "goNetflix"
 		},
 		S2E26: {
 			number: 26,
 			title: "The Jewel Forest is Restored",
 			description: "After defeating Maskping, Romi finally discovers the whole truth... The story of her friend who stayed in the shadow for way too long... But the battle is not over yet.",
-			videoUrl: "https://www.youtube.com/embed/4wQH2kgzmuM",
+			videoUrl: "https://www.youtube.com/embed/6ukrk2TDUZk",
 			message: "goNetflix"
 		},
 	},
