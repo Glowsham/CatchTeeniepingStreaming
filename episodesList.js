@@ -965,7 +965,7 @@ var messages = {
 	],
 	"approxSubtitles": [
 		"Careful, the subtitles might not be accurate!",
-		"The subtitles in this video were automatically generated and translated. Therefore, they may not make sense, or might appear at the wrong time, which is why human intervention is needed, but is yet to come! If you want to help, please contact @Glowsham or @LoyalTeenieping on the Catch! Teenieping Wiki."
+		"The subtitles in this video were automatically generated and translated. Therefore, they may not make sense, or might appear at the wrong time, which is why human intervention is needed, but is yet to come! If you want to help, please contact Glowsham on the Catch! Teenieping Wiki."
 	],
 	"noSubtitles": [
 		"No subtitles yet!",
