@@ -94,7 +94,7 @@ const episodes = {
 			number: 15,
 			title: "Come Back Home, Heartsping!",
 			description: "After an argument, Heartsping decides to leave the bakery. She then meets Luca, Marylou's sister, who takes care of her. Romi must quickly recover her before it's too late!",
-			videoUrl: "hhttps://www.youtube.com/embed/0T1Nn1vl2VY"
+			videoUrl: "https://www.youtube.com/embed/0T1Nn1vl2VY"
 		},
 		S1E16: {
 			number: 16,
